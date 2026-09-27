@@ -2,6 +2,19 @@
 
 All notable public releases of TreasuryShield-MRM are documented here.
 
+## [Unreleased]
+
+### Repository polish
+
+- Redesigned the README opening with a compact evidence scorecard and quick navigation.
+- Added a GitHub-native lifecycle diagram that separates model selection from independent validation and post-model controls.
+- Added `CITATION.cff` research-artifact metadata and a committed social-preview asset.
+- Pinned GitHub Actions to full upstream commit SHAs.
+- Added low-noise monthly Dependabot configuration for GitHub Actions and Python dependencies.
+- Added repository security and governance configuration without changing the frozen research release.
+
+No scientific result, model, validation conclusion, release tag, or published v1.2.0 asset changed.
+
 ## [1.2.0] - 2026-09-27
 
 ### Added

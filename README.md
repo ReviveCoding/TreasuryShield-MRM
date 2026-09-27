@@ -1,6 +1,56 @@
 # TreasuryShield-MRM
 
-TreasuryShield-MRM is an end-to-end model-risk and liquidity-stress research project for U.S. commercial banks. It combines point-in-time-aware public regulatory data, distributional forecasting, challenger validation, stress and reverse-stress analysis, recovery optimization, and a monitoring state machine.
+End-to-end U.S. bank liquidity-stress and model-risk research with independent validation on point-in-time-aware public regulatory data.
+
+[![Public CI](https://github.com/ReviveCoding/TreasuryShield-MRM/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/ReviveCoding/TreasuryShield-MRM/actions/workflows/ci.yml)
+[![Latest release](https://img.shields.io/github/v/release/ReviveCoding/TreasuryShield-MRM?display_name=tag)](https://github.com/ReviveCoding/TreasuryShield-MRM/releases/latest)
+[![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/release/python-3120/)
+[![Citation metadata](https://img.shields.io/badge/citation-CFF-5D3FD3)](CITATION.cff)
+
+## Key results
+
+| Evidence | Result |
+|---|---|
+| Frozen champion | B8 LightGBM quantile |
+| Locked Q05 exceptions | 3.975% vs 5% nominal; 95% quarter-block CI 3.501%–4.441% |
+| Selective review | 28.61% severe-tail-miss capture at 10% review |
+| Review lift | 2.86x vs random review |
+| Material slices | 19 with robust Q05 coverage deviation |
+| Stress attribution | 83.22% scenario vs 11.27% model; 5.51% interaction |
+| Monitoring | 100% recall / 45.8% precision |
+| Exact reproduction | max absolute difference 0 on 30,087 × 7 predictions |
+| Validation | 39/39 local tests |
+
+> **Calibration note:** Q05 is conservatively miscalibrated in the locked period; the below-nominal exception rate is not “perfect calibration.”
+
+## Research lifecycle
+
+```mermaid
+flowchart TB
+    A[Official Regulatory Sources] --> B[Point-in-Time Data & Contracts]
+    B --> C[Features / Targets]
+    C --> D[Temporal & Crisis Validation]
+
+    subgraph DEV[Model Development & Selection]
+        E[Model Development] --> F[Frozen Champion]
+    end
+    D --> E
+
+    subgraph VAL[Independent Validation & Post-Model Controls]
+        G[Independent Validation] --> H[Calibration / Slicing / OOD]
+        H --> I[Stress / Reverse Stress]
+        I --> J[Recovery Optimization]
+        J --> K[Monitoring]
+        G -.-> N[Governance boundary: no reselection or retuning]
+    end
+    F --> G
+```
+
+## Why this project matters
+
+Aggregate model performance can hide temporal leakage, stress-period tail failure, weak calibration, and brittle subgroup behavior. TreasuryShield-MRM treats model selection as only one stage in a governed lifecycle: the champion is frozen before the final holdout, then challenged independently through clustered inference, stress translation, recovery analysis, and monitoring simulation.
+
+**Start here:** [Validation findings](reports/06_independent_validation_report.html) · [Reproducibility](#reproducibility) · [v1.2.0 release](https://github.com/ReviveCoding/TreasuryShield-MRM/releases/tag/v1.2.0) · [Citation](CITATION.cff)
 
 The project is a research implementation built from public data and public-data proxies. It is not a regulatory LCR/NSFR implementation, a production decision system, an estimate of any bank's internal liquidity position, or evidence of causal effects.
 
@@ -79,6 +129,8 @@ With the frozen local snapshot and excluded artifacts present, the canonical val
 ```
 
 The v1.2 release passed all **39 local tests**. The first command is resume-safe and does not recompute a completed v1.1 run. The full evidence trail is described in [the v1 reproducibility manifest](reports/10_reproducibility_manifest.md) and [the v1.2 manifest](reports/v1_2/08_v1_2_reproducibility_manifest.md).
+
+Research release version and Python package metadata are intentionally separate: `v1.2.0` denotes the validation-hardened research release, while the experimental Python package remains at its frozen `0.1.0` metadata.
 
 ### What public CI does—and does not do
 

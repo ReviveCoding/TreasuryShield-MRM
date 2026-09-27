@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use TreasuryShield-MRM, please cite this research software artifact."
+title: TreasuryShield-MRM
+type: software
+authors:
+  - family-names: Bae
+    given-names: Jinwoo
+version: 1.2.0
+date-released: 2026-09-27
+repository-code: "https://github.com/ReviveCoding/TreasuryShield-MRM"

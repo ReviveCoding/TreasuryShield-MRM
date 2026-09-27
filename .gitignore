@@ -17,6 +17,7 @@ htmlcov/
 .agents/
 AGENTS.md
 START_*.txt
+Start-TreasuryShield-*.ps1
 TREASURYSHIELD_*_PROMPT.md
 
 data/raw/
