@@ -1,0 +1,110 @@
+<!doctype html><meta charset='utf-8'><title>Actual v1 Stress-Engine Attribution</title><style>body{font-family:Segoe UI,Arial;max-width:1200px;margin:35px auto;color:#17202a}table{border-collapse:collapse;width:100%;font-size:12px}th,td{padding:6px;border-bottom:1px solid #ddd;text-align:left}h1,h2{color:#123b5d}.tag{background:#e8f1f8;padding:3px 7px;border-radius:4px}</style><h1>Actual v1 Stress-Engine Attribution</h1><p><span class='tag'>Frozen v1 confirmatory evidence</span> remains unchanged. <span class='tag'>v1.1 diagnostic evidence</span> is historical. All new results below are <span class='tag'>v1.2 post-hoc hardening evidence</span> under fixed prelock policies; none is a new model-selection holdout.</p><p>The adapter calls the actual frozen v1 engine functions with common profiles and random draws. Scenario dominance is confirmed for mean PFN in the balanced design.</p><pre>{
+  &quot;outcome&quot;: &quot;mean peak funding need proxy across common profiles&quot;,
+  &quot;model_variation_share&quot;: 0.1126826509209801,
+  &quot;scenario_assumption_variation_share&quot;: 0.8322174543125318,
+  &quot;model_scenario_interaction_share&quot;: 0.05509989476648807,
+  &quot;sum_squares&quot;: {
+    &quot;model&quot;: 1304616098.2918563,
+    &quot;scenario&quot;: 9635239136.65265,
+    &quot;interaction&quot;: 637935024.9485797
+  },
+  &quot;scenario_dominates_model&quot;: true,
+  &quot;profiles&quot;: 150,
+  &quot;models&quot;: [
+    &quot;B10_gru&quot;,
+    &quot;B5_linear_quantile&quot;,
+    &quot;B7_xgb_quantile&quot;,
+    &quot;B8_lightgbm_quantile&quot;,
+    &quot;RAHQ_C_tree&quot;,
+    &quot;RAHQ_tree&quot;
+  ],
+  &quot;scenarios&quot;: 64,
+  &quot;profile_hash&quot;: &quot;b1df68d814aa7139680a92a56a9e218923165d14e11f65a5b8266120391ddbba&quot;,
+  &quot;common_draw_hash&quot;: &quot;39796a56d823bc266595295e8c03d3a4b512f4245ddd919dc0450c8358a1d308&quot;,
+  &quot;v1_engine_functions&quot;: [
+    &quot;treasuryshield.stress.run._simulate&quot;,
+    &quot;stress.arithmetic.calculate&quot;,
+    &quot;stress.arithmetic.optimize_recovery&quot;,
+    &quot;stress.arithmetic.reverse_runoff_threshold&quot;
+  ],
+  &quot;h8_shape&quot;: {
+    &quot;source&quot;: &quot;FRED H.8 aggregate DPSACBW027NBOG&quot;,
+    &quot;historical_window&quot;: &quot;2001-01-01 to 2023-12-31&quot;,
+    &quot;worst_13_week_start&quot;: &quot;2022-12-21&quot;,
+    &quot;worst_13_week_change&quot;: -0.0347678792856014,
+    &quot;linear_fallback&quot;: false
+  },
+  &quot;joint_reference&quot;: {
+    &quot;reference_rows&quot;: 200000,
+    &quot;window&quot;: &quot;2001Q1-2023Q4, M&amp;A clean&quot;,
+    &quot;correlation&quot;: [
+      [
+        1.0,
+        0.21298840358627472,
+        0.21128015306988646
+      ],
+      [
+        0.21298840358627477,
+        1.0000000000000002,
+        0.00312052668332331
+      ],
+      [
+        0.21128015306988654,
+        0.0031205266833233174,
+        1.0
+      ]
+    ],
+    &quot;variables&quot;: [
+      &quot;deposit_outflow_log&quot;,
+      &quot;borrowing_change/assets&quot;,
+      &quot;liquid_ratio_decline&quot;
+    ]
+  }
+}</pre><h2>Model results</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>pfn</th>
+      <th>shortfall</th>
+      <th>cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B10_gru</td>
+      <td>6976.12</td>
+      <td>0.0645111</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>B5_linear_quantile</td>
+      <td>5150.63</td>
+      <td>0.0627333</td>
+      <td>0.000157164</td>
+    </tr>
+    <tr>
+      <td>B7_xgb_quantile</td>
+      <td>9459.42</td>
+      <td>0.0744</td>
+      <td>0.0680865</td>
+    </tr>
+    <tr>
+      <td>B8_lightgbm_quantile</td>
+      <td>5232.82</td>
+      <td>0.0629778</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>RAHQ_C_tree</td>
+      <td>10167.6</td>
+      <td>0.0888889</td>
+      <td>0.152908</td>
+    </tr>
+    <tr>
+      <td>RAHQ_tree</td>
+      <td>8546.08</td>
+      <td>0.0711778</td>
+      <td>0.103521</td>
+    </tr>
+  </tbody>
+</table><p><small>Generated 2026-09-27T21:05:48.548582+00:00 from artifacts/v1_2_hardening/results_v1_2.duckdb and frozen source artifacts.</small></p>

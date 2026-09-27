@@ -1,0 +1,24 @@
+{
+  "retrieved_at": "2026-09-27T08:31:45.022438+00:00",
+  "endpoint": "https://api.fdic.gov/banks/institutions",
+  "fields": "CERT,FED_RSSD,ACTIVE,INACTIVE,NAME,CITY,STNAME,EFFDATE,INSDATE,DATEUPDT,NEWCERT,ULTCERT,BKCLASS,CHARTER",
+  "expected_rows": 27834,
+  "actual_rows": 27834,
+  "pages": [
+    {
+      "file": "data/raw/fdic/institutions_000000.csv",
+      "offset": 0,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/institutions_010000.csv",
+      "offset": 10000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/institutions_020000.csv",
+      "offset": 20000,
+      "rows": 7834
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "figures": [
+    "01_q05_coverage_by_quarter.png",
+    "02_seven_quantile_calibration.png",
+    "03_within_bank_persistence.png",
+    "04_material_slice_coverage_heatmap.png",
+    "05_clustered_delta_forest.png",
+    "06_prior_reversal_reevaluation.png",
+    "07_selective_review_capture_ci.png",
+    "08_review_lift_random.png",
+    "09_signal_policy_comparison.png",
+    "10_corrected_slice_coverage.png",
+    "11_actual_engine_model_attribution.png",
+    "12_scenario_assumption_tornado.png",
+    "13_variance_decomposition.png",
+    "14_monitoring_state_timeline.png",
+    "15_monitoring_alert_performance.png",
+    "16_lightgbm_reproduction_error.png",
+    "17_exact_q05_shap.png",
+    "18_shap_stability.png"
+  ],
+  "source_database": "artifacts/v1_2_hardening/results_v1_2.duckdb"
+}

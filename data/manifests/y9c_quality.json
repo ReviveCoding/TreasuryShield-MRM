@@ -1,0 +1,497 @@
+{
+  "created_at": "2026-09-27T09:00:58.813367+00:00",
+  "rows": 93374,
+  "unique_bhcs": 3109,
+  "first_quarter": "2001Q1",
+  "last_quarter": "2021Q1",
+  "quarterly": [
+    {
+      "quarter": "2001Q1",
+      "rows": 1819,
+      "consolidated_deposit_coverage": 0.8944474986256185,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2001Q2",
+      "rows": 1860,
+      "consolidated_deposit_coverage": 0.9021505376344086,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2001Q3",
+      "rows": 1888,
+      "consolidated_deposit_coverage": 0.926906779661017,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2001Q4",
+      "rows": 1892,
+      "consolidated_deposit_coverage": 0.9138477801268499,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2002Q1",
+      "rows": 1936,
+      "consolidated_deposit_coverage": 0.90650826446281,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2002Q2",
+      "rows": 1959,
+      "consolidated_deposit_coverage": 0.925472179683512,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2002Q3",
+      "rows": 1997,
+      "consolidated_deposit_coverage": 0.9389083625438157,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2002Q4",
+      "rows": 2028,
+      "consolidated_deposit_coverage": 0.9270216962524654,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2003Q1",
+      "rows": 2085,
+      "consolidated_deposit_coverage": 0.9573141486810551,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2003Q2",
+      "rows": 2115,
+      "consolidated_deposit_coverage": 0.9981087470449173,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2003Q3",
+      "rows": 2172,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2003Q4",
+      "rows": 2186,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2004Q1",
+      "rows": 2241,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2004Q2",
+      "rows": 2259,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2004Q3",
+      "rows": 2287,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2004Q4",
+      "rows": 2301,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2005Q1",
+      "rows": 2325,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2005Q2",
+      "rows": 2338,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2005Q3",
+      "rows": 2332,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2005Q4",
+      "rows": 2310,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2006Q1",
+      "rows": 1009,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2006Q2",
+      "rows": 998,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2006Q3",
+      "rows": 995,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2006Q4",
+      "rows": 986,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2007Q1",
+      "rows": 988,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2007Q2",
+      "rows": 980,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2007Q3",
+      "rows": 975,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2007Q4",
+      "rows": 966,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2008Q1",
+      "rows": 979,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2008Q2",
+      "rows": 975,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2008Q3",
+      "rows": 976,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2008Q4",
+      "rows": 973,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2009Q1",
+      "rows": 1033,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2009Q2",
+      "rows": 1027,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2009Q3",
+      "rows": 1020,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2009Q4",
+      "rows": 1015,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2010Q1",
+      "rows": 1049,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2010Q2",
+      "rows": 1035,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2010Q3",
+      "rows": 1024,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2010Q4",
+      "rows": 1010,
+      "consolidated_deposit_coverage": 1.0,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2011Q1",
+      "rows": 1030,
+      "consolidated_deposit_coverage": 0.9339805825242719,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2011Q2",
+      "rows": 1021,
+      "consolidated_deposit_coverage": 0.931439764936337,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2011Q3",
+      "rows": 1015,
+      "consolidated_deposit_coverage": 0.9320197044334976,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2011Q4",
+      "rows": 1018,
+      "consolidated_deposit_coverage": 0.9292730844793713,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2012Q1",
+      "rows": 1161,
+      "consolidated_deposit_coverage": 0.9259259259259259,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2012Q2",
+      "rows": 1157,
+      "consolidated_deposit_coverage": 0.9178910976663786,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2012Q3",
+      "rows": 1155,
+      "consolidated_deposit_coverage": 0.9125541125541126,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2012Q4",
+      "rows": 1140,
+      "consolidated_deposit_coverage": 0.9026315789473685,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2013Q1",
+      "rows": 1178,
+      "consolidated_deposit_coverage": 0.8718166383701188,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2013Q2",
+      "rows": 1166,
+      "consolidated_deposit_coverage": 0.7615780445969125,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2013Q3",
+      "rows": 1159,
+      "consolidated_deposit_coverage": 0.7558239861949957,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2013Q4",
+      "rows": 1143,
+      "consolidated_deposit_coverage": 0.7532808398950132,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2014Q1",
+      "rows": 1162,
+      "consolidated_deposit_coverage": 0.7616179001721171,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2014Q2",
+      "rows": 1143,
+      "consolidated_deposit_coverage": 0.7559055118110236,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2014Q3",
+      "rows": 1138,
+      "consolidated_deposit_coverage": 0.7521968365553603,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2014Q4",
+      "rows": 1129,
+      "consolidated_deposit_coverage": 0.7599645704162976,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2015Q1",
+      "rows": 677,
+      "consolidated_deposit_coverage": 0.7562776957163959,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2015Q2",
+      "rows": 666,
+      "consolidated_deposit_coverage": 0.7567567567567568,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2015Q3",
+      "rows": 660,
+      "consolidated_deposit_coverage": 0.7545454545454545,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2015Q4",
+      "rows": 653,
+      "consolidated_deposit_coverage": 0.7488514548238897,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2016Q1",
+      "rows": 660,
+      "consolidated_deposit_coverage": 0.7575757575757576,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2016Q2",
+      "rows": 655,
+      "consolidated_deposit_coverage": 0.7603053435114504,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2016Q3",
+      "rows": 649,
+      "consolidated_deposit_coverage": 0.7627118644067796,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2016Q4",
+      "rows": 646,
+      "consolidated_deposit_coverage": 0.7507739938080495,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2017Q1",
+      "rows": 668,
+      "consolidated_deposit_coverage": 0.7619760479041916,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2017Q2",
+      "rows": 654,
+      "consolidated_deposit_coverage": 0.7660550458715596,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2017Q3",
+      "rows": 650,
+      "consolidated_deposit_coverage": 0.7738461538461539,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2017Q4",
+      "rows": 641,
+      "consolidated_deposit_coverage": 0.8346333853354134,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2018Q1",
+      "rows": 656,
+      "consolidated_deposit_coverage": 0.8582317073170732,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2018Q2",
+      "rows": 650,
+      "consolidated_deposit_coverage": 0.8523076923076923,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2018Q3",
+      "rows": 372,
+      "consolidated_deposit_coverage": 0.8575268817204301,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2018Q4",
+      "rows": 373,
+      "consolidated_deposit_coverage": 0.8632707774798928,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2019Q1",
+      "rows": 364,
+      "consolidated_deposit_coverage": 0.989010989010989,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2019Q2",
+      "rows": 363,
+      "consolidated_deposit_coverage": 0.9917355371900827,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2019Q3",
+      "rows": 358,
+      "consolidated_deposit_coverage": 0.9888268156424581,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2019Q4",
+      "rows": 353,
+      "consolidated_deposit_coverage": 0.9886685552407932,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2020Q1",
+      "rows": 353,
+      "consolidated_deposit_coverage": 0.9830028328611898,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2020Q2",
+      "rows": 350,
+      "consolidated_deposit_coverage": 0.9828571428571429,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2020Q3",
+      "rows": 348,
+      "consolidated_deposit_coverage": 0.9827586206896551,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2020Q4",
+      "rows": 348,
+      "consolidated_deposit_coverage": 0.985632183908046,
+      "identity_gap_gt_1pct": 0
+    },
+    {
+      "quarter": "2021Q1",
+      "rows": 349,
+      "consolidated_deposit_coverage": 0.9856733524355301,
+      "identity_gap_gt_1pct": 0
+    }
+  ],
+  "scope": "FR Y-9C consolidated holding companies only; never pooled with bank Call Reports",
+  "modern_data_limit": "NIC current endpoint presented CAPTCHA; historical Chicago files end 2021Q1"
+}

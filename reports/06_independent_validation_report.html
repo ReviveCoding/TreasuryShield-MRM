@@ -1,0 +1,735 @@
+<!doctype html><html lang='en'><meta charset='utf-8'><style>
+body{font-family:Arial,Helvetica,sans-serif;max-width:1100px;margin:40px auto;padding:0 25px;color:#203047;line-height:1.52}
+h1,h2,h3{color:#123a60}h1{border-bottom:3px solid #176c91;padding-bottom:9px}h2{margin-top:34px;border-bottom:1px solid #bccad2}
+table{border-collapse:collapse;width:100%;font-size:13px;margin:14px 0 20px}th,td{border:1px solid #ccd5dc;padding:7px 9px;text-align:left}th{background:#e7f0f5}
+tr:nth-child(even){background:#f8fafc}.callout{background:#eaf3f7;border-left:5px solid #176c91;padding:13px 18px;margin:18px 0}
+.risk{background:#fff3ee;border-left:5px solid #b45a42;padding:13px 18px;margin:18px 0}figure{margin:22px 0}img{max-width:100%;border:1px solid #d5dee4}
+figcaption{font-size:12px;color:#56677a}small{color:#56677a}a{color:#12628c}
+</style><title>Independent validation report</title><body><h1>Independent validation report</h1><p><small>Frozen public-data snapshot fbc0b7b5a2c46fbcc0b5 | Generated 2026-09-27 UTC</small></p><div class='risk'><b>Executive Validation Opinion: ACCEPT WITH LIMITATIONS.</b> This is a TreasuryShield project label, not a supervisory or JPMorgan designation. The selected model is suitable for controlled research and shadow monitoring only under the stated limitations.</div><h2>Scope</h2><p>The validator independently rejoined final predictions to source-derived future targets, recalculated quantile metrics, checked source and target clocks, and compared fixed challengers on identical bank-origin rows.</p><h2>Intended Use</h2><p>Public-data research on deposit-runoff tail forecasting and scenario sensitivity.</p><h2>Data Review</h2><p>Core and Enhanced Call Reports, ALFRED/FRED, H.8, FDIC events, and separate FR Y-9C observations are documented in the data report. Harmonized bank histories are restated and lack exact amendment vintages; the 45-day public lag remains a material approximation.</p><h2>Conceptual Soundness</h2><p>Quantiles target conditional deposit growth rather than an internal cash-flow measure. All final prediction rows reconciled to the target table (30087 feature-clock joins; zero future-dated bank features and zero future ALFRED vintages). Predictions had no postprocessed quantile crossing.</p><h2>Implementation Verification</h2><p>Independent equations, source-target joins, frozen hashes, and public-availability clocks reconciled to the development warehouse.</p><h2>Benchmarking</h2><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Model</th>
+      <th>Run ID</th>
+      <th>Q05 pinball</th>
+      <th>Q05 coverage</th>
+      <th>Q01 pinball</th>
+      <th>Median MAE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B8_lightgbm_quantile</td>
+      <td>core_B_1q_final_locked_B8_lightgbm_quantile</td>
+      <td>0.004323</td>
+      <td>0.039951</td>
+      <td>0.001379</td>
+      <td>0.031580</td>
+    </tr>
+    <tr>
+      <td>B0_unconditional</td>
+      <td>core_B_1q_final_locked_B0_unconditional</td>
+      <td>0.005539</td>
+      <td>0.039419</td>
+      <td>0.002095</td>
+      <td>0.034607</td>
+    </tr>
+    <tr>
+      <td>B1_peer</td>
+      <td>core_B_1q_final_locked_B1_peer</td>
+      <td>0.005415</td>
+      <td>0.059660</td>
+      <td>0.002027</td>
+      <td>0.035383</td>
+    </tr>
+    <tr>
+      <td>B2_persistence</td>
+      <td>core_B_1q_final_locked_B2_persistence</td>
+      <td>0.005248</td>
+      <td>0.078938</td>
+      <td>0.001857</td>
+      <td>0.036698</td>
+    </tr>
+    <tr>
+      <td>B3_ols</td>
+      <td>core_B_1q_final_locked_B3_ols</td>
+      <td>0.006197</td>
+      <td>0.030046</td>
+      <td>0.002496</td>
+      <td>0.034883</td>
+    </tr>
+    <tr>
+      <td>B4_panel_fe</td>
+      <td>core_B_1q_final_locked_B4_panel_fe</td>
+      <td>0.008335</td>
+      <td>0.033769</td>
+      <td>0.003813</td>
+      <td>0.046161</td>
+    </tr>
+    <tr>
+      <td>B5_linear_quantile</td>
+      <td>core_B_1q_final_locked_B5_linear_quantile</td>
+      <td>0.004529</td>
+      <td>0.038854</td>
+      <td>0.001450</td>
+      <td>0.033263</td>
+    </tr>
+    <tr>
+      <td>B6_quantile_forest</td>
+      <td>core_B_1q_final_locked_B6_quantile_forest</td>
+      <td>0.004807</td>
+      <td>0.035597</td>
+      <td>0.001658</td>
+      <td>0.032088</td>
+    </tr>
+    <tr>
+      <td>B7_xgb_quantile</td>
+      <td>core_B_1q_final_locked_B7_xgb_quantile</td>
+      <td>0.004695</td>
+      <td>0.039286</td>
+      <td>0.001724</td>
+      <td>0.032583</td>
+    </tr>
+    <tr>
+      <td>B9_bayesian_student_t</td>
+      <td>core_B_1q_final_locked_B9_bayesian_student_t</td>
+      <td>0.006787</td>
+      <td>0.026623</td>
+      <td>0.002739</td>
+      <td>0.037080</td>
+    </tr>
+    <tr>
+      <td>B10_mlp</td>
+      <td>core_B_1q_final_locked_B10_mlp</td>
+      <td>0.004877</td>
+      <td>0.012730</td>
+      <td>0.001598</td>
+      <td>0.032213</td>
+    </tr>
+    <tr>
+      <td>B10_gru</td>
+      <td>core_B_1q_final_locked_B10_gru</td>
+      <td>0.004450</td>
+      <td>0.023100</td>
+      <td>0.001512</td>
+      <td>0.030551</td>
+    </tr>
+    <tr>
+      <td>RAHQ_tree</td>
+      <td>core_B_1q_final_locked_RAHQ_tree</td>
+      <td>0.004589</td>
+      <td>0.039951</td>
+      <td>0.001701</td>
+      <td>0.032257</td>
+    </tr>
+    <tr>
+      <td>RAHQ_nn</td>
+      <td>core_B_1q_final_locked_RAHQ_nn</td>
+      <td>0.004766</td>
+      <td>0.013694</td>
+      <td>0.001562</td>
+      <td>0.032556</td>
+    </tr>
+    <tr>
+      <td>RAHQ_C_tree</td>
+      <td>core_B_1q_final_locked_RAHQ_C_tree</td>
+      <td>0.004780</td>
+      <td>0.024629</td>
+      <td>0.001672</td>
+      <td>0.032718</td>
+    </tr>
+    <tr>
+      <td>RAHQ_C_nn</td>
+      <td>core_B_1q_final_locked_RAHQ_C_nn</td>
+      <td>0.004899</td>
+      <td>0.009107</td>
+      <td>0.001486</td>
+      <td>0.034940</td>
+    </tr>
+  </tbody>
+</table><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Reference model</th>
+      <th>Selected minus reference Q05</th>
+      <th>Relative difference (%)</th>
+      <th>95% low</th>
+      <th>95% high</th>
+      <th>Bootstrap draws</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B0_unconditional</td>
+      <td>-0.001216</td>
+      <td>-21.946113</td>
+      <td>-0.001301</td>
+      <td>-0.001133</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>B1_peer</td>
+      <td>-0.001092</td>
+      <td>-20.162644</td>
+      <td>-0.001203</td>
+      <td>-0.000985</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>B2_persistence</td>
+      <td>-0.000925</td>
+      <td>-17.627527</td>
+      <td>-0.001035</td>
+      <td>-0.000819</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>B3_ols</td>
+      <td>-0.001874</td>
+      <td>-30.241463</td>
+      <td>-0.002098</td>
+      <td>-0.001653</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>B4_panel_fe</td>
+      <td>-0.004012</td>
+      <td>-48.135964</td>
+      <td>-0.004290</td>
+      <td>-0.003732</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>B5_linear_quantile</td>
+      <td>-0.000206</td>
+      <td>-4.539941</td>
+      <td>-0.000225</td>
+      <td>-0.000185</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>B6_quantile_forest</td>
+      <td>-0.000484</td>
+      <td>-10.060598</td>
+      <td>-0.000529</td>
+      <td>-0.000439</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>B7_xgb_quantile</td>
+      <td>-0.000372</td>
+      <td>-7.926824</td>
+      <td>-0.000405</td>
+      <td>-0.000340</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>B9_bayesian_student_t</td>
+      <td>-0.002464</td>
+      <td>-36.302370</td>
+      <td>-0.002725</td>
+      <td>-0.002207</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>B10_mlp</td>
+      <td>-0.000554</td>
+      <td>-11.360117</td>
+      <td>-0.000624</td>
+      <td>-0.000481</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>B10_gru</td>
+      <td>-0.000126</td>
+      <td>-2.842435</td>
+      <td>-0.000270</td>
+      <td>0.000016</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>RAHQ_tree</td>
+      <td>-0.000266</td>
+      <td>-5.802445</td>
+      <td>-0.000292</td>
+      <td>-0.000241</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>RAHQ_nn</td>
+      <td>-0.000443</td>
+      <td>-9.293199</td>
+      <td>-0.000584</td>
+      <td>-0.000303</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>RAHQ_C_tree</td>
+      <td>-0.000457</td>
+      <td>-9.560917</td>
+      <td>-0.000473</td>
+      <td>-0.000441</td>
+      <td>1000</td>
+    </tr>
+    <tr>
+      <td>RAHQ_C_nn</td>
+      <td>-0.000576</td>
+      <td>-11.762768</td>
+      <td>-0.000715</td>
+      <td>-0.000439</td>
+      <td>1000</td>
+    </tr>
+  </tbody>
+</table><h3>Selected model under equal-bank and balance-sheet weights</h3><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>metric</th>
+      <th>quantile</th>
+      <th>weighting</th>
+      <th>value</th>
+      <th>n</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pinball</td>
+      <td>Q05</td>
+      <td>equal_bank</td>
+      <td>0.004323</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>coverage</td>
+      <td>Q05</td>
+      <td>equal_bank</td>
+      <td>0.039951</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>pinball</td>
+      <td>Q50</td>
+      <td>equal_bank</td>
+      <td>0.015790</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>coverage</td>
+      <td>Q50</td>
+      <td>equal_bank</td>
+      <td>0.465949</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>mae</td>
+      <td>Q50</td>
+      <td>equal_bank</td>
+      <td>0.031580</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>weighted_interval_score</td>
+      <td>all</td>
+      <td>equal_bank</td>
+      <td>0.022735</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>pinball</td>
+      <td>Q05</td>
+      <td>deposit_weighted</td>
+      <td>0.003164</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>coverage</td>
+      <td>Q05</td>
+      <td>deposit_weighted</td>
+      <td>0.014138</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>pinball</td>
+      <td>Q50</td>
+      <td>deposit_weighted</td>
+      <td>0.010063</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>coverage</td>
+      <td>Q50</td>
+      <td>deposit_weighted</td>
+      <td>0.490413</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>mae</td>
+      <td>Q50</td>
+      <td>deposit_weighted</td>
+      <td>0.020126</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>weighted_interval_score</td>
+      <td>all</td>
+      <td>deposit_weighted</td>
+      <td>0.014634</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>pinball</td>
+      <td>Q05</td>
+      <td>asset_weighted</td>
+      <td>0.003192</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>coverage</td>
+      <td>Q05</td>
+      <td>asset_weighted</td>
+      <td>0.013844</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>pinball</td>
+      <td>Q50</td>
+      <td>asset_weighted</td>
+      <td>0.010085</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>coverage</td>
+      <td>Q50</td>
+      <td>asset_weighted</td>
+      <td>0.486106</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>mae</td>
+      <td>Q50</td>
+      <td>asset_weighted</td>
+      <td>0.020170</td>
+      <td>30087</td>
+    </tr>
+    <tr>
+      <td>weighted_interval_score</td>
+      <td>all</td>
+      <td>asset_weighted</td>
+      <td>0.014695</td>
+      <td>30087</td>
+    </tr>
+  </tbody>
+</table><figure><img src='../figures/figure_09.png' alt='Paired block-bootstrap intervals'><figcaption>Figure 9. Paired block-bootstrap intervals. Source paths and checksums: <a href='../figures/figure_manifest.json'>figure manifest</a>.</figcaption></figure><p>The selected final Q05 pinball loss is 0.004323; empirical Q05 coverage is 0.0400 against nominal 0.0500. The largest quarterly coverage departure is 2024Q4 (0.0274, n=3790). These failures limit threshold interpretation even if aggregate pinball improves.</p><h2>OOT Analysis</h2><p>The final fixed roster was evaluated on 2024+ forecast origins after selection.</p><h2>Regime Robustness</h2><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Model</th>
+      <th>GFC Q05</th>
+      <th>Pandemic Q05</th>
+      <th>Tightening Q05</th>
+      <th>Equal episode mean</th>
+      <th>Max coverage error</th>
+      <th>Improvement vs best simple (%)</th>
+      <th>Proposed prelock gate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B7_xgb_quantile</td>
+      <td>0.007216</td>
+      <td>0.006221</td>
+      <td>0.006132</td>
+      <td>0.006523</td>
+      <td>0.031946</td>
+      <td>NaN</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>B8_lightgbm_quantile</td>
+      <td>0.006847</td>
+      <td>0.005943</td>
+      <td>0.005712</td>
+      <td>0.006167</td>
+      <td>0.032398</td>
+      <td>NaN</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>B8_lightgbm_quantile adaptive</td>
+      <td>0.006741</td>
+      <td>0.005969</td>
+      <td>0.006725</td>
+      <td>0.006478</td>
+      <td>0.107587</td>
+      <td>NaN</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>B8_lightgbm_quantile adaptive</td>
+      <td>0.006753</td>
+      <td>0.005959</td>
+      <td>0.006801</td>
+      <td>0.006505</td>
+      <td>0.111896</td>
+      <td>NaN</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>B8_lightgbm_quantile adaptive</td>
+      <td>0.006763</td>
+      <td>0.005846</td>
+      <td>0.006378</td>
+      <td>0.006329</td>
+      <td>0.064589</td>
+      <td>NaN</td>
+      <td>None</td>
+    </tr>
+    <tr>
+      <td>RAHQ_C_tree</td>
+      <td>0.007094</td>
+      <td>0.005993</td>
+      <td>0.007425</td>
+      <td>0.006837</td>
+      <td>0.123094</td>
+      <td>-10.859463</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>RAHQ_C_tree adaptive</td>
+      <td>0.007105</td>
+      <td>0.005886</td>
+      <td>0.006820</td>
+      <td>0.006603</td>
+      <td>0.068741</td>
+      <td>-7.069996</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>RAHQ_C_nn</td>
+      <td>0.006685</td>
+      <td>0.005489</td>
+      <td>0.007685</td>
+      <td>0.006620</td>
+      <td>0.162475</td>
+      <td>-7.335818</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>RAHQ_C_nn adaptive</td>
+      <td>0.006706</td>
+      <td>0.005497</td>
+      <td>0.006695</td>
+      <td>0.006299</td>
+      <td>0.085223</td>
+      <td>-2.136226</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table><h2>Outcome Analysis</h2><figure><img src='../figures/figure_07.png' alt='Quarterly Q05 tail exceedance'><figcaption>Figure 7. Quarterly Q05 tail exceedance. Source paths and checksums: <a href='../figures/figure_manifest.json'>figure manifest</a>.</figcaption></figure><p>The crisis folds are deliberately heterogeneous; 2022–23 influenced prelock model selection. The final window is the sole untouched forecast-origin holdout. FDIC distress/failure and historical Y-9C results are secondary external-validity checks and do not establish causal failure prediction or direct holding-company portability.</p><h2>Sensitivity</h2><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>subgroup_family</th>
+      <th>subgroup</th>
+      <th>value</th>
+      <th>n</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bank_size</td>
+      <td>large</td>
+      <td>0.003818</td>
+      <td>900</td>
+    </tr>
+    <tr>
+      <td>bank_size</td>
+      <td>medium</td>
+      <td>0.003779</td>
+      <td>5518</td>
+    </tr>
+    <tr>
+      <td>bank_size</td>
+      <td>micro</td>
+      <td>0.006800</td>
+      <td>4356</td>
+    </tr>
+    <tr>
+      <td>bank_size</td>
+      <td>small</td>
+      <td>0.003943</td>
+      <td>19313</td>
+    </tr>
+    <tr>
+      <td>business_model</td>
+      <td>brokered_funding</td>
+      <td>0.005520</td>
+      <td>4138</td>
+    </tr>
+    <tr>
+      <td>business_model</td>
+      <td>other</td>
+      <td>0.004176</td>
+      <td>23173</td>
+    </tr>
+    <tr>
+      <td>business_model</td>
+      <td>residential_lending</td>
+      <td>0.003763</td>
+      <td>2776</td>
+    </tr>
+    <tr>
+      <td>cash_to_assets</td>
+      <td>high</td>
+      <td>0.004781</td>
+      <td>18329</td>
+    </tr>
+    <tr>
+      <td>cash_to_assets</td>
+      <td>low</td>
+      <td>0.003609</td>
+      <td>11758</td>
+    </tr>
+    <tr>
+      <td>uninsured_proxy</td>
+      <td>high</td>
+      <td>0.004455</td>
+      <td>20692</td>
+    </tr>
+    <tr>
+      <td>uninsured_proxy</td>
+      <td>low</td>
+      <td>0.004033</td>
+      <td>9395</td>
+    </tr>
+  </tbody>
+</table><h3>Bank-cluster and crossed bank/time-block uncertainty</h3><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>comparison_id</th>
+      <th>estimate</th>
+      <th>ci_low</th>
+      <th>ci_high</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>core_B_1q_final_locked_B8_lightgbm_quantile__vs__core_B_1q_final_locked_B1_peer__bank_cluster</td>
+      <td>-0.001092</td>
+      <td>-0.001241</td>
+      <td>-0.000943</td>
+    </tr>
+    <tr>
+      <td>core_B_1q_final_locked_B8_lightgbm_quantile__vs__core_B_1q_final_locked_B1_peer__crossed_bank_and_circular_4q_block</td>
+      <td>-0.001092</td>
+      <td>-0.001310</td>
+      <td>-0.000894</td>
+    </tr>
+    <tr>
+      <td>core_B_1q_final_locked_B8_lightgbm_quantile__vs__core_B_1q_final_locked_B7_xgb_quantile__bank_cluster</td>
+      <td>-0.000372</td>
+      <td>-0.000428</td>
+      <td>-0.000321</td>
+    </tr>
+    <tr>
+      <td>core_B_1q_final_locked_B8_lightgbm_quantile__vs__core_B_1q_final_locked_B7_xgb_quantile__crossed_bank_and_circular_4q_block</td>
+      <td>-0.000372</td>
+      <td>-0.000445</td>
+      <td>-0.000299</td>
+    </tr>
+    <tr>
+      <td>core_B_1q_final_locked_B8_lightgbm_quantile__vs__core_B_1q_final_locked_RAHQ_C_nn__bank_cluster</td>
+      <td>-0.000576</td>
+      <td>-0.000633</td>
+      <td>-0.000519</td>
+    </tr>
+    <tr>
+      <td>core_B_1q_final_locked_B8_lightgbm_quantile__vs__core_B_1q_final_locked_RAHQ_C_nn__crossed_bank_and_circular_4q_block</td>
+      <td>-0.000576</td>
+      <td>-0.000744</td>
+      <td>-0.000414</td>
+    </tr>
+  </tbody>
+</table><p>The largest material final subgroup coverage departure is bank_size=medium: 0.0337 (n=5518).</p><p>Prelock missingness, stale inputs, measurement noise, Enhanced-panel, M&A, calibration, and bank-cluster/two-way bootstrap sensitivity are stored in the warehouse. Subgroup conclusions are qualified where direct uninsured fields are structurally absent.</p><h2>Stress Testing</h2><p>Dependence, capital interaction, cash-only versus cash-plus-securities, reverse runoff, and recovery optimization were executed on the selected distribution. Public sources omit contractual capacity and depositor concentration, so action recommendations require internal data.</p><h2>Reverse Stress Testing</h2><p>Breaking runoff frontiers and unreachable combinations are recorded separately by haircut and access assumption.</p><h2>Operational Performance</h2><p>The historical policy study compares static, scheduled, quarterly recalibration, event-triggered, and performance-triggered procedures. It records alert duration, missed deterioration, false alerts, compute burden, input drift, and challenger disagreement. Live response times remain untested.</p><h2>Monitoring</h2><p>Escalation states require mature outcomes and explicit challenger review.</p><h2>Limitations</h2><p>Source restatements, public-data coverage, time-block length, and scenario assumptions constrain interpretation.</p><h2>Findings</h2><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>finding_id</th>
+      <th>pillar</th>
+      <th>severity</th>
+      <th>affected_use</th>
+      <th>materiality</th>
+      <th>recommendation</th>
+      <th>status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-F01</td>
+      <td>Data quality / point in time</td>
+      <td>HIGH</td>
+      <td>Historical and prospective forecasts</td>
+      <td>Exact original Call Report filing and amendment vintages are unavailable; a 45-day public lag and restated bank values are used.</td>
+      <td>Acquire true filing vintages before production point-in-time use and rerun locked tests.</td>
+      <td>OPEN</td>
+    </tr>
+    <tr>
+      <td>TS-F02</td>
+      <td>Data coverage</td>
+      <td>HIGH</td>
+      <td>Uninsured deposit segmentation</td>
+      <td>Direct FFIEC uninsured values have structural form-dependent gaps; Core history uses an insured-deposit proxy.</td>
+      <td>Restrict interpretation to reported fields and show proxy/direct results separately.</td>
+      <td>OPEN</td>
+    </tr>
+    <tr>
+      <td>TS-F03</td>
+      <td>Outcome / calibration</td>
+      <td>MEDIUM</td>
+      <td>Q05 deposit-runoff alert thresholds</td>
+      <td>Final Q05 coverage 0.0400 versus nominal 0.0500; worst quarter 2024Q4 breach frequency 0.0274.</td>
+      <td>Review rolling recalibration, set conservative escalation limits, and validate on later untouched periods.</td>
+      <td>OPEN</td>
+    </tr>
+    <tr>
+      <td>TS-F04</td>
+      <td>Model stability</td>
+      <td>MEDIUM</td>
+      <td>Proposed RAHQ-C selection</td>
+      <td>Proposed variants differ materially by crisis and horizon; calibration can worsen the tightening fold. The 3-state HMM's last tightening training likelihood step was -0.000160, a small negative step despite the library convergence flag.</td>
+      <td>Retain simple challengers, require all preregistered gates before promoting RAHQ-C.</td>
+      <td>OPEN</td>
+    </tr>
+    <tr>
+      <td>TS-F05</td>
+      <td>Stress testing</td>
+      <td>HIGH</td>
+      <td>Liquidity and recovery decisions</td>
+      <td>Public Call Reports omit contractual cash flows, depositor concentration, collateral eligibility, intraday liquidity, and committed funding rights.</td>
+      <td>Treat PFN/reverse stress/recovery outputs as research proxies; obtain internal cash-flow and collateral data before action use.</td>
+      <td>OPEN</td>
+    </tr>
+    <tr>
+      <td>TS-F06</td>
+      <td>External validity</td>
+      <td>MEDIUM</td>
+      <td>Failure inference and holding-company transfer</td>
+      <td>FDIC events are secondary labels; Chicago Fed BHC test ends in 2020 and is a distinct consolidated unit.</td>
+      <td>Do not pool BHC and bank rows; repeat external validation with current consolidated vintages if available.</td>
+      <td>OPEN</td>
+    </tr>
+    <tr>
+      <td>TS-F07</td>
+      <td>Operational monitoring</td>
+      <td>MEDIUM</td>
+      <td>Alerting and retraining</td>
+      <td>Historical alerts and retraining policies are simulated using public data and fixed project thresholds; live lead time is unproven.</td>
+      <td>Shadow-run with outcome maturity checks and maintain escalation ownership before live use.</td>
+      <td>OPEN</td>
+    </tr>
+    <tr>
+      <td>TS-F08</td>
+      <td>Subgroup outcome</td>
+      <td>MEDIUM</td>
+      <td>Bank-level segmentation</td>
+      <td>Worst material final group bank_size=medium has Q05 coverage 0.0337 (n=5518).</td>
+      <td>Review source coverage and group-specific tail errors before segment-level thresholds; retain equal-bank results alongside weights.</td>
+      <td>OPEN</td>
+    </tr>
+  </tbody>
+</table><h2>Remediation</h2><p>Each open finding names an owner and concrete evidence needed before use expands.</p><h2>Residual Risk</h2><p>11 limitations are catalogued with affected interpretation in <a href='../artifacts/limitations_register.json'>the limitations register</a>. The project-specific use recommendation is <b>ACCEPT WITH LIMITATIONS</b>; findings remain open until independent remediation evidence is reviewed.</p><h2>Official source references</h2><p><a href='https://www.newyorkfed.org/research/banking_research/balance-sheets-income-statements'>New York Fed harmonized Call Reports</a>; <a href='https://cdr.ffiec.gov/public/PWS/DownloadBulkData.aspx'>FFIEC CDR</a>; <a href='https://api.fdic.gov/banks/docs'>FDIC BankFind</a>; <a href='https://www.federalreserve.gov/releases/h8/about.htm'>Federal Reserve H.8</a>; <a href='https://fred.stlouisfed.org/docs/api/fred/realtime_period.html'>ALFRED vintages</a>; <a href='https://www.chicagofed.org/banking/financial-institution-reports/bhc-data'>Chicago Fed FR Y-9C</a>. Exact downloaded URLs, retrieval times, and checksums appear in the raw manifest and <a href='01_desktop_study.md'>desktop study</a>.</p></body></html>

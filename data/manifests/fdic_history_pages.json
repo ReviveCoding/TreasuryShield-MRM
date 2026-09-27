@@ -1,0 +1,105 @@
+{
+  "retrieved_at": "2026-09-27T08:23:40.285441+00:00",
+  "endpoint": "https://api.fdic.gov/banks/history",
+  "filters": "ORG_ROLE_CDE:FI",
+  "fields": "CERT,CHANGECODE,CHANGECODE_DESC,EFFDATE,ACQ_UNINUM,OUT_UNINUM,UNINUM,ORG_ROLE_CDE,TRANSNUM",
+  "expected_rows": 185483,
+  "actual_rows": 185483,
+  "pages": [
+    {
+      "file": "data/raw/fdic/history_fi_000000.csv",
+      "offset": 0,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_010000.csv",
+      "offset": 10000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_020000.csv",
+      "offset": 20000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_030000.csv",
+      "offset": 30000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_040000.csv",
+      "offset": 40000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_050000.csv",
+      "offset": 50000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_060000.csv",
+      "offset": 60000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_070000.csv",
+      "offset": 70000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_080000.csv",
+      "offset": 80000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_090000.csv",
+      "offset": 90000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_100000.csv",
+      "offset": 100000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_110000.csv",
+      "offset": 110000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_120000.csv",
+      "offset": 120000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_130000.csv",
+      "offset": 130000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_140000.csv",
+      "offset": 140000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_150000.csv",
+      "offset": 150000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_160000.csv",
+      "offset": 160000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_170000.csv",
+      "offset": 170000,
+      "rows": 10000
+    },
+    {
+      "file": "data/raw/fdic/history_fi_180000.csv",
+      "offset": 180000,
+      "rows": 5483
+    }
+  ]
+}

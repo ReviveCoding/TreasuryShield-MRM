@@ -1,0 +1,317 @@
+<!doctype html><html lang='en'><meta charset='utf-8'><style>
+body{font-family:Arial,Helvetica,sans-serif;max-width:1100px;margin:40px auto;padding:0 25px;color:#203047;line-height:1.52}
+h1,h2,h3{color:#123a60}h1{border-bottom:3px solid #176c91;padding-bottom:9px}h2{margin-top:34px;border-bottom:1px solid #bccad2}
+table{border-collapse:collapse;width:100%;font-size:13px;margin:14px 0 20px}th,td{border:1px solid #ccd5dc;padding:7px 9px;text-align:left}th{background:#e7f0f5}
+tr:nth-child(even){background:#f8fafc}.callout{background:#eaf3f7;border-left:5px solid #176c91;padding:13px 18px;margin:18px 0}
+.risk{background:#fff3ee;border-left:5px solid #b45a42;padding:13px 18px;margin:18px 0}figure{margin:22px 0}img{max-width:100%;border:1px solid #d5dee4}
+figcaption{font-size:12px;color:#56677a}small{color:#56677a}a{color:#12628c}
+</style><title>Monitoring and governance report</title><body><h1>Monitoring and governance report</h1><p><small>Frozen public-data snapshot fbc0b7b5a2c46fbcc0b5 | Generated 2026-09-27 UTC</small></p><h2>Historical deployment simulation</h2><p>For 2017Q1–2023Q4, each forecast uses only labels whose public-availability proxy precedes the current origin. The Q05 LightGBM policy study holds input definition and training sample cap fixed while comparing static, annual, quarterly calibration, event, and performance triggers.</p><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>metric</th>
+      <th>policy</th>
+      <th>alert_quarters</th>
+      <th>calibration_update_quarters</th>
+      <th>false_alert_quarters_retrospective</th>
+      <th>fit_count</th>
+      <th>mean_alert_duration_quarters</th>
+      <th>mean_alert_lead_quarters_when_prior_alert</th>
+      <th>mean_detection_delay_quarters_when_detected</th>
+      <th>missed_bad_quarters_retrospective</th>
+      <th>q05_coverage</th>
+      <th>q05_pinball</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <td>annual_retrain</td>
+      <td>28.0</td>
+      <td>0.0</td>
+      <td>24.0</td>
+      <td>7.0</td>
+      <td>28.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.062013</td>
+      <td>0.005325</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>event_triggered</td>
+      <td>28.0</td>
+      <td>0.0</td>
+      <td>25.0</td>
+      <td>5.0</td>
+      <td>28.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.052311</td>
+      <td>0.005249</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>performance_triggered</td>
+      <td>28.0</td>
+      <td>0.0</td>
+      <td>24.0</td>
+      <td>5.0</td>
+      <td>28.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.061030</td>
+      <td>0.005301</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>quarterly_recalibration</td>
+      <td>28.0</td>
+      <td>27.0</td>
+      <td>25.0</td>
+      <td>1.0</td>
+      <td>28.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.055460</td>
+      <td>0.005269</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>static</td>
+      <td>28.0</td>
+      <td>0.0</td>
+      <td>25.0</td>
+      <td>1.0</td>
+      <td>28.0</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.054501</td>
+      <td>0.005216</td>
+    </tr>
+  </tbody>
+</table><figure><img src='../figures/figure_17.png' alt='Monitoring states through time'><figcaption>Figure 17. Monitoring states through time. Source paths and checksums: <a href='../figures/figure_manifest.json'>figure manifest</a>.</figcaption></figure><h2>Signals and thresholds</h2><p>The project-internal states GREEN, WATCH, REVIEW, RECALIBRATE, and REDEVELOP respond to matured rolling coverage, rate/volatility events, and population stability index. False-alert and missed-quarter counts use a disclosed retrospective deterioration label; they are not live performance guarantees.</p><h2>Challenger disagreement</h2><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>metric</th>
+      <th>report_period</th>
+      <th>pr_auc_tail_miss</th>
+      <th>roc_auc_tail_miss</th>
+      <th>spearman_spread_abs_error</th>
+      <th>tail_miss_lift_at_top_decile</th>
+      <th>tail_miss_prevalence</th>
+      <th>tail_miss_rate_high_disagreement</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <td>gfc</td>
+      <td>0.034937</td>
+      <td>0.515450</td>
+      <td>0.158592</td>
+      <td>1.311090</td>
+      <td>0.031756</td>
+      <td>0.041636</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>pandemic</td>
+      <td>0.014081</td>
+      <td>0.621772</td>
+      <td>0.198447</td>
+      <td>2.102795</td>
+      <td>0.007583</td>
+      <td>0.015945</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>tightening</td>
+      <td>0.035509</td>
+      <td>0.528167</td>
+      <td>0.219544</td>
+      <td>1.431241</td>
+      <td>0.029662</td>
+      <td>0.042453</td>
+    </tr>
+  </tbody>
+</table><figure><img src='../figures/figure_12.png' alt='High-disagreement tail-miss lift'><figcaption>Figure 12. High-disagreement tail-miss lift. Source paths and checksums: <a href='../figures/figure_manifest.json'>figure manifest</a>.</figcaption></figure><p>Disagreement uses a fixed B1/B5/B7/B8 Q05 spread on identical prelock bank origins. It is an escalation signal only if its lift persists across episodes. Input and residual drift, regime change, and challenger gaps must be reviewed with mature outcomes.</p><h2>Governance</h2><p>The model inventory identifies owners by role and retains all simple challengers. A material calibration or data-quality finding invokes human review, documented remediation, and a new independent validation before any expanded use. Source restatements, missingness, and H.8 market proxies remain standing monitoring limits.</p><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model_id</th>
+      <th>family</th>
+      <th>panel</th>
+      <th>owner_role</th>
+      <th>version</th>
+      <th>validation_status</th>
+      <th>monitoring_status</th>
+      <th>selected</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B0_unconditional</td>
+      <td>baseline/challenger</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>B10_gru</td>
+      <td>baseline/challenger</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>B10_mlp</td>
+      <td>baseline/challenger</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>B1_peer</td>
+      <td>baseline/challenger</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>B2_persistence</td>
+      <td>baseline/challenger</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>B3_ols</td>
+      <td>baseline/challenger</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>B4_panel_fe</td>
+      <td>baseline/challenger</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>B5_linear_quantile</td>
+      <td>baseline/challenger</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>B6_quantile_forest</td>
+      <td>baseline/challenger</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>B7_xgb_quantile</td>
+      <td>baseline/challenger</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>B8_lightgbm_quantile</td>
+      <td>baseline/challenger</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>B9_bayesian_student_t</td>
+      <td>baseline/challenger</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>RAHQ_C_nn</td>
+      <td>RAHQ-C proposed</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>RAHQ_C_tree</td>
+      <td>RAHQ-C proposed</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>RAHQ_nn</td>
+      <td>RAHQ proposed uncalibrated</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>RAHQ_tree</td>
+      <td>RAHQ proposed uncalibrated</td>
+      <td>core</td>
+      <td>Model development; independent validation challenge</td>
+      <td>0.1.0</td>
+      <td>Final locked comparison and independent review</td>
+      <td>Historical shadow-policy simulation; no live approval</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table><h2>Official source references</h2><p><a href='https://www.newyorkfed.org/research/banking_research/balance-sheets-income-statements'>New York Fed harmonized Call Reports</a>; <a href='https://cdr.ffiec.gov/public/PWS/DownloadBulkData.aspx'>FFIEC CDR</a>; <a href='https://api.fdic.gov/banks/docs'>FDIC BankFind</a>; <a href='https://www.federalreserve.gov/releases/h8/about.htm'>Federal Reserve H.8</a>; <a href='https://fred.stlouisfed.org/docs/api/fred/realtime_period.html'>ALFRED vintages</a>; <a href='https://www.chicagofed.org/banking/financial-institution-reports/bhc-data'>Chicago Fed FR Y-9C</a>. Exact downloaded URLs, retrieval times, and checksums appear in the raw manifest and <a href='01_desktop_study.md'>desktop study</a>.</p></body></html>

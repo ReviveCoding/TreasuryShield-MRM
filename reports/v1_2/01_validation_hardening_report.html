@@ -1,0 +1,127 @@
+<!doctype html><meta charset='utf-8'><title>Validation Hardening Report</title><style>body{font-family:Segoe UI,Arial;max-width:1200px;margin:35px auto;color:#17202a}table{border-collapse:collapse;width:100%;font-size:12px}th,td{padding:6px;border-bottom:1px solid #ddd;text-align:left}h1,h2{color:#123b5d}.tag{background:#e8f1f8;padding:3px 7px;border-radius:4px}</style><h1>Validation Hardening Report</h1><p><span class='tag'>Frozen v1 confirmatory evidence</span> remains unchanged. <span class='tag'>v1.1 diagnostic evidence</span> is historical. All new results below are <span class='tag'>v1.2 post-hoc hardening evidence</span> under fixed prelock policies; none is a new model-selection holdout.</p><ul><li>B8 remains the frozen champion; v1.2 did not retune or replace it.</li><li>Q05 clustered calibration evidence is shown below across only 8 final time clusters, so time inference is low-resolution.</li><li>19 unique material slices retain robust Q05 coverage deviations; challenger comparisons are [{&#x27;classification&#x27;: &#x27;selected_wins_robustly&#x27;, &#x27;count&#x27;: 241}, {&#x27;classification&#x27;: &#x27;indistinguishable_or_unstable&#x27;, &#x27;count&#x27;: 173}].</li><li>Frozen combined 10% review capture is 28.61%, 2.86x random expectation.</li><li>Actual-engine scenario variation share is 83.22%, versus 11.27% for model choice.</li><li>Exact LightGBM prediction parity passed: True.</li></ul><h2>Findings</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>finding_id</th>
+      <th>topic</th>
+      <th>evidence</th>
+      <th>affected_use</th>
+      <th>materiality</th>
+      <th>remediation</th>
+      <th>owner_role</th>
+      <th>status</th>
+      <th>residual_risk</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>V12-01</td>
+      <td>Panel-aware global calibration</td>
+      <td>Q05 coverage error -0.010252; quarter CI [-0.014995, -0.005587] and bank CI [-0.012640, -0.007763].</td>
+      <td>Tail calibration and decision overlays</td>
+      <td>High</td>
+      <td>Retain monitoring and calibration limitation</td>
+      <td>Validation</td>
+      <td>Open</td>
+      <td>Clustered inference remains low-resolution across final quarters</td>
+    </tr>
+    <tr>
+      <td>V12-02</td>
+      <td>Within-bank/quarter exception clustering</td>
+      <td>Within-bank adjacent-quarter Q05 repeat probability 0.067552 versus post-nonexception 0.056490.</td>
+      <td>Exception backtesting</td>
+      <td>Moderate</td>
+      <td>Use within-bank and quarter-block diagnostics</td>
+      <td>Validation</td>
+      <td>Closed-method</td>
+      <td>Individual-bank tests remain underpowered</td>
+    </tr>
+    <tr>
+      <td>V12-03</td>
+      <td>Robust material slice calibration</td>
+      <td>19 unique material slices retain robust Q05 calibration deviations; 0 challenger-winning comparisons survive clustered inference and Holm adjustment.</td>
+      <td>Subgroup use</td>
+      <td>Moderate</td>
+      <td>Route persistent weak slices to review</td>
+      <td>Validation</td>
+      <td>Open</td>
+      <td>Multiple-testing and sparse-source limits remain</td>
+    </tr>
+    <tr>
+      <td>V12-04</td>
+      <td>Re-evaluated challenger reversal</td>
+      <td>The v1.1 nominal reversal is reclassified using three clustered methods and multiplicity control in challenger_reversal_reevaluation.json.</td>
+      <td>Champion/challenger governance</td>
+      <td>Moderate</td>
+      <td>Use v1.2 robust wording</td>
+      <td>Validation</td>
+      <td>Closed-method</td>
+      <td>Post-hoc slice evidence does not alter champion selection</td>
+    </tr>
+    <tr>
+      <td>V12-05</td>
+      <td>Selective-review lift and uncertainty</td>
+      <td>Frozen combined 10% review captures 28.610%; lift over random is 2.86x.</td>
+      <td>Human review routing</td>
+      <td>Moderate</td>
+      <td>Use as residual-risk routing, not accuracy improvement</td>
+      <td>Operations</td>
+      <td>Open</td>
+      <td>Quarter stability varies</td>
+    </tr>
+    <tr>
+      <td>V12-06</td>
+      <td>Slice definition and provenance correction</td>
+      <td>Peer deterioration, borrowings/assets, size, M&amp;A distance, uninsured provenance, and report-form semantics are corrected in the v1.2 registry.</td>
+      <td>Reporting and interpretation</td>
+      <td>Moderate</td>
+      <td>Use corrected v1.2 labels</td>
+      <td>Data governance</td>
+      <td>Closed-method</td>
+      <td>Some direct measures remain unavailable</td>
+    </tr>
+    <tr>
+      <td>V12-07</td>
+      <td>Actual-engine model/scenario attribution</td>
+      <td>Scenario share 83.222%; model share 11.268%.</td>
+      <td>Stress proxy use</td>
+      <td>High</td>
+      <td>Govern dominant assumptions and interaction</td>
+      <td>Treasury validation</td>
+      <td>Open</td>
+      <td>Public-data proxy constraints remain</td>
+    </tr>
+    <tr>
+      <td>V12-08</td>
+      <td>Monitoring state machine effectiveness</td>
+      <td>Backtest precision 0.458, recall 1.000; all five states and hysteresis are implemented.</td>
+      <td>Ongoing monitoring</td>
+      <td>High</td>
+      <td>Apply fixed rules prospectively</td>
+      <td>Model monitoring</td>
+      <td>Open</td>
+      <td>No genuinely future post-2026Q1 outcomes</td>
+    </tr>
+    <tr>
+      <td>V12-09</td>
+      <td>Exact LightGBM explainability status</td>
+      <td>Reproduction parity passed=True; max absolute error 0.</td>
+      <td>Model explanation</td>
+      <td>Moderate</td>
+      <td>Use exact label only under passed gate</td>
+      <td>Development</td>
+      <td>Closed-method</td>
+      <td>TreeSHAP is predictive, not causal</td>
+    </tr>
+    <tr>
+      <td>V12-10</td>
+      <td>Residual public-data limitations</td>
+      <td>Bank-report amendment vintages, internal cash flows, collateral, concentration, committed funding, and behavioral assumptions remain unavailable.</td>
+      <td>All uses</td>
+      <td>High</td>
+      <td>Maintain public-data-proxy boundary</td>
+      <td>Model owner</td>
+      <td>Open</td>
+      <td>Irreducible without internal or new future data</td>
+    </tr>
+  </tbody>
+</table><p><small>Generated 2026-09-27T21:05:48.543627+00:00 from artifacts/v1_2_hardening/results_v1_2.duckdb and frozen source artifacts.</small></p>

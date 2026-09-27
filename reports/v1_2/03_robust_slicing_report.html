@@ -1,0 +1,596 @@
+<!doctype html><meta charset='utf-8'><title>Robust Slicing and Selective Review</title><style>body{font-family:Segoe UI,Arial;max-width:1200px;margin:35px auto;color:#17202a}table{border-collapse:collapse;width:100%;font-size:12px}th,td{padding:6px;border-bottom:1px solid #ddd;text-align:left}h1,h2{color:#123b5d}.tag{background:#e8f1f8;padding:3px 7px;border-radius:4px}</style><h1>Robust Slicing and Selective Review</h1><p><span class='tag'>Frozen v1 confirmatory evidence</span> remains unchanged. <span class='tag'>v1.1 diagnostic evidence</span> is historical. All new results below are <span class='tag'>v1.2 post-hoc hardening evidence</span> under fixed prelock policies; none is a new model-selection holdout.</p><p>Definitions use corrected semantics, prelock cutoffs, minimum materiality gates, three clustered inference approaches, and Holm adjustment.</p><h2>Registry</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>display_name</th>
+      <th>exact_formula</th>
+      <th>raw_canonical_source_fields</th>
+      <th>cutoff_source</th>
+      <th>intended_interpretation</th>
+      <th>limitations</th>
+      <th>availability_period</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>peer_relative_deterioration</td>
+      <td>bank deposit_growth_qoq_lagged minus prelock pooled median for frozen peer_group</td>
+      <td>deposit_growth_qoq_lagged; peer_group</td>
+      <td>pre-2024</td>
+      <td>Relative lagged deterioration, not contemporaneous outcome</td>
+      <td>Peer reference pooled across prelock episodes</td>
+      <td>final locked 2024Q1-2026Q1 where source fields exist</td>
+    </tr>
+    <tr>
+      <td>borrowings_assets_decile</td>
+      <td>prelock-decile of borrowings_asset_ratio</td>
+      <td>borrowings_asset_ratio</td>
+      <td>pre-2024</td>
+      <td>Borrowings/assets; not a complete noncore-funding measure</td>
+      <td>Does not measure all wholesale/noncore funding</td>
+      <td>final locked 2024Q1-2026Q1 where source fields exist</td>
+    </tr>
+    <tr>
+      <td>fixed_economic_size_band</td>
+      <td>assets in $000: &lt;1m, 1m-10m, 10m-100m, &gt;=100m</td>
+      <td>assets</td>
+      <td>documented fixed thresholds</td>
+      <td>Approximate &lt;$1bn, $1-10bn, $10-100bn, &gt;=$100bn</td>
+      <td>Public-data accounting units are $000</td>
+      <td>final locked 2024Q1-2026Q1 where source fields exist</td>
+    </tr>
+    <tr>
+      <td>prelock_asset_decile</td>
+      <td>prelock asset decile cutoffs</td>
+      <td>assets</td>
+      <td>pre-2024</td>
+      <td>Relative size rank</td>
+      <td>Not an economic size band</td>
+      <td>final locked 2024Q1-2026Q1 where source fields exist</td>
+    </tr>
+    <tr>
+      <td>ma_distance_band</td>
+      <td>minimum absolute quarter distance to linked structural M&amp;A event</td>
+      <td>entity_events.bank_id; event_quarter; structural_contamination</td>
+      <td>entity-event table</td>
+      <td>Temporal proximity to material M&amp;A</td>
+      <td>Missing means no linked event, not infinite certainty</td>
+      <td>final locked 2024Q1-2026Q1 where source fields exist</td>
+    </tr>
+    <tr>
+      <td>uninsured_measure_provenance</td>
+      <td>constructed proxy if 1-insured_deposits/domestic_dep exists; otherwise unavailable</td>
+      <td>insured_deposits; domestic_dep</td>
+      <td>feature registry</td>
+      <td>Provenance of core uninsured proxy</td>
+      <td>Not directly reported uninsured deposits</td>
+      <td>final locked 2024Q1-2026Q1 where source fields exist</td>
+    </tr>
+    <tr>
+      <td>report_form</td>
+      <td>actual ffiec_form from enhanced-panel linkage</td>
+      <td>enhanced_features.ffiec_form</td>
+      <td>FFIEC source</td>
+      <td>Actual linked Call Report form</td>
+      <td>Unavailable where enhanced linkage is absent</td>
+      <td>final locked 2024Q1-2026Q1 where source fields exist</td>
+    </tr>
+    <tr>
+      <td>pseudo_pit_vintage_quality</td>
+      <td>source_vintage category</td>
+      <td>source_vintage</td>
+      <td>source metadata</td>
+      <td>Restated/pseudo-PIT vintage label</td>
+      <td>Exact amendment vintage unavailable</td>
+      <td>final locked 2024Q1-2026Q1 where source fields exist</td>
+    </tr>
+    <tr>
+      <td>hmm_state_probability</td>
+      <td>stored hard regime label; probabilities unavailable in frozen prediction row</td>
+      <td>regime</td>
+      <td>frozen prediction</td>
+      <td>Hard-state descriptive slice</td>
+      <td>Must not be interpreted as an HMM probability</td>
+      <td>final locked 2024Q1-2026Q1 where source fields exist</td>
+    </tr>
+    <tr>
+      <td>uninsured_proxy_decile</td>
+      <td>prelock decile of constructed uninsured proxy</td>
+      <td>uninsured_proxy_domestic_share</td>
+      <td>pre-2024</td>
+      <td>Relative constructed-proxy rank</td>
+      <td>Proxy, not direct reporting</td>
+      <td>final locked 2024Q1-2026Q1 where source fields exist</td>
+    </tr>
+    <tr>
+      <td>ood_decile</td>
+      <td>prelock decile of prelock-fitted IsolationForest OOD score</td>
+      <td>ood_score</td>
+      <td>pre-2024</td>
+      <td>Covariate OOD rank</td>
+      <td>Research diagnostic</td>
+      <td>final locked 2024Q1-2026Q1 where source fields exist</td>
+    </tr>
+    <tr>
+      <td>disagreement_decile</td>
+      <td>prelock decile of cross-model Q05 standard deviation</td>
+      <td>disagreement</td>
+      <td>pre-2024</td>
+      <td>Model-disagreement rank</td>
+      <td>Depends on available frozen models</td>
+      <td>final locked 2024Q1-2026Q1 where source fields exist</td>
+    </tr>
+  </tbody>
+</table><h2>Challenger inference summary</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>classification</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>selected_wins_robustly</td>
+      <td>241</td>
+    </tr>
+    <tr>
+      <td>indistinguishable_or_unstable</td>
+      <td>173</td>
+    </tr>
+  </tbody>
+</table><h2>Material calibration weaknesses</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>slice_name</th>
+      <th>slice_value</th>
+      <th>selected_q05_coverage_error</th>
+      <th>coverage_quarter_ci_low</th>
+      <th>coverage_quarter_ci_high</th>
+      <th>coverage_bank_ci_low</th>
+      <th>coverage_bank_ci_high</th>
+      <th>coverage_two_way_ci_low</th>
+      <th>coverage_two_way_ci_high</th>
+      <th>coverage_holm_adjusted_p</th>
+      <th>calibration_classification</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>borrowings_assets_decile</td>
+      <td>D2</td>
+      <td>-0.0186112</td>
+      <td>-0.0227003</td>
+      <td>-0.0137502</td>
+      <td>-0.0239947</td>
+      <td>-0.0121787</td>
+      <td>-0.0244732</td>
+      <td>-0.0127492</td>
+      <td>0.00095513</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>borrowings_assets_decile</td>
+      <td>D5</td>
+      <td>-0.015812</td>
+      <td>-0.0200958</td>
+      <td>-0.0103083</td>
+      <td>-0.0222192</td>
+      <td>-0.00894985</td>
+      <td>-0.0225309</td>
+      <td>-0.00909305</td>
+      <td>0.00507984</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>fixed_economic_size_band</td>
+      <td>$1bn_$10bn</td>
+      <td>-0.0162921</td>
+      <td>-0.0259098</td>
+      <td>-0.00662231</td>
+      <td>-0.0210176</td>
+      <td>-0.0114104</td>
+      <td>-0.0288866</td>
+      <td>-0.0036977</td>
+      <td>0.0488746</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>fixed_economic_size_band</td>
+      <td>under_$1bn</td>
+      <td>-0.00791964</td>
+      <td>-0.012956</td>
+      <td>-0.00295344</td>
+      <td>-0.0105932</td>
+      <td>-0.00529782</td>
+      <td>-0.0142932</td>
+      <td>-0.00154606</td>
+      <td>0.0488746</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>prelock_asset_decile</td>
+      <td>D10</td>
+      <td>-0.0194218</td>
+      <td>-0.0276483</td>
+      <td>-0.0112052</td>
+      <td>-0.0242796</td>
+      <td>-0.0149721</td>
+      <td>-0.0302296</td>
+      <td>-0.00861399</td>
+      <td>0.0379656</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>ma_distance_band</td>
+      <td>5-8q</td>
+      <td>-0.0145877</td>
+      <td>-0.0220808</td>
+      <td>-0.00872315</td>
+      <td>-0.0226273</td>
+      <td>-0.00527817</td>
+      <td>-0.022628</td>
+      <td>-0.00654746</td>
+      <td>0.0216584</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>ma_distance_band</td>
+      <td>9q+</td>
+      <td>-0.0125542</td>
+      <td>-0.0189748</td>
+      <td>-0.00618925</td>
+      <td>-0.0155438</td>
+      <td>-0.00914332</td>
+      <td>-0.0206698</td>
+      <td>-0.00443872</td>
+      <td>0.0404621</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>uninsured_measure_provenance</td>
+      <td>constructed_insured_deposit_proxy</td>
+      <td>-0.0100492</td>
+      <td>-0.0156471</td>
+      <td>-0.00450499</td>
+      <td>-0.0122996</td>
+      <td>-0.0077888</td>
+      <td>-0.0172118</td>
+      <td>-0.00288655</td>
+      <td>0.0128077</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>report_form</td>
+      <td>041</td>
+      <td>-0.0146654</td>
+      <td>-0.0196801</td>
+      <td>-0.0090732</td>
+      <td>-0.0192171</td>
+      <td>-0.00999672</td>
+      <td>-0.0214166</td>
+      <td>-0.0079141</td>
+      <td>0.0040317</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>pseudo_pit_vintage_quality</td>
+      <td>NYFED_JUN2026_RESTATED</td>
+      <td>-0.0100492</td>
+      <td>-0.0156471</td>
+      <td>-0.00450499</td>
+      <td>-0.0122996</td>
+      <td>-0.0077888</td>
+      <td>-0.0172118</td>
+      <td>-0.00288655</td>
+      <td>0.0128077</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>hmm_state_probability</td>
+      <td>unassigned</td>
+      <td>-0.0100492</td>
+      <td>-0.0156471</td>
+      <td>-0.00450499</td>
+      <td>-0.0122996</td>
+      <td>-0.0077888</td>
+      <td>-0.0172118</td>
+      <td>-0.00288655</td>
+      <td>0.0128077</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>uninsured_proxy_decile</td>
+      <td>D5</td>
+      <td>-0.015916</td>
+      <td>-0.0210504</td>
+      <td>-0.010139</td>
+      <td>-0.0220562</td>
+      <td>-0.0101219</td>
+      <td>-0.023503</td>
+      <td>-0.00832904</td>
+      <td>0.0147295</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>uninsured_proxy_decile</td>
+      <td>D9</td>
+      <td>-0.0119982</td>
+      <td>-0.0156608</td>
+      <td>-0.00824384</td>
+      <td>-0.0179256</td>
+      <td>-0.00557007</td>
+      <td>-0.0163899</td>
+      <td>-0.00760645</td>
+      <td>0.00346919</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>ood_decile</td>
+      <td>D1</td>
+      <td>-0.0185807</td>
+      <td>-0.0245385</td>
+      <td>-0.0144528</td>
+      <td>-0.0252964</td>
+      <td>-0.0117896</td>
+      <td>-0.0256265</td>
+      <td>-0.0115349</td>
+      <td>0.00955994</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>ood_decile</td>
+      <td>D4</td>
+      <td>-0.0194859</td>
+      <td>-0.0248876</td>
+      <td>-0.0125761</td>
+      <td>-0.0252605</td>
+      <td>-0.0135544</td>
+      <td>-0.0274523</td>
+      <td>-0.0115195</td>
+      <td>0.00674555</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>disagreement_decile</td>
+      <td>D1</td>
+      <td>-0.0312627</td>
+      <td>-0.0366606</td>
+      <td>-0.0273681</td>
+      <td>-0.0364312</td>
+      <td>-0.0256073</td>
+      <td>-0.0372137</td>
+      <td>-0.0253117</td>
+      <td>5.03974e-05</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>disagreement_decile</td>
+      <td>D10</td>
+      <td>0.0380503</td>
+      <td>0.0286989</td>
+      <td>0.0466631</td>
+      <td>0.0264532</td>
+      <td>0.0507653</td>
+      <td>0.025789</td>
+      <td>0.0503117</td>
+      <td>0.00141777</td>
+      <td>over_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>disagreement_decile</td>
+      <td>D2</td>
+      <td>-0.0252735</td>
+      <td>-0.0309306</td>
+      <td>-0.018333</td>
+      <td>-0.0297608</td>
+      <td>-0.0207324</td>
+      <td>-0.0339363</td>
+      <td>-0.0166107</td>
+      <td>0.00185276</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+    <tr>
+      <td>disagreement_decile</td>
+      <td>D3</td>
+      <td>-0.0184893</td>
+      <td>-0.0256371</td>
+      <td>-0.0115083</td>
+      <td>-0.0238704</td>
+      <td>-0.0132413</td>
+      <td>-0.0275017</td>
+      <td>-0.00947699</td>
+      <td>0.012977</td>
+      <td>under_exception_miscalibrated_robustly</td>
+    </tr>
+  </tbody>
+</table><h2>Prior reversal</h2><pre>[
+  {
+    &quot;challenger&quot;: &quot;B10_gru&quot;,
+    &quot;slice_name&quot;: &quot;asset_decile&quot;,
+    &quot;slice_value&quot;: &quot;Q2&quot;,
+    &quot;v1_1_classification&quot;: &quot;challenger_wins&quot;,
+    &quot;corrected_v1_2_slice_name&quot;: &quot;prelock_asset_decile&quot;,
+    &quot;corrected_v1_2_slice_value&quot;: &quot;D2&quot;,
+    &quot;v1_2_classification&quot;: &quot;indistinguishable_or_unstable&quot;,
+    &quot;delta_q05_pinball&quot;: 0.000339855757481633,
+    &quot;quarter_ci&quot;: [
+      -5.8715124090619436e-05,
+      0.000677657415517132
+    ],
+    &quot;bank_ci&quot;: [
+      1.3028159706498678e-05,
+      0.0006701993914499826
+    ],
+    &quot;two_way_ci&quot;: [
+      -0.00014513655068889084,
+      0.0008248480656521569
+    ],
+    &quot;quarter_direction_persistence&quot;: 0.625,
+    &quot;holm_adjusted_p&quot;: 1.0
+  }
+]</pre><h2>Selective review</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>record_type</th>
+      <th>policy</th>
+      <th>review_budget</th>
+      <th>threshold</th>
+      <th>threshold_source</th>
+      <th>reviewed_share</th>
+      <th>reviewed_n</th>
+      <th>severe_tail_miss_capture</th>
+      <th>capture_quarter_ci_low</th>
+      <th>capture_quarter_ci_high</th>
+      <th>capture_bank_ci_low</th>
+      <th>capture_bank_ci_high</th>
+      <th>quarter_capture_min</th>
+      <th>quarter_capture_max</th>
+      <th>residual_q05_pinball</th>
+      <th>asset_exposure_captured</th>
+      <th>deposit_exposure_captured</th>
+      <th>review_precision_efficiency</th>
+      <th>random_expected_capture</th>
+      <th>lift_over_random</th>
+      <th>bank_review_persistence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>policy</td>
+      <td>combined</td>
+      <td>0.1</td>
+      <td>0.803013</td>
+      <td>frozen v1.1</td>
+      <td>0.0926978</td>
+      <td>2789</td>
+      <td>0.286096</td>
+      <td>0.246209</td>
+      <td>0.32642</td>
+      <td>0.22679</td>
+      <td>0.348896</td>
+      <td>0.230769</td>
+      <td>0.461538</td>
+      <td>0.00356701</td>
+      <td>0.200941</td>
+      <td>0.198317</td>
+      <td>0.038365</td>
+      <td>0.1</td>
+      <td>2.86096</td>
+      <td>0.238732</td>
+    </tr>
+    <tr>
+      <td>policy</td>
+      <td>disagreement</td>
+      <td>0.1</td>
+      <td>0.900001</td>
+      <td>prelock single-signal</td>
+      <td>0.0739522</td>
+      <td>2225</td>
+      <td>0.299465</td>
+      <td>0.249256</td>
+      <td>0.365024</td>
+      <td>0.237785</td>
+      <td>0.363726</td>
+      <td>0.208333</td>
+      <td>0.410256</td>
+      <td>0.00364389</td>
+      <td>0.0914737</td>
+      <td>0.0896814</td>
+      <td>0.0503371</td>
+      <td>0.1</td>
+      <td>2.99465</td>
+      <td>0.203142</td>
+    </tr>
+    <tr>
+      <td>policy</td>
+      <td>predictive_width</td>
+      <td>0.1</td>
+      <td>0.900001</td>
+      <td>prelock single-signal</td>
+      <td>0.0507196</td>
+      <td>1526</td>
+      <td>0.184492</td>
+      <td>0.154704</td>
+      <td>0.213332</td>
+      <td>0.136458</td>
+      <td>0.238156</td>
+      <td>0.128205</td>
+      <td>0.384615</td>
+      <td>0.00366758</td>
+      <td>0.0505973</td>
+      <td>0.0513065</td>
+      <td>0.0452163</td>
+      <td>0.1</td>
+      <td>1.84492</td>
+      <td>0.17828</td>
+    </tr>
+    <tr>
+      <td>policy</td>
+      <td>missingness</td>
+      <td>0.1</td>
+      <td>0.991434</td>
+      <td>prelock single-signal</td>
+      <td>0.135839</td>
+      <td>4087</td>
+      <td>0.120321</td>
+      <td>0.00540012</td>
+      <td>0.331309</td>
+      <td>0.0855734</td>
+      <td>0.158021</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0.00412884</td>
+      <td>0.131324</td>
+      <td>0.131838</td>
+      <td>0.0110105</td>
+      <td>0.1</td>
+      <td>1.20321</td>
+      <td>0.0996018</td>
+    </tr>
+    <tr>
+      <td>policy</td>
+      <td>ood</td>
+      <td>0.1</td>
+      <td>0.900001</td>
+      <td>prelock single-signal</td>
+      <td>0.0774421</td>
+      <td>2330</td>
+      <td>0.197861</td>
+      <td>0.132611</td>
+      <td>0.301144</td>
+      <td>0.149254</td>
+      <td>0.247547</td>
+      <td>0.125</td>
+      <td>0.419355</td>
+      <td>0.0037318</td>
+      <td>0.772885</td>
+      <td>0.760837</td>
+      <td>0.0317597</td>
+      <td>0.1</td>
+      <td>1.97861</td>
+      <td>0.229934</td>
+    </tr>
+    <tr>
+      <td>random_benchmark</td>
+      <td>random</td>
+      <td>0.1</td>
+      <td>NaN</td>
+      <td>1000 seeded equal-probability samples</td>
+      <td>0.10001</td>
+      <td>3009</td>
+      <td>0.100628</td>
+      <td>0.0721925</td>
+      <td>0.131083</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>0.1</td>
+      <td>0.1</td>
+      <td>0.0124306</td>
+      <td>0.1</td>
+      <td>1</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table><p><small>Generated 2026-09-27T21:05:48.547540+00:00 from artifacts/v1_2_hardening/results_v1_2.duckdb and frozen source artifacts.</small></p>

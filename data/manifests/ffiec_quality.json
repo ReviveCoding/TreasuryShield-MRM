@@ -1,0 +1,3650 @@
+{
+  "created_at": "2026-09-27T08:49:01.546462+00:00",
+  "files": [
+    {
+      "report_period": "2017Q1",
+      "por_rows": 5908,
+      "filing_types": {
+        "051": 3505,
+        "041": 2333,
+        "031": 70
+      },
+      "present_mnemonics": {
+        "RCON3190": 17724,
+        "RCON2200": 5908,
+        "RCON2170": 11676,
+        "RCON3210": 5838,
+        "RCONB993": 5908,
+        "RCONB995": 11816,
+        "RCFD2170": 140,
+        "RCFD3210": 70,
+        "RCFD0071": 70,
+        "RCFD0081": 70,
+        "RCFD3123": 140,
+        "RCON2365": 11816,
+        "RCON2215": 11816,
+        "RCON2385": 11816,
+        "RCONJ474": 11816,
+        "RCONG803": 5861,
+        "RCON5597": 733,
+        "RCONL197": 4
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 03312017.txt",
+          "FFIEC CDR Call Schedule RCH 03312017.txt",
+          "FFIEC CDR Call Schedule RCM 03312017.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 03312017.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 03312017.txt",
+          "FFIEC CDR Call Schedule RCRII 03312017(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 03312017.txt",
+          "FFIEC CDR Call Schedule RCRII 03312017(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 03312017.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 03312017.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 03312017.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 03312017.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 03312017.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 03312017.txt",
+          "FFIEC CDR Call Schedule RCH 03312017.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 03312017.txt",
+          "FFIEC CDR Call Schedule RCRII 03312017(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 03312017.txt",
+          "FFIEC CDR Call Schedule RCEI 03312017.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 03312017.txt",
+          "FFIEC CDR Call Schedule RCEI 03312017.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 03312017.txt",
+          "FFIEC CDR Call Schedule RCEI 03312017.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 03312017.txt",
+          "FFIEC CDR Call Schedule RCEI 03312017.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 03312017(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 03312017(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 03312017(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2018Q1",
+      "por_rows": 5657,
+      "filing_types": {
+        "051": 3752,
+        "041": 1837,
+        "031": 68
+      },
+      "present_mnemonics": {
+        "RCON3190": 16971,
+        "RCON2200": 5657,
+        "RCON2170": 11178,
+        "RCON3210": 5589,
+        "RCONB993": 5657,
+        "RCONB995": 11314,
+        "RCFD2170": 136,
+        "RCFD3210": 68,
+        "RCFD0071": 68,
+        "RCFD0081": 68,
+        "RCFD3123": 136,
+        "RCON2365": 11314,
+        "RCON2215": 11314,
+        "RCON2385": 11314,
+        "RCONJ474": 11314,
+        "RCONG803": 5611,
+        "RCON5597": 736,
+        "RCONL197": 5
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 03312018.txt",
+          "FFIEC CDR Call Schedule RCH 03312018.txt",
+          "FFIEC CDR Call Schedule RCM 03312018.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 03312018.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 03312018.txt",
+          "FFIEC CDR Call Schedule RCRII 03312018(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 03312018.txt",
+          "FFIEC CDR Call Schedule RCRII 03312018(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 03312018.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 03312018.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 03312018.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 03312018.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 03312018.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 03312018.txt",
+          "FFIEC CDR Call Schedule RCH 03312018.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 03312018.txt",
+          "FFIEC CDR Call Schedule RCRII 03312018(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 03312018.txt",
+          "FFIEC CDR Call Schedule RCEI 03312018.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 03312018.txt",
+          "FFIEC CDR Call Schedule RCEI 03312018.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 03312018.txt",
+          "FFIEC CDR Call Schedule RCEI 03312018.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 03312018.txt",
+          "FFIEC CDR Call Schedule RCEI 03312018.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 03312018(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 03312018(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 03312018(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2019Q1",
+      "por_rows": 5411,
+      "filing_types": {
+        "051": 3677,
+        "041": 1659,
+        "031": 75
+      },
+      "present_mnemonics": {
+        "RCON3190": 16197,
+        "RCON2200": 5411,
+        "RCON2170": 10672,
+        "RCON3210": 5336,
+        "RCONB993": 5411,
+        "RCONB995": 10798,
+        "RCFD2170": 150,
+        "RCFD3210": 75,
+        "RCFD0071": 75,
+        "RCFD0081": 75,
+        "RCFD3123": 150,
+        "RCON2365": 10822,
+        "RCON2215": 10822,
+        "RCON2385": 10822,
+        "RCONJ474": 10822,
+        "RCONG803": 5366,
+        "RCON5597": 753,
+        "RCONL197": 4
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 03312019.txt",
+          "FFIEC CDR Call Schedule RCH 03312019.txt",
+          "FFIEC CDR Call Schedule RCM 03312019.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 03312019.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 03312019.txt",
+          "FFIEC CDR Call Schedule RCRII 03312019(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 03312019.txt",
+          "FFIEC CDR Call Schedule RCRII 03312019(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 03312019.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 03312019.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 03312019.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 03312019.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 03312019.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 03312019.txt",
+          "FFIEC CDR Call Schedule RCH 03312019.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 03312019.txt",
+          "FFIEC CDR Call Schedule RCRII 03312019(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 03312019.txt",
+          "FFIEC CDR Call Schedule RCEI 03312019.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 03312019.txt",
+          "FFIEC CDR Call Schedule RCEI 03312019.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 03312019.txt",
+          "FFIEC CDR Call Schedule RCEI 03312019.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 03312019.txt",
+          "FFIEC CDR Call Schedule RCEI 03312019.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 03312019(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 03312019(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 03312019(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2020Q1",
+      "por_rows": 5165,
+      "filing_types": {
+        "051": 3769,
+        "041": 1312,
+        "031": 84
+      },
+      "present_mnemonics": {
+        "RCON3190": 15423,
+        "RCON2200": 5165,
+        "RCON2170": 10162,
+        "RCON3210": 5081,
+        "RCONB993": 5165,
+        "RCONB995": 10282,
+        "RCFD2170": 168,
+        "RCFD3210": 84,
+        "RCFD0071": 84,
+        "RCFD0081": 84,
+        "RCFD3123": 168,
+        "RCON2365": 10330,
+        "RCON2215": 10330,
+        "RCON2385": 10330,
+        "RCONJ474": 10330,
+        "RCONG803": 5119,
+        "RCON5597": 783,
+        "RCONL197": 3
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 03312020.txt",
+          "FFIEC CDR Call Schedule RCH 03312020.txt",
+          "FFIEC CDR Call Schedule RCM 03312020.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 03312020.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 03312020.txt",
+          "FFIEC CDR Call Schedule RCRII 03312020(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 03312020.txt",
+          "FFIEC CDR Call Schedule RCRII 03312020(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 03312020.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 03312020.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 03312020.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 03312020.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 03312020.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 03312020.txt",
+          "FFIEC CDR Call Schedule RCH 03312020.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 03312020.txt",
+          "FFIEC CDR Call Schedule RCRII 03312020(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 03312020.txt",
+          "FFIEC CDR Call Schedule RCEI 03312020.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 03312020.txt",
+          "FFIEC CDR Call Schedule RCEI 03312020.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 03312020.txt",
+          "FFIEC CDR Call Schedule RCEI 03312020.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 03312020.txt",
+          "FFIEC CDR Call Schedule RCEI 03312020.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 03312020(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 03312020(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 03312020(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2021Q1",
+      "por_rows": 5027,
+      "filing_types": {
+        "051": 3694,
+        "041": 1247,
+        "031": 86
+      },
+      "present_mnemonics": {
+        "RCON3190": 14994,
+        "RCON2200": 5027,
+        "RCON2170": 9882,
+        "RCON3210": 4941,
+        "RCONB993": 5027,
+        "RCONB995": 9996,
+        "RCFD2170": 172,
+        "RCFD3210": 86,
+        "RCFD0071": 86,
+        "RCFD0081": 86,
+        "RCFD3123": 172,
+        "RCON2365": 10054,
+        "RCON2215": 10054,
+        "RCON2385": 10054,
+        "RCONJ474": 10054,
+        "RCONG803": 4982,
+        "RCON5597": 780,
+        "RCONL197": 3
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 03312021.txt",
+          "FFIEC CDR Call Schedule RCH 03312021.txt",
+          "FFIEC CDR Call Schedule RCM 03312021.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 03312021.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 03312021.txt",
+          "FFIEC CDR Call Schedule RCRII 03312021(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 03312021.txt",
+          "FFIEC CDR Call Schedule RCRII 03312021(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 03312021.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 03312021.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 03312021.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 03312021.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 03312021.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 03312021.txt",
+          "FFIEC CDR Call Schedule RCH 03312021.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 03312021.txt",
+          "FFIEC CDR Call Schedule RCRII 03312021(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 03312021.txt",
+          "FFIEC CDR Call Schedule RCEI 03312021.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 03312021.txt",
+          "FFIEC CDR Call Schedule RCEI 03312021.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 03312021.txt",
+          "FFIEC CDR Call Schedule RCEI 03312021.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 03312021.txt",
+          "FFIEC CDR Call Schedule RCEI 03312021.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 03312021(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 03312021(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 03312021(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2022Q1",
+      "por_rows": 4844,
+      "filing_types": {
+        "051": 3588,
+        "041": 1170,
+        "031": 86
+      },
+      "present_mnemonics": {
+        "RCON3190": 14448,
+        "RCON2200": 4844,
+        "RCON2170": 9516,
+        "RCON3210": 4758,
+        "RCONB993": 4844,
+        "RCONB995": 9632,
+        "RCFD2170": 172,
+        "RCFD3210": 86,
+        "RCFD0071": 86,
+        "RCFD0081": 86,
+        "RCFD3123": 172,
+        "RCON2365": 9688,
+        "RCON2215": 9688,
+        "RCON2385": 9688,
+        "RCONJ474": 9688,
+        "RCONG803": 4799,
+        "RCON5597": 939,
+        "RCONL197": 2
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 03312022.txt",
+          "FFIEC CDR Call Schedule RCH 03312022.txt",
+          "FFIEC CDR Call Schedule RCM 03312022.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 03312022.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 03312022.txt",
+          "FFIEC CDR Call Schedule RCRII 03312022(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 03312022.txt",
+          "FFIEC CDR Call Schedule RCRII 03312022(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 03312022.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 03312022.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 03312022.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 03312022.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 03312022.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 03312022.txt",
+          "FFIEC CDR Call Schedule RCH 03312022.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 03312022.txt",
+          "FFIEC CDR Call Schedule RCRII 03312022(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 03312022.txt",
+          "FFIEC CDR Call Schedule RCEI 03312022.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 03312022.txt",
+          "FFIEC CDR Call Schedule RCEI 03312022.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 03312022.txt",
+          "FFIEC CDR Call Schedule RCEI 03312022.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 03312022.txt",
+          "FFIEC CDR Call Schedule RCEI 03312022.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 03312022(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 03312022(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 03312022(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2023Q1",
+      "por_rows": 4724,
+      "filing_types": {
+        "051": 3524,
+        "041": 1119,
+        "031": 81
+      },
+      "present_mnemonics": {
+        "RCON3190": 14085,
+        "RCON2200": 4724,
+        "RCON2170": 9286,
+        "RCON3210": 4643,
+        "RCONB993": 4724,
+        "RCONB995": 9390,
+        "RCFD2170": 162,
+        "RCFD3210": 81,
+        "RCFD0071": 81,
+        "RCFD0081": 81,
+        "RCFD3123": 162,
+        "RCON2365": 9448,
+        "RCON2215": 9448,
+        "RCON2385": 9448,
+        "RCONJ474": 9448,
+        "RCONG803": 4675,
+        "RCON5597": 961,
+        "RCONL197": 2
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 03312023.txt",
+          "FFIEC CDR Call Schedule RCH 03312023.txt",
+          "FFIEC CDR Call Schedule RCM 03312023.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 03312023.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 03312023.txt",
+          "FFIEC CDR Call Schedule RCRII 03312023(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 03312023.txt",
+          "FFIEC CDR Call Schedule RCRII 03312023(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 03312023.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 03312023.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 03312023.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 03312023.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 03312023.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 03312023.txt",
+          "FFIEC CDR Call Schedule RCH 03312023.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 03312023.txt",
+          "FFIEC CDR Call Schedule RCRII 03312023(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 03312023.txt",
+          "FFIEC CDR Call Schedule RCEI 03312023.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 03312023.txt",
+          "FFIEC CDR Call Schedule RCEI 03312023.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 03312023.txt",
+          "FFIEC CDR Call Schedule RCEI 03312023.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 03312023.txt",
+          "FFIEC CDR Call Schedule RCEI 03312023.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 03312023(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 03312023(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 03312023(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2024Q1",
+      "por_rows": 4623,
+      "filing_types": {
+        "051": 3468,
+        "041": 1073,
+        "031": 82
+      },
+      "present_mnemonics": {
+        "RCON3190": 13782,
+        "RCON2200": 4623,
+        "RCON2170": 9082,
+        "RCON3210": 4541,
+        "RCONB993": 4623,
+        "RCONB995": 9188,
+        "RCFD2170": 164,
+        "RCFD3210": 82,
+        "RCFD0071": 82,
+        "RCFD0081": 82,
+        "RCFD3123": 164,
+        "RCON2365": 9246,
+        "RCON2215": 9246,
+        "RCON2385": 9246,
+        "RCONJ474": 9246,
+        "RCONG803": 4572,
+        "RCON5597": 987,
+        "RCONL197": 1
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 03312024.txt",
+          "FFIEC CDR Call Schedule RCH 03312024.txt",
+          "FFIEC CDR Call Schedule RCM 03312024.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 03312024.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 03312024.txt",
+          "FFIEC CDR Call Schedule RCRII 03312024(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 03312024.txt",
+          "FFIEC CDR Call Schedule RCRII 03312024(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 03312024.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 03312024.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 03312024.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 03312024.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 03312024.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 03312024.txt",
+          "FFIEC CDR Call Schedule RCH 03312024.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 03312024.txt",
+          "FFIEC CDR Call Schedule RCRII 03312024(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 03312024.txt",
+          "FFIEC CDR Call Schedule RCEI 03312024.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 03312024.txt",
+          "FFIEC CDR Call Schedule RCEI 03312024.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 03312024.txt",
+          "FFIEC CDR Call Schedule RCEI 03312024.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 03312024.txt",
+          "FFIEC CDR Call Schedule RCEI 03312024.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 03312024(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 03312024(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 03312024(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2025Q1",
+      "por_rows": 4519,
+      "filing_types": {
+        "051": 3407,
+        "041": 1030,
+        "031": 82
+      },
+      "present_mnemonics": {
+        "RCON3190": 13470,
+        "RCON2200": 4519,
+        "RCON2170": 8874,
+        "RCON3210": 4437,
+        "RCONB993": 4519,
+        "RCONB995": 8980,
+        "RCFD2170": 164,
+        "RCFD3210": 82,
+        "RCFD0071": 82,
+        "RCFD0081": 82,
+        "RCFD3123": 164,
+        "RCON2365": 9038,
+        "RCON2215": 9038,
+        "RCON2385": 9038,
+        "RCONJ474": 9038,
+        "RCONG803": 4465,
+        "RCON5597": 1008
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 03312025.txt",
+          "FFIEC CDR Call Schedule RCH 03312025.txt",
+          "FFIEC CDR Call Schedule RCM 03312025.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 03312025.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 03312025.txt",
+          "FFIEC CDR Call Schedule RCRII 03312025(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 03312025.txt",
+          "FFIEC CDR Call Schedule RCRII 03312025(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 03312025.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 03312025.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 03312025.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 03312025.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 03312025.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 03312025.txt",
+          "FFIEC CDR Call Schedule RCH 03312025.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 03312025.txt",
+          "FFIEC CDR Call Schedule RCRII 03312025(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 03312025.txt",
+          "FFIEC CDR Call Schedule RCEI 03312025.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 03312025.txt",
+          "FFIEC CDR Call Schedule RCEI 03312025.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 03312025.txt",
+          "FFIEC CDR Call Schedule RCEI 03312025.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 03312025.txt",
+          "FFIEC CDR Call Schedule RCEI 03312025.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 03312025(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 03312025(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 03312025(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2026Q1",
+      "por_rows": 4336,
+      "filing_types": {
+        "051": 3311,
+        "041": 945,
+        "031": 80
+      },
+      "present_mnemonics": {
+        "RCON3190": 12927,
+        "RCON2200": 4336,
+        "RCON2170": 8512,
+        "RCON3210": 4256,
+        "RCONB993": 4336,
+        "RCONB995": 8618,
+        "RCFD2170": 160,
+        "RCFD3210": 80,
+        "RCFD0071": 80,
+        "RCFD0081": 80,
+        "RCFD3123": 160,
+        "RCON2365": 8672,
+        "RCON2215": 8672,
+        "RCON2385": 8672,
+        "RCONJ474": 8672,
+        "RCONG803": 4281,
+        "RCON5597": 1011
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 03312026.txt",
+          "FFIEC CDR Call Schedule RCH 03312026.txt",
+          "FFIEC CDR Call Schedule RCM 03312026.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 03312026.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 03312026.txt",
+          "FFIEC CDR Call Schedule RCRII 03312026(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 03312026.txt",
+          "FFIEC CDR Call Schedule RCRII 03312026(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 03312026.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 03312026.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 03312026.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 03312026.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 03312026.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 03312026.txt",
+          "FFIEC CDR Call Schedule RCH 03312026.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 03312026.txt",
+          "FFIEC CDR Call Schedule RCRII 03312026(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 03312026.txt",
+          "FFIEC CDR Call Schedule RCEI 03312026.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 03312026.txt",
+          "FFIEC CDR Call Schedule RCEI 03312026.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 03312026.txt",
+          "FFIEC CDR Call Schedule RCEI 03312026.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 03312026.txt",
+          "FFIEC CDR Call Schedule RCEI 03312026.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 03312026(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 03312026(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 03312026(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2017Q2",
+      "por_rows": 5839,
+      "filing_types": {
+        "051": 3604,
+        "041": 2166,
+        "031": 69
+      },
+      "present_mnemonics": {
+        "RCON3190": 17517,
+        "RCON2200": 5839,
+        "RCON2170": 11540,
+        "RCON3210": 5770,
+        "RCONB993": 5839,
+        "RCONB995": 11678,
+        "RCFD2170": 138,
+        "RCFD3210": 69,
+        "RCFD0071": 69,
+        "RCFD0081": 69,
+        "RCFD3123": 138,
+        "RCON2365": 11678,
+        "RCON2215": 11678,
+        "RCON2385": 11678,
+        "RCONJ474": 11678,
+        "RCONG803": 5792,
+        "RCON5597": 724,
+        "RCONL197": 5
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 06302017.txt",
+          "FFIEC CDR Call Schedule RCH 06302017.txt",
+          "FFIEC CDR Call Schedule RCM 06302017.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 06302017.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 06302017.txt",
+          "FFIEC CDR Call Schedule RCRII 06302017(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 06302017.txt",
+          "FFIEC CDR Call Schedule RCRII 06302017(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 06302017.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 06302017.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 06302017.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 06302017.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 06302017.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 06302017.txt",
+          "FFIEC CDR Call Schedule RCH 06302017.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 06302017.txt",
+          "FFIEC CDR Call Schedule RCRII 06302017(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 06302017.txt",
+          "FFIEC CDR Call Schedule RCEI 06302017.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 06302017.txt",
+          "FFIEC CDR Call Schedule RCEI 06302017.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 06302017.txt",
+          "FFIEC CDR Call Schedule RCEI 06302017.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 06302017.txt",
+          "FFIEC CDR Call Schedule RCEI 06302017.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 06302017(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 06302017(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 06302017(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2018Q2",
+      "por_rows": 5593,
+      "filing_types": {
+        "051": 3714,
+        "041": 1805,
+        "031": 74
+      },
+      "present_mnemonics": {
+        "RCON3190": 16752,
+        "RCON2200": 5593,
+        "RCON2170": 11038,
+        "RCON3210": 5519,
+        "RCONB993": 5593,
+        "RCONB995": 11168,
+        "RCFD2170": 148,
+        "RCFD3210": 74,
+        "RCFD0071": 74,
+        "RCFD0081": 74,
+        "RCFD3123": 148,
+        "RCON2365": 11186,
+        "RCON2215": 11186,
+        "RCON2385": 11186,
+        "RCONJ474": 11186,
+        "RCONG803": 5546,
+        "RCON5597": 729,
+        "RCONL197": 5
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 06302018.txt",
+          "FFIEC CDR Call Schedule RCH 06302018.txt",
+          "FFIEC CDR Call Schedule RCM 06302018.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 06302018.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 06302018.txt",
+          "FFIEC CDR Call Schedule RCRII 06302018(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 06302018.txt",
+          "FFIEC CDR Call Schedule RCRII 06302018(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 06302018.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 06302018.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 06302018.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 06302018.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 06302018.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 06302018.txt",
+          "FFIEC CDR Call Schedule RCH 06302018.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 06302018.txt",
+          "FFIEC CDR Call Schedule RCRII 06302018(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 06302018.txt",
+          "FFIEC CDR Call Schedule RCEI 06302018.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 06302018.txt",
+          "FFIEC CDR Call Schedule RCEI 06302018.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 06302018.txt",
+          "FFIEC CDR Call Schedule RCEI 06302018.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 06302018.txt",
+          "FFIEC CDR Call Schedule RCEI 06302018.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 06302018(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 06302018(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 06302018(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2019Q2",
+      "por_rows": 5352,
+      "filing_types": {
+        "051": 3644,
+        "041": 1635,
+        "031": 73
+      },
+      "present_mnemonics": {
+        "RCON3190": 16023,
+        "RCON2200": 5352,
+        "RCON2170": 10558,
+        "RCON3210": 5279,
+        "RCONB993": 5352,
+        "RCONB995": 10682,
+        "RCFD2170": 146,
+        "RCFD3210": 73,
+        "RCFD0071": 73,
+        "RCFD0081": 73,
+        "RCFD3123": 146,
+        "RCON2365": 10704,
+        "RCON2215": 10704,
+        "RCON2385": 10704,
+        "RCONJ474": 10704,
+        "RCONG803": 5308,
+        "RCON5597": 746,
+        "RCONL197": 4
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 06302019.txt",
+          "FFIEC CDR Call Schedule RCH 06302019.txt",
+          "FFIEC CDR Call Schedule RCM 06302019.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 06302019.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 06302019.txt",
+          "FFIEC CDR Call Schedule RCRII 06302019(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 06302019.txt",
+          "FFIEC CDR Call Schedule RCRII 06302019(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 06302019.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 06302019.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 06302019.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 06302019.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 06302019.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 06302019.txt",
+          "FFIEC CDR Call Schedule RCH 06302019.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 06302019.txt",
+          "FFIEC CDR Call Schedule RCRII 06302019(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 06302019.txt",
+          "FFIEC CDR Call Schedule RCEI 06302019.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 06302019.txt",
+          "FFIEC CDR Call Schedule RCEI 06302019.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 06302019.txt",
+          "FFIEC CDR Call Schedule RCEI 06302019.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 06302019.txt",
+          "FFIEC CDR Call Schedule RCEI 06302019.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 06302019(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 06302019(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 06302019(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2020Q2",
+      "por_rows": 5114,
+      "filing_types": {
+        "051": 3729,
+        "041": 1300,
+        "031": 85
+      },
+      "present_mnemonics": {
+        "RCON3190": 15261,
+        "RCON2200": 5114,
+        "RCON2170": 10058,
+        "RCON3210": 5029,
+        "RCONB993": 5114,
+        "RCONB995": 10174,
+        "RCFD2170": 170,
+        "RCFD3210": 85,
+        "RCFD0071": 85,
+        "RCFD0081": 85,
+        "RCFD3123": 170,
+        "RCON2365": 10228,
+        "RCON2215": 10228,
+        "RCON2385": 10228,
+        "RCONJ474": 10228,
+        "RCONG803": 5069,
+        "RCON5597": 775,
+        "RCONL197": 3
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 06302020.txt",
+          "FFIEC CDR Call Schedule RCH 06302020.txt",
+          "FFIEC CDR Call Schedule RCM 06302020.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 06302020.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 06302020.txt",
+          "FFIEC CDR Call Schedule RCRII 06302020(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 06302020.txt",
+          "FFIEC CDR Call Schedule RCRII 06302020(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 06302020.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 06302020.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 06302020.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 06302020.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 06302020.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 06302020.txt",
+          "FFIEC CDR Call Schedule RCH 06302020.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 06302020.txt",
+          "FFIEC CDR Call Schedule RCRII 06302020(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 06302020.txt",
+          "FFIEC CDR Call Schedule RCEI 06302020.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 06302020.txt",
+          "FFIEC CDR Call Schedule RCEI 06302020.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 06302020.txt",
+          "FFIEC CDR Call Schedule RCEI 06302020.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 06302020.txt",
+          "FFIEC CDR Call Schedule RCEI 06302020.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 06302020(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 06302020(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 06302020(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2021Q2",
+      "por_rows": 4998,
+      "filing_types": {
+        "051": 3673,
+        "041": 1240,
+        "031": 85
+      },
+      "present_mnemonics": {
+        "RCON3190": 14910,
+        "RCON2200": 4998,
+        "RCON2170": 9826,
+        "RCON3210": 4913,
+        "RCONB993": 4998,
+        "RCONB995": 9940,
+        "RCFD2170": 170,
+        "RCFD3210": 85,
+        "RCFD0071": 85,
+        "RCFD0081": 85,
+        "RCFD3123": 170,
+        "RCON2365": 9996,
+        "RCON2215": 9996,
+        "RCON2385": 9996,
+        "RCONJ474": 9996,
+        "RCONG803": 4953,
+        "RCON5597": 779,
+        "RCONL197": 3
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 06302021.txt",
+          "FFIEC CDR Call Schedule RCH 06302021.txt",
+          "FFIEC CDR Call Schedule RCM 06302021.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 06302021.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 06302021.txt",
+          "FFIEC CDR Call Schedule RCRII 06302021(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 06302021.txt",
+          "FFIEC CDR Call Schedule RCRII 06302021(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 06302021.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 06302021.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 06302021.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 06302021.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 06302021.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 06302021.txt",
+          "FFIEC CDR Call Schedule RCH 06302021.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 06302021.txt",
+          "FFIEC CDR Call Schedule RCRII 06302021(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 06302021.txt",
+          "FFIEC CDR Call Schedule RCEI 06302021.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 06302021.txt",
+          "FFIEC CDR Call Schedule RCEI 06302021.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 06302021.txt",
+          "FFIEC CDR Call Schedule RCEI 06302021.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 06302021.txt",
+          "FFIEC CDR Call Schedule RCEI 06302021.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 06302021(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 06302021(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 06302021(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2022Q2",
+      "por_rows": 4821,
+      "filing_types": {
+        "051": 3572,
+        "041": 1164,
+        "031": 85
+      },
+      "present_mnemonics": {
+        "RCON3190": 14379,
+        "RCON2200": 4821,
+        "RCON2170": 9472,
+        "RCON3210": 4736,
+        "RCONB993": 4821,
+        "RCONB995": 9586,
+        "RCFD2170": 170,
+        "RCFD3210": 85,
+        "RCFD0071": 85,
+        "RCFD0081": 85,
+        "RCFD3123": 170,
+        "RCON2365": 9642,
+        "RCON2215": 9642,
+        "RCON2385": 9642,
+        "RCONJ474": 9642,
+        "RCONG803": 4774,
+        "RCON5597": 931,
+        "RCONL197": 2
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 06302022.txt",
+          "FFIEC CDR Call Schedule RCH 06302022.txt",
+          "FFIEC CDR Call Schedule RCM 06302022.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 06302022.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 06302022.txt",
+          "FFIEC CDR Call Schedule RCRII 06302022(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 06302022.txt",
+          "FFIEC CDR Call Schedule RCRII 06302022(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 06302022.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 06302022.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 06302022.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 06302022.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 06302022.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 06302022.txt",
+          "FFIEC CDR Call Schedule RCH 06302022.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 06302022.txt",
+          "FFIEC CDR Call Schedule RCRII 06302022(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 06302022.txt",
+          "FFIEC CDR Call Schedule RCEI 06302022.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 06302022.txt",
+          "FFIEC CDR Call Schedule RCEI 06302022.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 06302022.txt",
+          "FFIEC CDR Call Schedule RCEI 06302022.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 06302022.txt",
+          "FFIEC CDR Call Schedule RCEI 06302022.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 06302022(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 06302022(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 06302022(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2023Q2",
+      "por_rows": 4697,
+      "filing_types": {
+        "051": 3505,
+        "041": 1113,
+        "031": 79
+      },
+      "present_mnemonics": {
+        "RCON3190": 14010,
+        "RCON2200": 4697,
+        "RCON2170": 9236,
+        "RCON3210": 4618,
+        "RCONB993": 4697,
+        "RCONB995": 9340,
+        "RCFD2170": 158,
+        "RCFD3210": 79,
+        "RCFD0071": 79,
+        "RCFD0081": 79,
+        "RCFD3123": 158,
+        "RCON2365": 9394,
+        "RCON2215": 9394,
+        "RCON2385": 9394,
+        "RCONJ474": 9394,
+        "RCONG803": 4648,
+        "RCON5597": 954,
+        "RCONL197": 1
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 06302023.txt",
+          "FFIEC CDR Call Schedule RCH 06302023.txt",
+          "FFIEC CDR Call Schedule RCM 06302023.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 06302023.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 06302023.txt",
+          "FFIEC CDR Call Schedule RCRII 06302023(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 06302023.txt",
+          "FFIEC CDR Call Schedule RCRII 06302023(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 06302023.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 06302023.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 06302023.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 06302023.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 06302023.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 06302023.txt",
+          "FFIEC CDR Call Schedule RCH 06302023.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 06302023.txt",
+          "FFIEC CDR Call Schedule RCRII 06302023(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 06302023.txt",
+          "FFIEC CDR Call Schedule RCEI 06302023.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 06302023.txt",
+          "FFIEC CDR Call Schedule RCEI 06302023.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 06302023.txt",
+          "FFIEC CDR Call Schedule RCEI 06302023.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 06302023.txt",
+          "FFIEC CDR Call Schedule RCEI 06302023.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 06302023(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 06302023(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 06302023(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2024Q2",
+      "por_rows": 4594,
+      "filing_types": {
+        "051": 3447,
+        "041": 1065,
+        "031": 82
+      },
+      "present_mnemonics": {
+        "RCON3190": 13698,
+        "RCON2200": 4594,
+        "RCON2170": 9024,
+        "RCON3210": 4512,
+        "RCONB993": 4594,
+        "RCONB995": 9132,
+        "RCFD2170": 164,
+        "RCFD3210": 82,
+        "RCFD0071": 82,
+        "RCFD0081": 82,
+        "RCFD3123": 164,
+        "RCON2365": 9188,
+        "RCON2215": 9188,
+        "RCON2385": 9188,
+        "RCONJ474": 9188,
+        "RCONG803": 4542,
+        "RCON5597": 985
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 06302024.txt",
+          "FFIEC CDR Call Schedule RCH 06302024.txt",
+          "FFIEC CDR Call Schedule RCM 06302024.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 06302024.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 06302024.txt",
+          "FFIEC CDR Call Schedule RCRII 06302024(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 06302024.txt",
+          "FFIEC CDR Call Schedule RCRII 06302024(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 06302024.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 06302024.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 06302024.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 06302024.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 06302024.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 06302024.txt",
+          "FFIEC CDR Call Schedule RCH 06302024.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 06302024.txt",
+          "FFIEC CDR Call Schedule RCRII 06302024(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 06302024.txt",
+          "FFIEC CDR Call Schedule RCEI 06302024.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 06302024.txt",
+          "FFIEC CDR Call Schedule RCEI 06302024.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 06302024.txt",
+          "FFIEC CDR Call Schedule RCEI 06302024.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 06302024.txt",
+          "FFIEC CDR Call Schedule RCEI 06302024.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 06302024(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 06302024(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 06302024(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2025Q2",
+      "por_rows": 4477,
+      "filing_types": {
+        "051": 3382,
+        "041": 1015,
+        "031": 80
+      },
+      "present_mnemonics": {
+        "RCON3190": 13350,
+        "RCON2200": 4477,
+        "RCON2170": 8794,
+        "RCON3210": 4397,
+        "RCONB993": 4477,
+        "RCONB995": 8900,
+        "RCFD2170": 160,
+        "RCFD3210": 80,
+        "RCFD0071": 80,
+        "RCFD0081": 80,
+        "RCFD3123": 160,
+        "RCON2365": 8954,
+        "RCON2215": 8954,
+        "RCON2385": 8954,
+        "RCONJ474": 8954,
+        "RCONG803": 4424,
+        "RCON5597": 1003
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 06302025.txt",
+          "FFIEC CDR Call Schedule RCH 06302025.txt",
+          "FFIEC CDR Call Schedule RCM 06302025.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 06302025.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 06302025.txt",
+          "FFIEC CDR Call Schedule RCRII 06302025(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 06302025.txt",
+          "FFIEC CDR Call Schedule RCRII 06302025(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 06302025.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 06302025.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 06302025.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 06302025.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 06302025.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 06302025.txt",
+          "FFIEC CDR Call Schedule RCH 06302025.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 06302025.txt",
+          "FFIEC CDR Call Schedule RCRII 06302025(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 06302025.txt",
+          "FFIEC CDR Call Schedule RCEI 06302025.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 06302025.txt",
+          "FFIEC CDR Call Schedule RCEI 06302025.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 06302025.txt",
+          "FFIEC CDR Call Schedule RCEI 06302025.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 06302025.txt",
+          "FFIEC CDR Call Schedule RCEI 06302025.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 06302025(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 06302025(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 06302025(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2026Q2",
+      "por_rows": 4297,
+      "filing_types": {
+        "051": 3283,
+        "041": 934,
+        "031": 80
+      },
+      "present_mnemonics": {
+        "RCON3190": 12810,
+        "RCON2200": 4297,
+        "RCON2170": 8434,
+        "RCON3210": 4217,
+        "RCONB993": 4297,
+        "RCONB995": 8540,
+        "RCFD2170": 160,
+        "RCFD3210": 80,
+        "RCFD0071": 80,
+        "RCFD0081": 80,
+        "RCFD3123": 160,
+        "RCON2365": 8594,
+        "RCON2215": 8594,
+        "RCON2385": 8594,
+        "RCONJ474": 8594,
+        "RCONG803": 4241,
+        "RCON5597": 998
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 06302026.txt",
+          "FFIEC CDR Call Schedule RCH 06302026.txt",
+          "FFIEC CDR Call Schedule RCM 06302026.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 06302026.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 06302026.txt",
+          "FFIEC CDR Call Schedule RCRII 06302026(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 06302026.txt",
+          "FFIEC CDR Call Schedule RCRII 06302026(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 06302026.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 06302026.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 06302026.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 06302026.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 06302026.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 06302026.txt",
+          "FFIEC CDR Call Schedule RCH 06302026.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 06302026.txt",
+          "FFIEC CDR Call Schedule RCRII 06302026(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 06302026.txt",
+          "FFIEC CDR Call Schedule RCEI 06302026.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 06302026.txt",
+          "FFIEC CDR Call Schedule RCEI 06302026.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 06302026.txt",
+          "FFIEC CDR Call Schedule RCEI 06302026.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 06302026.txt",
+          "FFIEC CDR Call Schedule RCEI 06302026.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 06302026(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 06302026(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 06302026(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2017Q3",
+      "por_rows": 5789,
+      "filing_types": {
+        "051": 3655,
+        "041": 2065,
+        "031": 69
+      },
+      "present_mnemonics": {
+        "RCON3190": 17367,
+        "RCON2200": 5789,
+        "RCON2170": 11440,
+        "RCON3210": 5720,
+        "RCONB993": 5789,
+        "RCONB995": 11578,
+        "RCFD2170": 138,
+        "RCFD3210": 69,
+        "RCFD0071": 69,
+        "RCFD0081": 69,
+        "RCFD3123": 138,
+        "RCON2365": 11578,
+        "RCON2215": 11578,
+        "RCON2385": 11578,
+        "RCONJ474": 11578,
+        "RCONG803": 5743,
+        "RCON5597": 715,
+        "RCONL197": 5
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 09302017.txt",
+          "FFIEC CDR Call Schedule RCH 09302017.txt",
+          "FFIEC CDR Call Schedule RCM 09302017.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 09302017.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 09302017.txt",
+          "FFIEC CDR Call Schedule RCRII 09302017(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 09302017.txt",
+          "FFIEC CDR Call Schedule RCRII 09302017(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 09302017.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 09302017.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 09302017.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 09302017.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 09302017.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 09302017.txt",
+          "FFIEC CDR Call Schedule RCH 09302017.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 09302017.txt",
+          "FFIEC CDR Call Schedule RCRII 09302017(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 09302017.txt",
+          "FFIEC CDR Call Schedule RCEI 09302017.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 09302017.txt",
+          "FFIEC CDR Call Schedule RCEI 09302017.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 09302017.txt",
+          "FFIEC CDR Call Schedule RCEI 09302017.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 09302017.txt",
+          "FFIEC CDR Call Schedule RCEI 09302017.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 09302017(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 09302017(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 09302017(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2018Q3",
+      "por_rows": 5527,
+      "filing_types": {
+        "051": 3668,
+        "041": 1783,
+        "031": 76
+      },
+      "present_mnemonics": {
+        "RCON3190": 16548,
+        "RCON2200": 5527,
+        "RCON2170": 10902,
+        "RCON3210": 5451,
+        "RCONB993": 5527,
+        "RCONB995": 11030,
+        "RCFD2170": 152,
+        "RCFD3210": 76,
+        "RCFD0071": 76,
+        "RCFD0081": 76,
+        "RCFD3123": 152,
+        "RCON2365": 11054,
+        "RCON2215": 11054,
+        "RCON2385": 11054,
+        "RCONJ474": 11054,
+        "RCONG803": 5481,
+        "RCON5597": 720,
+        "RCONL197": 5
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 09302018.txt",
+          "FFIEC CDR Call Schedule RCH 09302018.txt",
+          "FFIEC CDR Call Schedule RCM 09302018.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 09302018.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 09302018.txt",
+          "FFIEC CDR Call Schedule RCRII 09302018(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 09302018.txt",
+          "FFIEC CDR Call Schedule RCRII 09302018(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 09302018.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 09302018.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 09302018.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 09302018.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 09302018.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 09302018.txt",
+          "FFIEC CDR Call Schedule RCH 09302018.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 09302018.txt",
+          "FFIEC CDR Call Schedule RCRII 09302018(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 09302018.txt",
+          "FFIEC CDR Call Schedule RCEI 09302018.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 09302018.txt",
+          "FFIEC CDR Call Schedule RCEI 09302018.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 09302018.txt",
+          "FFIEC CDR Call Schedule RCEI 09302018.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 09302018.txt",
+          "FFIEC CDR Call Schedule RCEI 09302018.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 09302018(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 09302018(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 09302018(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2019Q3",
+      "por_rows": 5308,
+      "filing_types": {
+        "051": 3752,
+        "041": 1484,
+        "031": 72
+      },
+      "present_mnemonics": {
+        "RCON3190": 15891,
+        "RCON2200": 5308,
+        "RCON2170": 10472,
+        "RCON3210": 5236,
+        "RCONB993": 5308,
+        "RCONB995": 10594,
+        "RCFD2170": 144,
+        "RCFD3210": 72,
+        "RCFD0071": 72,
+        "RCFD0081": 72,
+        "RCFD3123": 144,
+        "RCON2365": 10616,
+        "RCON2215": 10616,
+        "RCON2385": 10616,
+        "RCONJ474": 10616,
+        "RCONG803": 5262,
+        "RCON5597": 765,
+        "RCONL197": 4
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 09302019.txt",
+          "FFIEC CDR Call Schedule RCH 09302019.txt",
+          "FFIEC CDR Call Schedule RCM 09302019.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 09302019.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 09302019.txt",
+          "FFIEC CDR Call Schedule RCRII 09302019(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 09302019.txt",
+          "FFIEC CDR Call Schedule RCRII 09302019(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 09302019.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 09302019.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 09302019.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 09302019.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 09302019.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 09302019.txt",
+          "FFIEC CDR Call Schedule RCH 09302019.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 09302019.txt",
+          "FFIEC CDR Call Schedule RCRII 09302019(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 09302019.txt",
+          "FFIEC CDR Call Schedule RCEI 09302019.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 09302019.txt",
+          "FFIEC CDR Call Schedule RCEI 09302019.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 09302019.txt",
+          "FFIEC CDR Call Schedule RCEI 09302019.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 09302019.txt",
+          "FFIEC CDR Call Schedule RCEI 09302019.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 09302019(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 09302019(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 09302019(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2020Q3",
+      "por_rows": 5082,
+      "filing_types": {
+        "051": 3709,
+        "041": 1288,
+        "031": 85
+      },
+      "present_mnemonics": {
+        "RCON3190": 15165,
+        "RCON2200": 5082,
+        "RCON2170": 9994,
+        "RCON3210": 4997,
+        "RCONB993": 5082,
+        "RCONB995": 10110,
+        "RCFD2170": 170,
+        "RCFD3210": 85,
+        "RCFD0071": 85,
+        "RCFD0081": 85,
+        "RCFD3123": 170,
+        "RCON2365": 10164,
+        "RCON2215": 10164,
+        "RCON2385": 10164,
+        "RCONJ474": 10164,
+        "RCONG803": 5036,
+        "RCON5597": 769,
+        "RCONL197": 3
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 09302020.txt",
+          "FFIEC CDR Call Schedule RCH 09302020.txt",
+          "FFIEC CDR Call Schedule RCM 09302020.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 09302020.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 09302020.txt",
+          "FFIEC CDR Call Schedule RCRII 09302020(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 09302020.txt",
+          "FFIEC CDR Call Schedule RCRII 09302020(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 09302020.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 09302020.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 09302020.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 09302020.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 09302020.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 09302020.txt",
+          "FFIEC CDR Call Schedule RCH 09302020.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 09302020.txt",
+          "FFIEC CDR Call Schedule RCRII 09302020(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 09302020.txt",
+          "FFIEC CDR Call Schedule RCEI 09302020.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 09302020.txt",
+          "FFIEC CDR Call Schedule RCEI 09302020.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 09302020.txt",
+          "FFIEC CDR Call Schedule RCEI 09302020.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 09302020.txt",
+          "FFIEC CDR Call Schedule RCEI 09302020.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 09302020(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 09302020(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 09302020(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2021Q3",
+      "por_rows": 4962,
+      "filing_types": {
+        "051": 3646,
+        "041": 1231,
+        "031": 85
+      },
+      "present_mnemonics": {
+        "RCON3190": 14802,
+        "RCON2200": 4962,
+        "RCON2170": 9754,
+        "RCON3210": 4877,
+        "RCONB993": 4962,
+        "RCONB995": 9868,
+        "RCFD2170": 170,
+        "RCFD3210": 85,
+        "RCFD0071": 85,
+        "RCFD0081": 85,
+        "RCFD3123": 170,
+        "RCON2365": 9924,
+        "RCON2215": 9924,
+        "RCON2385": 9924,
+        "RCONJ474": 9924,
+        "RCONG803": 4917,
+        "RCON5597": 773,
+        "RCONL197": 3
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 09302021.txt",
+          "FFIEC CDR Call Schedule RCH 09302021.txt",
+          "FFIEC CDR Call Schedule RCM 09302021.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 09302021.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 09302021.txt",
+          "FFIEC CDR Call Schedule RCRII 09302021(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 09302021.txt",
+          "FFIEC CDR Call Schedule RCRII 09302021(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 09302021.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 09302021.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 09302021.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 09302021.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 09302021.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 09302021.txt",
+          "FFIEC CDR Call Schedule RCH 09302021.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 09302021.txt",
+          "FFIEC CDR Call Schedule RCRII 09302021(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 09302021.txt",
+          "FFIEC CDR Call Schedule RCEI 09302021.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 09302021.txt",
+          "FFIEC CDR Call Schedule RCEI 09302021.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 09302021.txt",
+          "FFIEC CDR Call Schedule RCEI 09302021.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 09302021.txt",
+          "FFIEC CDR Call Schedule RCEI 09302021.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 09302021(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 09302021(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 09302021(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2022Q3",
+      "por_rows": 4796,
+      "filing_types": {
+        "051": 3557,
+        "041": 1155,
+        "031": 84
+      },
+      "present_mnemonics": {
+        "RCON3190": 14307,
+        "RCON2200": 4796,
+        "RCON2170": 9424,
+        "RCON3210": 4712,
+        "RCONB993": 4796,
+        "RCONB995": 9538,
+        "RCFD2170": 168,
+        "RCFD3210": 84,
+        "RCFD0071": 84,
+        "RCFD0081": 84,
+        "RCFD3123": 168,
+        "RCON2365": 9592,
+        "RCON2215": 9592,
+        "RCON2385": 9592,
+        "RCONJ474": 9592,
+        "RCONG803": 4749,
+        "RCON5597": 927,
+        "RCONL197": 1
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 09302022.txt",
+          "FFIEC CDR Call Schedule RCH 09302022.txt",
+          "FFIEC CDR Call Schedule RCM 09302022.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 09302022.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 09302022.txt",
+          "FFIEC CDR Call Schedule RCRII 09302022(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 09302022.txt",
+          "FFIEC CDR Call Schedule RCRII 09302022(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 09302022.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 09302022.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 09302022.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 09302022.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 09302022.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 09302022.txt",
+          "FFIEC CDR Call Schedule RCH 09302022.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 09302022.txt",
+          "FFIEC CDR Call Schedule RCRII 09302022(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 09302022.txt",
+          "FFIEC CDR Call Schedule RCEI 09302022.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 09302022.txt",
+          "FFIEC CDR Call Schedule RCEI 09302022.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 09302022.txt",
+          "FFIEC CDR Call Schedule RCEI 09302022.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 09302022.txt",
+          "FFIEC CDR Call Schedule RCEI 09302022.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 09302022(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 09302022(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 09302022(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2023Q3",
+      "por_rows": 4669,
+      "filing_types": {
+        "051": 3484,
+        "041": 1104,
+        "031": 81
+      },
+      "present_mnemonics": {
+        "RCON3190": 13923,
+        "RCON2200": 4669,
+        "RCON2170": 9176,
+        "RCON3210": 4588,
+        "RCONB993": 4669,
+        "RCONB995": 9282,
+        "RCFD2170": 162,
+        "RCFD3210": 81,
+        "RCFD0071": 81,
+        "RCFD0081": 81,
+        "RCFD3123": 162,
+        "RCON2365": 9338,
+        "RCON2215": 9338,
+        "RCON2385": 9338,
+        "RCONJ474": 9338,
+        "RCONG803": 4617,
+        "RCON5597": 949,
+        "RCONL197": 1
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 09302023.txt",
+          "FFIEC CDR Call Schedule RCH 09302023.txt",
+          "FFIEC CDR Call Schedule RCM 09302023.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 09302023.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 09302023.txt",
+          "FFIEC CDR Call Schedule RCRII 09302023(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 09302023.txt",
+          "FFIEC CDR Call Schedule RCRII 09302023(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 09302023.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 09302023.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 09302023.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 09302023.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 09302023.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 09302023.txt",
+          "FFIEC CDR Call Schedule RCH 09302023.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 09302023.txt",
+          "FFIEC CDR Call Schedule RCRII 09302023(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 09302023.txt",
+          "FFIEC CDR Call Schedule RCEI 09302023.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 09302023.txt",
+          "FFIEC CDR Call Schedule RCEI 09302023.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 09302023.txt",
+          "FFIEC CDR Call Schedule RCEI 09302023.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 09302023.txt",
+          "FFIEC CDR Call Schedule RCEI 09302023.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 09302023(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 09302023(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 09302023(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2024Q3",
+      "por_rows": 4572,
+      "filing_types": {
+        "051": 3433,
+        "041": 1057,
+        "031": 82
+      },
+      "present_mnemonics": {
+        "RCON3190": 13632,
+        "RCON2200": 4572,
+        "RCON2170": 8980,
+        "RCON3210": 4490,
+        "RCONB993": 4572,
+        "RCONB995": 9088,
+        "RCFD2170": 164,
+        "RCFD3210": 82,
+        "RCFD0071": 82,
+        "RCFD0081": 82,
+        "RCFD3123": 164,
+        "RCON2365": 9144,
+        "RCON2215": 9144,
+        "RCON2385": 9144,
+        "RCONJ474": 9144,
+        "RCONG803": 4521,
+        "RCON5597": 975
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 09302024.txt",
+          "FFIEC CDR Call Schedule RCH 09302024.txt",
+          "FFIEC CDR Call Schedule RCM 09302024.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 09302024.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 09302024.txt",
+          "FFIEC CDR Call Schedule RCRII 09302024(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 09302024.txt",
+          "FFIEC CDR Call Schedule RCRII 09302024(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 09302024.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 09302024.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 09302024.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 09302024.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 09302024.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 09302024.txt",
+          "FFIEC CDR Call Schedule RCH 09302024.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 09302024.txt",
+          "FFIEC CDR Call Schedule RCRII 09302024(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 09302024.txt",
+          "FFIEC CDR Call Schedule RCEI 09302024.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 09302024.txt",
+          "FFIEC CDR Call Schedule RCEI 09302024.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 09302024.txt",
+          "FFIEC CDR Call Schedule RCEI 09302024.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 09302024.txt",
+          "FFIEC CDR Call Schedule RCEI 09302024.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 09302024(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 09302024(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 09302024(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2025Q3",
+      "por_rows": 4435,
+      "filing_types": {
+        "051": 3358,
+        "041": 997,
+        "031": 80
+      },
+      "present_mnemonics": {
+        "RCON3190": 13224,
+        "RCON2200": 4435,
+        "RCON2170": 8710,
+        "RCON3210": 4355,
+        "RCONB993": 4435,
+        "RCONB995": 8816,
+        "RCFD2170": 160,
+        "RCFD3210": 80,
+        "RCFD0071": 80,
+        "RCFD0081": 80,
+        "RCFD3123": 160,
+        "RCON2365": 8870,
+        "RCON2215": 8870,
+        "RCON2385": 8870,
+        "RCONJ474": 8870,
+        "RCONG803": 4382,
+        "RCON5597": 986
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 09302025.txt",
+          "FFIEC CDR Call Schedule RCH 09302025.txt",
+          "FFIEC CDR Call Schedule RCM 09302025.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 09302025.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 09302025.txt",
+          "FFIEC CDR Call Schedule RCRII 09302025(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 09302025.txt",
+          "FFIEC CDR Call Schedule RCRII 09302025(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 09302025.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 09302025.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 09302025.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 09302025.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 09302025.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 09302025.txt",
+          "FFIEC CDR Call Schedule RCH 09302025.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 09302025.txt",
+          "FFIEC CDR Call Schedule RCRII 09302025(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 09302025.txt",
+          "FFIEC CDR Call Schedule RCEI 09302025.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 09302025.txt",
+          "FFIEC CDR Call Schedule RCEI 09302025.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 09302025.txt",
+          "FFIEC CDR Call Schedule RCEI 09302025.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 09302025.txt",
+          "FFIEC CDR Call Schedule RCEI 09302025.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 09302025(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 09302025(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 09302025(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2017Q4",
+      "por_rows": 5721,
+      "filing_types": {
+        "051": 3641,
+        "041": 2012,
+        "031": 68
+      },
+      "present_mnemonics": {
+        "RCON3190": 17163,
+        "RCON2200": 5721,
+        "RCON2170": 11306,
+        "RCON3210": 5653,
+        "RCONB993": 5721,
+        "RCONB995": 11442,
+        "RCFD2170": 136,
+        "RCFD3210": 68,
+        "RCFD0071": 68,
+        "RCFD0081": 68,
+        "RCFD3123": 136,
+        "RCON2365": 11442,
+        "RCON2215": 11442,
+        "RCON2385": 11442,
+        "RCONJ474": 11442,
+        "RCONG803": 5675,
+        "RCON5597": 701,
+        "RCONL197": 5
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 12312017.txt",
+          "FFIEC CDR Call Schedule RCH 12312017.txt",
+          "FFIEC CDR Call Schedule RCM 12312017.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 12312017.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 12312017.txt",
+          "FFIEC CDR Call Schedule RCRII 12312017(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 12312017.txt",
+          "FFIEC CDR Call Schedule RCRII 12312017(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 12312017.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 12312017.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 12312017.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 12312017.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 12312017.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 12312017.txt",
+          "FFIEC CDR Call Schedule RCH 12312017.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 12312017.txt",
+          "FFIEC CDR Call Schedule RCRII 12312017(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 12312017.txt",
+          "FFIEC CDR Call Schedule RCEI 12312017.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 12312017.txt",
+          "FFIEC CDR Call Schedule RCEI 12312017.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 12312017.txt",
+          "FFIEC CDR Call Schedule RCEI 12312017.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 12312017.txt",
+          "FFIEC CDR Call Schedule RCEI 12312017.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 12312017(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 12312017(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 12312017(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2018Q4",
+      "por_rows": 5456,
+      "filing_types": {
+        "051": 3624,
+        "041": 1756,
+        "031": 76
+      },
+      "present_mnemonics": {
+        "RCON3190": 16335,
+        "RCON2200": 5456,
+        "RCON2170": 10760,
+        "RCON3210": 5380,
+        "RCONB993": 5456,
+        "RCONB995": 10888,
+        "RCFD2170": 152,
+        "RCFD3210": 76,
+        "RCFD0071": 76,
+        "RCFD0081": 76,
+        "RCFD3123": 152,
+        "RCON2365": 10912,
+        "RCON2215": 10912,
+        "RCON2385": 10912,
+        "RCONJ474": 10912,
+        "RCONG803": 5410,
+        "RCON5597": 720,
+        "RCONL197": 5
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 12312018.txt",
+          "FFIEC CDR Call Schedule RCH 12312018.txt",
+          "FFIEC CDR Call Schedule RCM 12312018.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 12312018.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 12312018.txt",
+          "FFIEC CDR Call Schedule RCRII 12312018(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 12312018.txt",
+          "FFIEC CDR Call Schedule RCRII 12312018(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 12312018.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 12312018.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 12312018.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 12312018.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 12312018.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 12312018.txt",
+          "FFIEC CDR Call Schedule RCH 12312018.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 12312018.txt",
+          "FFIEC CDR Call Schedule RCRII 12312018(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 12312018.txt",
+          "FFIEC CDR Call Schedule RCEI 12312018.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 12312018.txt",
+          "FFIEC CDR Call Schedule RCEI 12312018.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 12312018.txt",
+          "FFIEC CDR Call Schedule RCEI 12312018.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 12312018.txt",
+          "FFIEC CDR Call Schedule RCEI 12312018.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 12312018(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 12312018(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 12312018(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2019Q4",
+      "por_rows": 5227,
+      "filing_types": {
+        "051": 3722,
+        "041": 1433,
+        "031": 72
+      },
+      "present_mnemonics": {
+        "RCON3190": 15648,
+        "RCON2200": 5227,
+        "RCON2170": 10310,
+        "RCON3210": 5155,
+        "RCONB993": 5227,
+        "RCONB995": 10432,
+        "RCFD2170": 144,
+        "RCFD3210": 72,
+        "RCFD0071": 72,
+        "RCFD0081": 72,
+        "RCFD3123": 144,
+        "RCON2365": 10454,
+        "RCON2215": 10454,
+        "RCON2385": 10454,
+        "RCONJ474": 10454,
+        "RCONG803": 5181,
+        "RCON5597": 743,
+        "RCONL197": 4
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 12312019.txt",
+          "FFIEC CDR Call Schedule RCH 12312019.txt",
+          "FFIEC CDR Call Schedule RCM 12312019.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 12312019.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 12312019.txt",
+          "FFIEC CDR Call Schedule RCRII 12312019(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 12312019.txt",
+          "FFIEC CDR Call Schedule RCRII 12312019(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 12312019.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 12312019.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 12312019.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 12312019.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 12312019.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 12312019.txt",
+          "FFIEC CDR Call Schedule RCH 12312019.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 12312019.txt",
+          "FFIEC CDR Call Schedule RCRII 12312019(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 12312019.txt",
+          "FFIEC CDR Call Schedule RCEI 12312019.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 12312019.txt",
+          "FFIEC CDR Call Schedule RCEI 12312019.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 12312019.txt",
+          "FFIEC CDR Call Schedule RCEI 12312019.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 12312019.txt",
+          "FFIEC CDR Call Schedule RCEI 12312019.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 12312019(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 12312019(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 12312019(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2020Q4",
+      "por_rows": 5050,
+      "filing_types": {
+        "051": 3684,
+        "041": 1281,
+        "031": 85
+      },
+      "present_mnemonics": {
+        "RCON3190": 15069,
+        "RCON2200": 5050,
+        "RCON2170": 9930,
+        "RCON3210": 4965,
+        "RCONB993": 5050,
+        "RCONB995": 10046,
+        "RCFD2170": 170,
+        "RCFD3210": 85,
+        "RCFD0071": 85,
+        "RCFD0081": 85,
+        "RCFD3123": 170,
+        "RCON2365": 10100,
+        "RCON2215": 10100,
+        "RCON2385": 10100,
+        "RCONJ474": 10100,
+        "RCONG803": 5005,
+        "RCON5597": 771,
+        "RCONL197": 3
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 12312020.txt",
+          "FFIEC CDR Call Schedule RCH 12312020.txt",
+          "FFIEC CDR Call Schedule RCM 12312020.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 12312020.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 12312020.txt",
+          "FFIEC CDR Call Schedule RCRII 12312020(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 12312020.txt",
+          "FFIEC CDR Call Schedule RCRII 12312020(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 12312020.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 12312020.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 12312020.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 12312020.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 12312020.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 12312020.txt",
+          "FFIEC CDR Call Schedule RCH 12312020.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 12312020.txt",
+          "FFIEC CDR Call Schedule RCRII 12312020(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 12312020.txt",
+          "FFIEC CDR Call Schedule RCEI 12312020.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 12312020.txt",
+          "FFIEC CDR Call Schedule RCEI 12312020.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 12312020.txt",
+          "FFIEC CDR Call Schedule RCEI 12312020.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 12312020.txt",
+          "FFIEC CDR Call Schedule RCEI 12312020.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 12312020(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 12312020(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 12312020(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2021Q4",
+      "por_rows": 4887,
+      "filing_types": {
+        "051": 3599,
+        "041": 1204,
+        "031": 84
+      },
+      "present_mnemonics": {
+        "RCON3190": 14580,
+        "RCON2200": 4887,
+        "RCON2170": 9606,
+        "RCON3210": 4803,
+        "RCONB993": 4887,
+        "RCONB995": 9720,
+        "RCFD2170": 168,
+        "RCFD3210": 84,
+        "RCFD0071": 84,
+        "RCFD0081": 84,
+        "RCFD3123": 168,
+        "RCON2365": 9774,
+        "RCON2215": 9774,
+        "RCON2385": 9774,
+        "RCONJ474": 9774,
+        "RCONG803": 4841,
+        "RCON5597": 756,
+        "RCONL197": 3
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 12312021.txt",
+          "FFIEC CDR Call Schedule RCH 12312021.txt",
+          "FFIEC CDR Call Schedule RCM 12312021.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 12312021.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 12312021.txt",
+          "FFIEC CDR Call Schedule RCRII 12312021(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 12312021.txt",
+          "FFIEC CDR Call Schedule RCRII 12312021(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 12312021.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 12312021.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 12312021.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 12312021.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 12312021.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 12312021.txt",
+          "FFIEC CDR Call Schedule RCH 12312021.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 12312021.txt",
+          "FFIEC CDR Call Schedule RCRII 12312021(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 12312021.txt",
+          "FFIEC CDR Call Schedule RCEI 12312021.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 12312021.txt",
+          "FFIEC CDR Call Schedule RCEI 12312021.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 12312021.txt",
+          "FFIEC CDR Call Schedule RCEI 12312021.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 12312021.txt",
+          "FFIEC CDR Call Schedule RCEI 12312021.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 12312021(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 12312021(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 12312021(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2022Q4",
+      "por_rows": 4756,
+      "filing_types": {
+        "051": 3529,
+        "041": 1144,
+        "031": 83
+      },
+      "present_mnemonics": {
+        "RCON3190": 14187,
+        "RCON2200": 4756,
+        "RCON2170": 9346,
+        "RCON3210": 4673,
+        "RCONB993": 4756,
+        "RCONB995": 9458,
+        "RCFD2170": 166,
+        "RCFD3210": 83,
+        "RCFD0071": 83,
+        "RCFD0081": 83,
+        "RCFD3123": 166,
+        "RCON2365": 9512,
+        "RCON2215": 9512,
+        "RCON2385": 9512,
+        "RCONJ474": 9512,
+        "RCONG803": 4709,
+        "RCON5597": 923,
+        "RCONL197": 1
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 12312022.txt",
+          "FFIEC CDR Call Schedule RCH 12312022.txt",
+          "FFIEC CDR Call Schedule RCM 12312022.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 12312022.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 12312022.txt",
+          "FFIEC CDR Call Schedule RCRII 12312022(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 12312022.txt",
+          "FFIEC CDR Call Schedule RCRII 12312022(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 12312022.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 12312022.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 12312022.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 12312022.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 12312022.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 12312022.txt",
+          "FFIEC CDR Call Schedule RCH 12312022.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 12312022.txt",
+          "FFIEC CDR Call Schedule RCRII 12312022(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 12312022.txt",
+          "FFIEC CDR Call Schedule RCEI 12312022.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 12312022.txt",
+          "FFIEC CDR Call Schedule RCEI 12312022.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 12312022.txt",
+          "FFIEC CDR Call Schedule RCEI 12312022.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 12312022.txt",
+          "FFIEC CDR Call Schedule RCEI 12312022.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 12312022(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 12312022(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2023Q4",
+      "por_rows": 4641,
+      "filing_types": {
+        "051": 3464,
+        "041": 1096,
+        "031": 81
+      },
+      "present_mnemonics": {
+        "RCON3190": 13839,
+        "RCON2200": 4641,
+        "RCON2170": 9120,
+        "RCON3210": 4560,
+        "RCONB993": 4641,
+        "RCONB995": 9226,
+        "RCFD2170": 162,
+        "RCFD3210": 81,
+        "RCFD0071": 81,
+        "RCFD0081": 81,
+        "RCFD3123": 162,
+        "RCON2365": 9282,
+        "RCON2215": 9282,
+        "RCON2385": 9282,
+        "RCONJ474": 9282,
+        "RCONG803": 4590,
+        "RCON5597": 945,
+        "RCONL197": 3
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 12312023.txt",
+          "FFIEC CDR Call Schedule RCH 12312023.txt",
+          "FFIEC CDR Call Schedule RCM 12312023.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 12312023.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 12312023.txt",
+          "FFIEC CDR Call Schedule RCRII 12312023(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 12312023.txt",
+          "FFIEC CDR Call Schedule RCRII 12312023(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 12312023.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 12312023.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 12312023.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 12312023.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 12312023.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 12312023.txt",
+          "FFIEC CDR Call Schedule RCH 12312023.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 12312023.txt",
+          "FFIEC CDR Call Schedule RCRII 12312023(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 12312023.txt",
+          "FFIEC CDR Call Schedule RCEI 12312023.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 12312023.txt",
+          "FFIEC CDR Call Schedule RCEI 12312023.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 12312023.txt",
+          "FFIEC CDR Call Schedule RCEI 12312023.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 12312023.txt",
+          "FFIEC CDR Call Schedule RCEI 12312023.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 12312023(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 12312023(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 12312023(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2024Q4",
+      "por_rows": 4543,
+      "filing_types": {
+        "051": 3408,
+        "041": 1053,
+        "031": 82
+      },
+      "present_mnemonics": {
+        "RCON3190": 13545,
+        "RCON2200": 4543,
+        "RCON2170": 8922,
+        "RCON3210": 4461,
+        "RCONB993": 4543,
+        "RCONB995": 9030,
+        "RCFD2170": 164,
+        "RCFD3210": 82,
+        "RCFD0071": 82,
+        "RCFD0081": 82,
+        "RCFD3123": 164,
+        "RCON2365": 9086,
+        "RCON2215": 9086,
+        "RCON2385": 9086,
+        "RCONJ474": 9086,
+        "RCONG803": 4490,
+        "RCON5597": 977
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 12312024.txt",
+          "FFIEC CDR Call Schedule RCH 12312024.txt",
+          "FFIEC CDR Call Schedule RCM 12312024.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 12312024.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 12312024.txt",
+          "FFIEC CDR Call Schedule RCRII 12312024(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 12312024.txt",
+          "FFIEC CDR Call Schedule RCRII 12312024(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 12312024.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 12312024.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 12312024.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 12312024.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 12312024.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 12312024.txt",
+          "FFIEC CDR Call Schedule RCH 12312024.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 12312024.txt",
+          "FFIEC CDR Call Schedule RCRII 12312024(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 12312024.txt",
+          "FFIEC CDR Call Schedule RCEI 12312024.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 12312024.txt",
+          "FFIEC CDR Call Schedule RCEI 12312024.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 12312024.txt",
+          "FFIEC CDR Call Schedule RCEI 12312024.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 12312024.txt",
+          "FFIEC CDR Call Schedule RCEI 12312024.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 12312024(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 12312024(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 12312024(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    },
+    {
+      "report_period": "2025Q4",
+      "por_rows": 4394,
+      "filing_types": {
+        "051": 3327,
+        "041": 987,
+        "031": 80
+      },
+      "present_mnemonics": {
+        "RCON3190": 13101,
+        "RCON2200": 4394,
+        "RCON2170": 8628,
+        "RCON3210": 4314,
+        "RCONB993": 4394,
+        "RCONB995": 8734,
+        "RCFD2170": 160,
+        "RCFD3210": 80,
+        "RCFD0071": 80,
+        "RCFD0081": 80,
+        "RCFD3123": 160,
+        "RCON2365": 8788,
+        "RCON2215": 8788,
+        "RCON2385": 8788,
+        "RCONJ474": 8788,
+        "RCONG803": 4341,
+        "RCON5597": 977
+      },
+      "field_schedules": {
+        "RCON3190": [
+          "FFIEC CDR Call Schedule RC 12312025.txt",
+          "FFIEC CDR Call Schedule RCH 12312025.txt",
+          "FFIEC CDR Call Schedule RCM 12312025.txt"
+        ],
+        "RCON2200": [
+          "FFIEC CDR Call Schedule RC 12312025.txt"
+        ],
+        "RCFD2170": [
+          "FFIEC CDR Call Schedule RC 12312025.txt",
+          "FFIEC CDR Call Schedule RCRII 12312025(1 of 4).txt"
+        ],
+        "RCON2170": [
+          "FFIEC CDR Call Schedule RC 12312025.txt",
+          "FFIEC CDR Call Schedule RCRII 12312025(2 of 4).txt"
+        ],
+        "RCFD3210": [
+          "FFIEC CDR Call Schedule RC 12312025.txt"
+        ],
+        "RCON3210": [
+          "FFIEC CDR Call Schedule RC 12312025.txt"
+        ],
+        "RCFD0071": [
+          "FFIEC CDR Call Schedule RC 12312025.txt"
+        ],
+        "RCFD0081": [
+          "FFIEC CDR Call Schedule RC 12312025.txt"
+        ],
+        "RCONB993": [
+          "FFIEC CDR Call Schedule RC 12312025.txt"
+        ],
+        "RCONB995": [
+          "FFIEC CDR Call Schedule RC 12312025.txt",
+          "FFIEC CDR Call Schedule RCH 12312025.txt"
+        ],
+        "RCFD3123": [
+          "FFIEC CDR Call Schedule RC 12312025.txt",
+          "FFIEC CDR Call Schedule RCRII 12312025(1 of 4).txt"
+        ],
+        "RCON2365": [
+          "FFIEC CDR Call Schedule RCE 12312025.txt",
+          "FFIEC CDR Call Schedule RCEI 12312025.txt"
+        ],
+        "RCON2215": [
+          "FFIEC CDR Call Schedule RCE 12312025.txt",
+          "FFIEC CDR Call Schedule RCEI 12312025.txt"
+        ],
+        "RCON2385": [
+          "FFIEC CDR Call Schedule RCE 12312025.txt",
+          "FFIEC CDR Call Schedule RCEI 12312025.txt"
+        ],
+        "RCONJ474": [
+          "FFIEC CDR Call Schedule RCE 12312025.txt",
+          "FFIEC CDR Call Schedule RCEI 12312025.txt"
+        ],
+        "RCON5597": [
+          "FFIEC CDR Call Schedule RCO 12312025(1 of 2).txt"
+        ],
+        "RCONG803": [
+          "FFIEC CDR Call Schedule RCO 12312025(1 of 2).txt"
+        ],
+        "RCONL197": [
+          "FFIEC CDR Call Schedule RCO 12312025(2 of 2).txt"
+        ]
+      },
+      "conflicting_duplicate_values": {}
+    }
+  ],
+  "rows": 189811,
+  "unique_banks": 6006,
+  "first_period": "2017Q1",
+  "last_period": "2026Q2",
+  "uninsured_coverage": 0.1707329922923329,
+  "domestic_deposit_coverage": 1.0
+}

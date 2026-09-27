@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-09-27T08:51:41.249113+00:00",
+  "history_events": 185483,
+  "failure_rows": 4117,
+  "matched_events_1984_plus": 77726,
+  "event_counts": {
+    "other_change": 87047,
+    "merged_or_acquired": 46951,
+    "new_institution": 25914,
+    "charter_or_regulator_change": 15528,
+    "failed": 7702,
+    "closed": 3453,
+    "branch_transfer": 3005
+  },
+  "mapping_confidence": {
+    "unmatched": 110992,
+    "high": 60823,
+    "medium": 16682,
+    "low": 1103
+  },
+  "structural_matched_1984_plus": 44282,
+  "predecessor_successor_namespace": "FDIC_UNINUM, not RSSD; null where absent",
+  "disappearance_policy": "Never infer failure or merger solely from Call Report disappearance"
+}

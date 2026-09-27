@@ -1,0 +1,7 @@
+guidance_or_requirement,research_question,data,method,experiment,metric,artifact,conclusion
+SR26-2 outcome analysis,Where does preferred model fail,NY Fed plus FDIC,Independent challenge and subgroup OOT,E20-E27,Q05 pinball and severe miss rate,results.duckdb validation_findings,pending
+SR26-2 monitoring,When should recalibration trigger,NY Fed plus macro,Historical deployment simulation,E36-E37,detection delay and false alerts,results.duckdb monitoring,pending
+SR10-6 liquidity stress,Do forecast gains change Treasury outcomes,Call Reports plus H8,Scenario translation and recovery,E31-E35,PFN proxy and shortfall,results.duckdb stress_runs,pending
+SR12-7 reverse stress,What shock breaches the proxy,Call Reports plus H8,Constrained reverse optimization,E33,minimum shock severity,results.duckdb reverse_stress,pending
+Point-in-time control,How much does leakage overstate accuracy,Call Reports plus ALFRED,Temporal and negative controls,E01-E05,Q05 pinball gap,results.duckdb metrics,pending
+Complexity governance,Is RAHQ-C worth its burden,Core and Enhanced panels,Challenger comparison and ablation,E07-E19,tail loss calibration runtime,results.duckdb metrics,pending

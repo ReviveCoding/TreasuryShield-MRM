@@ -1,0 +1,21 @@
+{
+  "created_at": "2026-09-27T08:43:20.062956+00:00",
+  "source_rows": 2557391,
+  "commercial_1984_plus_rows": 1384379,
+  "supervised_eligible_rows": 1383380,
+  "nonpositive_assets": 2,
+  "nonpositive_deposits": 991,
+  "duplicate_bank_quarter": 0,
+  "asset_identity_gap_gt_1pct": 1525,
+  "asset_identity_gap_nonmissing": 1384369,
+  "income_join_coverage": 0.9999934988901161,
+  "min_quarter": "1984Q1",
+  "max_quarter": "2026Q1",
+  "availability_lag_days_assumed": 45,
+  "source_vintage": "NYFED_JUN2026_RESTATED",
+  "commercial_entity_types": [
+    "NAT",
+    "NMB",
+    "SMB"
+  ]
+}

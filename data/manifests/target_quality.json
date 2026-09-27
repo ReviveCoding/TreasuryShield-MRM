@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-09-27T08:56:58.196049+00:00",
+  "total_rows": 4015816,
+  "by_horizon": {
+    "1": {
+      "origin_rows": 1383380,
+      "observed_future_rows": 1364002,
+      "missing_future_rows": 19378,
+      "mna_contaminated_radius_0": 32052,
+      "mna_contaminated_radius_1": 72455,
+      "mna_contaminated_radius_2": 109766,
+      "prelock_observed_rows": 1332654
+    },
+    "2": {
+      "origin_rows": 1383380,
+      "observed_future_rows": 1344842,
+      "missing_future_rows": 38538,
+      "mna_contaminated_radius_0": 45981,
+      "mna_contaminated_radius_1": 84561,
+      "mna_contaminated_radius_2": 120314,
+      "prelock_observed_rows": 1317528
+    },
+    "4": {
+      "origin_rows": 1383380,
+      "observed_future_rows": 1306972,
+      "missing_future_rows": 76408,
+      "mna_contaminated_radius_0": 70977,
+      "mna_contaminated_radius_1": 106314,
+      "mna_contaminated_radius_2": 139333,
+      "prelock_observed_rows": 1287642
+    }
+  },
+  "event_exclusion_definition": "M&A or branch-transfer event quarter within forecast path plus selected radius; primary radius=1",
+  "failure_policy": "Failure comes from FDIC only; no failure inference from disappearance",
+  "outcome_availability_rule": "Future report quarter end plus 45 days; all outcome dates after origin",
+  "locked_holdout_policy": "Only eligibility counts before preregistration; do not inspect 2024+ target values or performance"
+}

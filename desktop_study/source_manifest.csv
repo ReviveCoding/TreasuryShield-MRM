@@ -1,0 +1,16 @@
+source_id,organization,title,url,accessed_utc,purpose
+SR26-2,Federal Reserve,Revised Guidance on Model Risk Management,https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm,2026-09-27,governance
+SR26-2-TEXT,Federal Reserve,Supervisory Guidance on Model Risk Management,https://www.federalreserve.gov/frrs/guidance/supervisory-guidance-on-model-risk-management.htm,2026-09-27,validation
+SR10-6,Federal Reserve,Funding and Liquidity Risk Management,https://www.federalreserve.gov/boarddocs/srletters/2010/sr1006.htm,2026-09-27,liquidity
+SR12-7,Federal Reserve,Stress Testing Guidance,https://www.federalreserve.gov/supervisionreg/srletters/sr1207.htm,2026-09-27,stress
+NYFED-CALL,New York Fed,Balance Sheets and Income Statements of Commercial Banks,https://www.newyorkfed.org/research/banking_research/balance-sheets-income-statements,2026-09-27,core_data
+NYFED-README,New York Fed,Historical Call Report README,https://www.newyorkfed.org/medialibrary/media/research/banking_research/balance-sheets-income-statements/README,2026-09-27,construction
+FFIEC-CDR,FFIEC,Public Data Distribution,https://cdr.ffiec.gov/public/,2026-09-27,enhanced_data
+FFIEC-2026Q1,FFIEC,First Quarter 2026 Call Report Instructions,https://www.ffiec.gov/sites/default/files/data/reporting-forms/FFIEC031_FFIEC041_FFIEC51_FIL10_202604.pdf,2026-09-27,release_lags
+FDIC-API,FDIC,BankFind Suite API Documentation,https://api.fdic.gov/banks/docs,2026-09-27,entities_and_failures
+H8,Federal Reserve,H.8 About,https://www.federalreserve.gov/releases/h8/about.htm,2026-09-27,weekly_aggregate
+ALFRED,Federal Reserve Bank of St. Louis,FRED API Real-Time Periods,https://fred.stlouisfed.org/docs/api/fred/realtime_period.html,2026-09-27,macro_vintages
+FRY9C,Federal Reserve,FR Y-9C Reporting Form,https://www.federalreserve.gov/apps/reportingforms/Report/Index/FR_Y-9C,2026-09-27,bhc_validation
+PYTORCH,PyTorch,Start Locally,https://docs.pytorch.org/get-started/locally/,2026-09-27,cuda_install
+XGBOOST,XGBoost,XGBoost GPU Support,https://xgboost.readthedocs.io/en/stable/gpu/,2026-09-27,cuda_model
+LIGHTGBM,LightGBM,Installation Guide,https://lightgbm.readthedocs.io/en/stable/Installation-Guide.html,2026-09-27,windows_gpu_limit

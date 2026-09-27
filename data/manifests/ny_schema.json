@@ -1,0 +1,1348 @@
+{
+  "call-reports-balance-sheets-Jun2026.dta": {
+    "number_rows": 2557391,
+    "number_columns": 194,
+    "columns": [
+      {
+        "name": "id_rssd",
+        "label": null
+      },
+      {
+        "name": "date",
+        "label": null
+      },
+      {
+        "name": "id_rssd_hd_off",
+        "label": "Head Office RSSD ID"
+      },
+      {
+        "name": "id_cusip",
+        "label": "CUSIP ID"
+      },
+      {
+        "name": "id_thrift",
+        "label": "Thrift ID"
+      },
+      {
+        "name": "id_aba_prim",
+        "label": "Primary ABA Number"
+      },
+      {
+        "name": "id_fdic_cert",
+        "label": "FDIC Certificate ID"
+      },
+      {
+        "name": "id_occ",
+        "label": "OCC Charter ID"
+      },
+      {
+        "name": "state_cd",
+        "label": "Physical State Code"
+      },
+      {
+        "name": "ent_type_cd",
+        "label": null
+      },
+      {
+        "name": "reg_hh_1_id",
+        "label": "Regulatory High Holder RSSD ID"
+      },
+      {
+        "name": "fin_hh_id",
+        "label": "Financial High Holder RSSD ID"
+      },
+      {
+        "name": "reg_dh_1_id",
+        "label": "Regulatory Direct Holder RSSD ID"
+      },
+      {
+        "name": "fgn_call_fam_id",
+        "label": "Foreign Call Family RSSD ID"
+      },
+      {
+        "name": "chtr_type_cd",
+        "label": "Charter Type"
+      },
+      {
+        "name": "nm_lgl",
+        "label": "Legal Name"
+      },
+      {
+        "name": "nm_short",
+        "label": "Short Name"
+      },
+      {
+        "name": "reason_term_cd",
+        "label": "Reason For Termination Of An Entity"
+      },
+      {
+        "name": "entity_type",
+        "label": "Entity Type"
+      },
+      {
+        "name": "act_prim_cd",
+        "label": "Primary Activity Code"
+      },
+      {
+        "name": "city",
+        "label": "City/Town Text Name"
+      },
+      {
+        "name": "cntry_nm",
+        "label": "Country Name"
+      },
+      {
+        "name": "state_abbr_nm",
+        "label": "State Abbreviation"
+      },
+      {
+        "name": "street_line1",
+        "label": "Physical Street Line"
+      },
+      {
+        "name": "zip_cd",
+        "label": "Zip/Foreign Mailing Code"
+      },
+      {
+        "name": "county_cd",
+        "label": "County Code"
+      },
+      {
+        "name": "dist_frs",
+        "label": "Federal Reserve District Code"
+      },
+      {
+        "name": "cntry_cd",
+        "label": "Country Code"
+      },
+      {
+        "name": "dt_end",
+        "label": "Date End"
+      },
+      {
+        "name": "dt_open",
+        "label": "Date Of Opening"
+      },
+      {
+        "name": "id_tax",
+        "label": "Tax ID"
+      },
+      {
+        "name": "id_lei",
+        "label": "Legal Entity Identifier"
+      },
+      {
+        "name": "assets",
+        "label": "Total Assets"
+      },
+      {
+        "name": "cash",
+        "label": "Cash"
+      },
+      {
+        "name": "securities",
+        "label": "Total Securities"
+      },
+      {
+        "name": "ln_tot_gross",
+        "label": "Total Loans, gross"
+      },
+      {
+        "name": "ln_tot",
+        "label": "Total Loans and Leases Net of Unearned Income"
+      },
+      {
+        "name": "llres",
+        "label": "Loan Loss Reserve"
+      },
+      {
+        "name": "trad_ass",
+        "label": "Trading Assets"
+      },
+      {
+        "name": "ffrepo_ass",
+        "label": "Federal Funds Sold, Securities Purchased under Agreements to Resell"
+      },
+      {
+        "name": "ffsold",
+        "label": "Federal Funds Sold"
+      },
+      {
+        "name": "repo_purch",
+        "label": "Securities Purchased Under Agreement to Resell"
+      },
+      {
+        "name": "fixed_ass",
+        "label": "Total Fixed Assets"
+      },
+      {
+        "name": "oreo",
+        "label": "Other Real Estate Owned"
+      },
+      {
+        "name": "oth_assets",
+        "label": "Other assets"
+      },
+      {
+        "name": "oth_assets_alt",
+        "label": "Other assets (alt)"
+      },
+      {
+        "name": "earn_ass",
+        "label": "Interest Earning Assets"
+      },
+      {
+        "name": "earn_ass_1959",
+        "label": "Interest Earning Assets (1959 Time-Consistent Version)"
+      },
+      {
+        "name": "demand_deposits",
+        "label": "Total Demand Deposits"
+      },
+      {
+        "name": "time_deposits",
+        "label": "Total Time Deposits"
+      },
+      {
+        "name": "deposits",
+        "label": "Total Deposits"
+      },
+      {
+        "name": "ffrepo_liab",
+        "label": "Federal Funds Purchased, Securities Sold Under Agreements to Repurchase"
+      },
+      {
+        "name": "ffpurch",
+        "label": "Federal Funds Purchased"
+      },
+      {
+        "name": "repo_sold",
+        "label": "Securities Sold Under Agreements to Repurchase"
+      },
+      {
+        "name": "trad_liab",
+        "label": "Total Trading Liabilities"
+      },
+      {
+        "name": "othbor_liab",
+        "label": "Other Borrowed Money"
+      },
+      {
+        "name": "subdebt",
+        "label": "Subordinated notes and debentures"
+      },
+      {
+        "name": "liab_oth",
+        "label": "Other Liabilities"
+      },
+      {
+        "name": "liab_tot",
+        "label": "Total Liabilities"
+      },
+      {
+        "name": "liab_tot_unadj",
+        "label": "Total Liabilities (unadjusted)"
+      },
+      {
+        "name": "minorint",
+        "label": "Minority interest in consolidated subsidiaries"
+      },
+      {
+        "name": "pref_stock",
+        "label": "Preferred Stock, total"
+      },
+      {
+        "name": "comm_stock",
+        "label": "Common Stock"
+      },
+      {
+        "name": "surplus",
+        "label": "Surplus"
+      },
+      {
+        "name": "retain_earn",
+        "label": "Retained Earnings / Undivided profits and capital reserves"
+      },
+      {
+        "name": "equity",
+        "label": "Total Equity"
+      },
+      {
+        "name": "ln_re",
+        "label": "Real Estate Loans"
+      },
+      {
+        "name": "ln_fi",
+        "label": "Loans to Financial Institutions"
+      },
+      {
+        "name": "ln_dep_inst",
+        "label": "Loans to Depository Institutions and Acceptances of Other Banks"
+      },
+      {
+        "name": "ln_dep_inst_dom",
+        "label": "Loans to Depository Institutions and Acceptances of Other Banks (domestic only)"
+      },
+      {
+        "name": "ln_oth",
+        "label": "Other loans (Incl. Loans to Non-Dep Fin Inst & for purchasing/carrying sec.)"
+      },
+      {
+        "name": "ln_cc",
+        "label": "Credit Card Loans"
+      },
+      {
+        "name": "ln_ci",
+        "label": "C&I Loans"
+      },
+      {
+        "name": "ln_cons",
+        "label": "Consumer Loans"
+      },
+      {
+        "name": "npl_tot",
+        "label": "Non-performing Loans, Total"
+      },
+      {
+        "name": "brokered_dep",
+        "label": "Brokered Deposits"
+      },
+      {
+        "name": "insured_deposits",
+        "label": "Insured Deposits (line item)"
+      },
+      {
+        "name": "insured_deposits_alt",
+        "label": "Insured Deposits (alternate construction)"
+      },
+      {
+        "name": "afssec_fv",
+        "label": "Total AFS Securities (Fair Value)"
+      },
+      {
+        "name": "brokered_dep_ge100k",
+        "label": "Brokered deposits issued in denominations equal to or greater than $100K"
+      },
+      {
+        "name": "brokered_dep_lt100k",
+        "label": "Brokered deposits issued in denominations of less than $100K"
+      },
+      {
+        "name": "dom_deposit_ib",
+        "label": "Interest-Bearing Domestic Deposits"
+      },
+      {
+        "name": "dom_deposit_nib",
+        "label": "Noninterest-Bearing Domestic Deposits"
+      },
+      {
+        "name": "domestic_dep",
+        "label": "Deposits in Domestic Offices"
+      },
+      {
+        "name": "for_deposit_ib",
+        "label": "Interest Bearing Foreign Deposits"
+      },
+      {
+        "name": "for_deposit_nib",
+        "label": "Noninterest-Bearing Foreign Deposits"
+      },
+      {
+        "name": "foreign_dep",
+        "label": "Deposits in Foreign Offices"
+      },
+      {
+        "name": "gross_hedging",
+        "label": "Gross Hedging"
+      },
+      {
+        "name": "htmsec_ac",
+        "label": "Total HTM Securities (Amortized Cost)"
+      },
+      {
+        "name": "ln_agr",
+        "label": "Loans to Finance Agricultural Production"
+      },
+      {
+        "name": "ln_cre",
+        "label": "Commercial Real Estate Loans"
+      },
+      {
+        "name": "ln_lease",
+        "label": "Lease financing receivables"
+      },
+      {
+        "name": "ln_lease_1y_3y",
+        "label": "Loans and Leases, with rem maturity or next repricing date of 1-3 yrs"
+      },
+      {
+        "name": "ln_lease_3mo_12mo",
+        "label": "Loans and Leases, with rem maturity or next repricing date of 3-12 Months"
+      },
+      {
+        "name": "ln_lease_3mo_less",
+        "label": "Loans and Leases, with rem maturity or next repricing date of <= 3 months"
+      },
+      {
+        "name": "ln_lease_3y_5y",
+        "label": "Loans and Leases, with rem maturity or next repricing date of 3-5 yrs"
+      },
+      {
+        "name": "ln_lease_5y_15y",
+        "label": "Loans and Leases, with rem maturity or next repricing date of 5-15 yrs"
+      },
+      {
+        "name": "ln_lease_mat_1y_less",
+        "label": "Loans and Leases with a REMAINING MATURITY of one year or less"
+      },
+      {
+        "name": "ln_lease_over_15y",
+        "label": "Loans and Leases, with rem maturity or next repricing date of over 15 yrs"
+      },
+      {
+        "name": "ln_rre",
+        "label": "Residential Real Estate Loans"
+      },
+      {
+        "name": "nontransaction_dep",
+        "label": "Total Nontransaction Accounts (including MMDAs)"
+      },
+      {
+        "name": "nontransaction_sav_dep",
+        "label": "Nontransaction Savings Deposits"
+      },
+      {
+        "name": "other_mbs_3y_less",
+        "label": "Other MBS, with remaining maturity or next repricing date of 3 yrs or less"
+      },
+      {
+        "name": "other_mbs_3y_more",
+        "label": "Other MBS, with remaining maturity or next repricing date of over 3 yrs"
+      },
+      {
+        "name": "qtr_avg_assets",
+        "label": "Quarterly Average of Total Assets"
+      },
+      {
+        "name": "qtr_avg_ffrepo_ass",
+        "label": "Quarterly avg of fed funds sold and sec purchased under agreements to resell"
+      },
+      {
+        "name": "qtr_avg_ffrepo_liab",
+        "label": "Quarterly avg of fed funds purchased and sec sold under agreements to repurchase"
+      },
+      {
+        "name": "qtr_avg_fgn_dep",
+        "label": "Quarterly Average of interest-bearing deposits in foreign offices"
+      },
+      {
+        "name": "qtr_avg_ib_bal_due",
+        "label": "Quarterly Average of Interest-bearing balances due from dep inst"
+      },
+      {
+        "name": "qtr_avg_lease",
+        "label": "Quarterly Average of total loans in foreign offices"
+      },
+      {
+        "name": "qtr_avg_ln_agr",
+        "label": "Quarterly avg of lns to Finance Ag Production and other loans to farmers"
+      },
+      {
+        "name": "qtr_avg_ln_cc",
+        "label": "Quarterly Average of Credit cards"
+      },
+      {
+        "name": "qtr_avg_ln_ci",
+        "label": "Quarterly Average of C&I Loans"
+      },
+      {
+        "name": "qtr_avg_ln_cons",
+        "label": "Quarterly Average of Loans to individuals for personal expenditures"
+      },
+      {
+        "name": "qtr_avg_ln_fgn",
+        "label": "Quarterly Average of total loans in foreign offices"
+      },
+      {
+        "name": "qtr_avg_ln_othcons",
+        "label": "Quarterly Average of Other Loans to individuals for personal expenditures"
+      },
+      {
+        "name": "qtr_avg_ln_othre",
+        "label": "Quarterly avg of All Other Loans secured by Real Estate"
+      },
+      {
+        "name": "qtr_avg_ln_re",
+        "label": "Quarterly avg of Loans secured by real estate"
+      },
+      {
+        "name": "qtr_avg_ln_rre",
+        "label": "Quarterly avg of Loans secured by 1-4 family residential properties"
+      },
+      {
+        "name": "qtr_avg_ln_tot",
+        "label": "Quarterly avg of Total Loans (in Domestic Offices)"
+      },
+      {
+        "name": "qtr_avg_mbs",
+        "label": "Quarterly Avg of Mortgage-backed securities"
+      },
+      {
+        "name": "qtr_avg_oth_sec",
+        "label": "Quarterly avg of all other securities"
+      },
+      {
+        "name": "qtr_avg_othbor_liab",
+        "label": "Quarterly avg of Other borrowed money"
+      },
+      {
+        "name": "qtr_avg_sav_dep_dom",
+        "label": "Quarterly Average of Savings Deposits (includes MMDAs)"
+      },
+      {
+        "name": "qtr_avg_securities",
+        "label": "Quarterly Avg of Securities"
+      },
+      {
+        "name": "qtr_avg_time_cd_ge100k",
+        "label": "Quarterly Average of Time CDs of >= 100K"
+      },
+      {
+        "name": "qtr_avg_time_dep_ge100k",
+        "label": "Quarterly Average of Time Deposits of 100K or more"
+      },
+      {
+        "name": "qtr_avg_time_dep_gt250k",
+        "label": "Quarterly Average of Time Deposits of More than 250K"
+      },
+      {
+        "name": "qtr_avg_time_dep_le250k",
+        "label": "Quarterly Average of Time Deposits of 250K or less"
+      },
+      {
+        "name": "qtr_avg_time_dep_lt100k",
+        "label": "Quarterly Average of Time Deposits of less than 100K"
+      },
+      {
+        "name": "qtr_avg_trad_ass",
+        "label": "Quarterly avg of trading assets"
+      },
+      {
+        "name": "qtr_avg_trans_dep_dom",
+        "label": "Quarterly Average of Interest-bearing transaction accounts"
+      },
+      {
+        "name": "qtr_avg_ust_sec",
+        "label": "Quarterly Avg of U.S. Treasury sec and U.S. Gov agency obligations (excl. MBS)"
+      },
+      {
+        "name": "res_loans_1y_3y",
+        "label": "Residential loans, with rem maturity or next repricing date of 1-3 yrs"
+      },
+      {
+        "name": "res_loans_3mo_12mo",
+        "label": "Residential loans, with rem maturity or next repricing date of 3-12 Months"
+      },
+      {
+        "name": "res_loans_3mo_less",
+        "label": "Residential loans, with rem maturity or next repricing date of <= 3 months"
+      },
+      {
+        "name": "res_loans_3y_5y",
+        "label": "Residential loans, with rem maturity or next repricing date of 3-5 yrs"
+      },
+      {
+        "name": "res_loans_5y_15y",
+        "label": "Residential loans, with rem maturity or next repricing date of 5-15 yrs"
+      },
+      {
+        "name": "res_loans_over_15y",
+        "label": "Residential loans, with rem maturity or next repricing date of over 15 yrs"
+      },
+      {
+        "name": "res_mbs_1y_3y",
+        "label": "Res MBS, with remaining maturity or next repricing date of one yr to 3 yrs"
+      },
+      {
+        "name": "res_mbs_3mo_12mo",
+        "label": "Res MBS, with remaining maturity or next repricing date of 3-12 Months"
+      },
+      {
+        "name": "res_mbs_3mo_less",
+        "label": "Res MBS, with remaining maturity or next repricing date of 3 mths or less"
+      },
+      {
+        "name": "res_mbs_3y_5y",
+        "label": "Res MBS, with remaining maturity or next repricing date of 3 yrs to 5 yrs"
+      },
+      {
+        "name": "res_mbs_5y_15y",
+        "label": "Res MBS, with remaining maturity or next repricing date of 5 yrs to 15 yrs"
+      },
+      {
+        "name": "res_mbs_over_15y",
+        "label": "Res MBS, with remaining maturity or next repricing date of over 15 yrs"
+      },
+      {
+        "name": "securities_1y_3y",
+        "label": "Securities with repricing maturity of one yr to 3 yrs"
+      },
+      {
+        "name": "securities_3mo_12mo",
+        "label": "Securities with repricing maturity of 3-12 Months"
+      },
+      {
+        "name": "securities_3mo_less",
+        "label": "Securities with repricing maturity of 3 months or less"
+      },
+      {
+        "name": "securities_3y_5y",
+        "label": "Securities with repricing maturity of 3 yrs to 5 yrs"
+      },
+      {
+        "name": "securities_5y_15y",
+        "label": "Securities with repricing maturity of 5 yrs to 15 yrs"
+      },
+      {
+        "name": "securities_ac",
+        "label": "Securities at Amortized Cost"
+      },
+      {
+        "name": "securities_mat_1y_less",
+        "label": "Debt securities with a REMAINING MATURITY of one year or less"
+      },
+      {
+        "name": "securities_over_15y",
+        "label": "Securities with repricing maturity of over 15 yrs"
+      },
+      {
+        "name": "time_cd_ge100k",
+        "label": "Time CDs of $100K or more (domestic offices)"
+      },
+      {
+        "name": "time_dep_ge100k",
+        "label": "Total Time Deposits of 100K or more"
+      },
+      {
+        "name": "time_dep_ge100k_1y_3y",
+        "label": "Time dep >= $100K with a remaining maturity or next repricing date of over 1 yea"
+      },
+      {
+        "name": "time_dep_ge100k_3mo_12mo",
+        "label": "Time Dep >= 100K with a remaining maturity or next repricing date of 3m to 12m"
+      },
+      {
+        "name": "time_dep_ge100k_3mo_less",
+        "label": "Time Dep >= 100K with a remaining maturity or next repricing date <= 3 months"
+      },
+      {
+        "name": "time_dep_ge100k_over_3yr",
+        "label": "Time dep >= $100K with a remaining maturity or next repricing date of over 3 yea"
+      },
+      {
+        "name": "time_dep_gt250k",
+        "label": "Time Deposits of more than 250k"
+      },
+      {
+        "name": "time_dep_gt250k_1y_3y",
+        "label": "Time dep > $250K with a remaining maturity or next repricing date of over 1 year"
+      },
+      {
+        "name": "time_dep_gt250k_3mo_12mo",
+        "label": "Time dep > $250K with a remaining maturity or next repricing date of over 3 thro"
+      },
+      {
+        "name": "time_dep_gt250k_3mo_less",
+        "label": "Time dep > $250K with a remaining maturity or next repricing date of 3 months or"
+      },
+      {
+        "name": "time_dep_gt250k_over_3yr",
+        "label": "Time dep > $250K with a remaining maturity or next repricing date of over 3 year"
+      },
+      {
+        "name": "time_dep_le250k",
+        "label": "Time Deposits of 250k or less"
+      },
+      {
+        "name": "time_dep_le250k_1y_3y",
+        "label": "Time dep <= $250K with a remaining maturity or next repricing date of over 1 yea"
+      },
+      {
+        "name": "time_dep_le250k_3mo_12mo",
+        "label": "Time dep <= $250K with a remaining maturity or next repricing date of over 3 thr"
+      },
+      {
+        "name": "time_dep_le250k_3mo_less",
+        "label": "Time dep <= $250K with a remaining maturity or next repricing date of three mont"
+      },
+      {
+        "name": "time_dep_le250k_mat_1y_less",
+        "label": "Time dep <= $250K with a REMAINING MATURITY of one year or less"
+      },
+      {
+        "name": "time_dep_le250k_over_3yr",
+        "label": "Time dep <= $250K with a remaining maturity or next repricing date of over 3 yea"
+      },
+      {
+        "name": "time_dep_lt100k",
+        "label": "Total Time Deposits of less than 100K"
+      },
+      {
+        "name": "time_dep_lt100k_1y_3y",
+        "label": "Time dep < $100K with a remaining maturity or next repricing date of over 1 year"
+      },
+      {
+        "name": "time_dep_lt100k_3mo_12mo",
+        "label": "Time dep < $100K with a remaining maturity or next repricing date of over 3 thro"
+      },
+      {
+        "name": "time_dep_lt100k_3mo_less",
+        "label": "Time dep < $100K with a remaining maturity or next repricing date of three month"
+      },
+      {
+        "name": "time_dep_lt100k_mat_1y_less",
+        "label": "Fixed rate AND floating rate time dep < $100K with a REMAINING MATURITY of <= 1y"
+      },
+      {
+        "name": "time_dep_lt100k_over_3yr",
+        "label": "Time dep < $100K with a remaining maturity or next repricing date of over 3 year"
+      },
+      {
+        "name": "time_ge100k_le250k",
+        "label": "Time Deposits of 100k through 250k"
+      },
+      {
+        "name": "time_sav_dep",
+        "label": "Total Time and Savings Deposits"
+      },
+      {
+        "name": "tot_gna_deriv_ir",
+        "label": "Total gross notional amt of int rate deriv contracts held (not trading)"
+      },
+      {
+        "name": "tot_gna_deriv_ir_par",
+        "label": "Total gross notional amt of int rate deriv contracts held (not Marked to Market)"
+      },
+      {
+        "name": "tot_gna_deriv_trad_ir",
+        "label": "Tot gross notional amt of deriv contracts held for trading - int rate"
+      },
+      {
+        "name": "tot_gna_ir_fixed_rate_swap",
+        "label": "Tot gross notional amt: int rate swaps where the bank has agreed to a fixed rate"
+      },
+      {
+        "name": "tot_gna_ir_float_rate_swap",
+        "label": "Tot gross notional amt: int rate swaps where the bank has agreed to a fixed rate"
+      },
+      {
+        "name": "tot_swaps_int_rate",
+        "label": "Gross amounts of swaps - interest rate contracts"
+      },
+      {
+        "name": "transaction_dep",
+        "label": "Total Transaction Accounts (Domestic Offices)"
+      },
+      {
+        "name": "uninsured_time_dep",
+        "label": "Uninsured Time Deposits"
+      },
+      {
+        "name": "ust_sec_1y_3y",
+        "label": "Sec issued by US Treas/Gov/Other Debt w/ maturity/repricing date of 1-3 yrs"
+      },
+      {
+        "name": "ust_sec_3mo_12mo",
+        "label": "Sec issued by US Treas/Gov/Other Debt w/ maturity/repricing date of 3-12 Months"
+      },
+      {
+        "name": "ust_sec_3mo_less",
+        "label": "Sec issued by US Treas/Gov/Other Debt w/ mat/repricing date of 3 mths or less"
+      },
+      {
+        "name": "ust_sec_3y_5y",
+        "label": "Sec issued by US Treas/Gov/Other Debt w/ maturity/repricing date of 3-5 yrs"
+      },
+      {
+        "name": "ust_sec_5y_15y",
+        "label": "Sec issued by US Treas/Gov/Other Debt w/ maturity/repricing date of 5-15 yrs"
+      },
+      {
+        "name": "ust_sec_over_15y",
+        "label": "Sec issued by US Treas/Gov/Other Debt w/ maturity/repricing date of over 15 yrs"
+      },
+      {
+        "name": "net_hedging",
+        "label": "Net Hedging"
+      },
+      {
+        "name": "tot_sav_dep",
+        "label": "Total Savings Deposits"
+      }
+    ]
+  },
+  "call-reports-income-statements-Jun2026.dta": {
+    "number_rows": 2557391,
+    "number_columns": 71,
+    "columns": [
+      {
+        "name": "id_rssd",
+        "label": null
+      },
+      {
+        "name": "date",
+        "label": null
+      },
+      {
+        "name": "ytdint_inc_sec",
+        "label": "Interest and Dividend Income on Securities"
+      },
+      {
+        "name": "ytdint_inc_ln",
+        "label": "Interest Income on Loans"
+      },
+      {
+        "name": "ytdint_inc_ffrepo",
+        "label": "Interest Income on Federal Funds Sold and Repo Purchased"
+      },
+      {
+        "name": "ytdint_inc_lease",
+        "label": "Income from Lease Financing"
+      },
+      {
+        "name": "ytdint_inc_ibb",
+        "label": "Interest Income on balances due from depository institutions"
+      },
+      {
+        "name": "ytdfiduc_inc",
+        "label": "Income from Fiduciary Activities"
+      },
+      {
+        "name": "ytdnonint_inc_srv_chrg_dep",
+        "label": "Service Charges on Deposits"
+      },
+      {
+        "name": "ytdoth_srv_chrg",
+        "label": "Other Service Charges, Commissions, and Fees"
+      },
+      {
+        "name": "ytdoth_operating_inc",
+        "label": "Other Operating Income"
+      },
+      {
+        "name": "ytdoth_operating_inc_adj",
+        "label": "Other Operating Income (time-consistent)"
+      },
+      {
+        "name": "ytdoperating_inc_tot",
+        "label": "Total Operating Income"
+      },
+      {
+        "name": "ytdop_inc_tot_1960",
+        "label": "Total Operating Income (1960 Time Consistent)"
+      },
+      {
+        "name": "num_employees",
+        "label": "Number of full-time equivalent employees"
+      },
+      {
+        "name": "ytdnonint_exp_comp",
+        "label": "Noninterest Expense: Salaries and Employee Benefits (compensation)"
+      },
+      {
+        "name": "ytdint_exp_dep",
+        "label": "Interest expense on deposits"
+      },
+      {
+        "name": "ytdint_exp_ffrepo",
+        "label": "Int Exp on Fed Funds Purchased and Sec. Sold Under Agreements to Repurchase"
+      },
+      {
+        "name": "ytdint_exp_othbor",
+        "label": "Interest on Other Borrowed Money"
+      },
+      {
+        "name": "ytdint_exp_trad_othbor",
+        "label": "Interest on Trading Liabilities and Other Borrowed Money"
+      },
+      {
+        "name": "ytdint_exp_subdebt",
+        "label": "Interest on Subordinated Notes and Debentures"
+      },
+      {
+        "name": "ytdnonint_exp_fass",
+        "label": "Noninterest Expense of Premises and Fixed Assets"
+      },
+      {
+        "name": "ytdllprov",
+        "label": "Loan Loss Provisions"
+      },
+      {
+        "name": "ytdoth_operating_exp",
+        "label": "Other Operating Expenses"
+      },
+      {
+        "name": "ytdoperating_exp_tot",
+        "label": "Total Operating Expense"
+      },
+      {
+        "name": "ytdoperating_exp_tot_adj",
+        "label": "Total Operating Expense (adj by subtracting out minority int)"
+      },
+      {
+        "name": "ytdop_exp_tot_1960",
+        "label": "Total Operating Expense (1960 Time Consistent)"
+      },
+      {
+        "name": "ytdnet_op_earn_1960",
+        "label": "Net Operating Earnings (1960 Time Consistent)"
+      },
+      {
+        "name": "ytdnet_operating_earn",
+        "label": "Net Operating Earnings/Income before taxes and sec gains/losses"
+      },
+      {
+        "name": "ytdrecov_tot",
+        "label": "Total recoveries, transfers from valuation reserves, and profits"
+      },
+      {
+        "name": "ytdxoff_tot",
+        "label": "Total losses, charge-offs, and transfers to valuation reserves"
+      },
+      {
+        "name": "ytdinc_taxes_net",
+        "label": "Taxes on Net Income after losses/gains (1960-1969)"
+      },
+      {
+        "name": "ytdinc_taxes_netsec",
+        "label": "Income taxes, excl. taxes applicable to securities gains or losses"
+      },
+      {
+        "name": "ytdinc_taxes_sec",
+        "label": "Income taxes on securities gains (losses)"
+      },
+      {
+        "name": "ytdinc_taxes",
+        "label": "Taxes on income before taxes and extraordinary items/adjustments"
+      },
+      {
+        "name": "ytdinc_before_sec_gain",
+        "label": "Income Before Securities Gains or Losses (approx, after taxes)"
+      },
+      {
+        "name": "ytdsecur_inc",
+        "label": "Gains and losses on securities"
+      },
+      {
+        "name": "ytdsec_net",
+        "label": "Securities Gains (Losses), net"
+      },
+      {
+        "name": "ytdinc_before_disc_op",
+        "label": "Income (loss) before discontinued operations"
+      },
+      {
+        "name": "ytdextra_inc_gross",
+        "label": "Extraordinary Items, gross of income taxes"
+      },
+      {
+        "name": "ytdextra_inc",
+        "label": "Extraordinary Items, net of income taxes"
+      },
+      {
+        "name": "ytddisc_op",
+        "label": "Discontinued Operations"
+      },
+      {
+        "name": "ytdminor_int",
+        "label": "Minority interest"
+      },
+      {
+        "name": "ytdnetinc",
+        "label": "Net Income"
+      },
+      {
+        "name": "ytdint_inc",
+        "label": "Total Interest Income"
+      },
+      {
+        "name": "ytdnonint_inc",
+        "label": "Total Noninterest Income"
+      },
+      {
+        "name": "ytdint_exp",
+        "label": "Total Interest Expense"
+      },
+      {
+        "name": "ytdnonint_exp",
+        "label": "Total Noninterest Expense"
+      },
+      {
+        "name": "ytdcommdividend",
+        "label": "Cash dividends declared on common stock"
+      },
+      {
+        "name": "ytdint_exp_fgn",
+        "label": "Interest Expense on Foreign Deposits"
+      },
+      {
+        "name": "ytdint_exp_savings_dep_dom",
+        "label": "Interest Expense on Savings Deposits(incl. MMDA)"
+      },
+      {
+        "name": "ytdint_exp_time_dep",
+        "label": "Interest Expense on Time Deposits"
+      },
+      {
+        "name": "ytdint_exp_time_ge100k_dom",
+        "label": "Interest Expense on Time Deposits >= 100K"
+      },
+      {
+        "name": "ytdint_exp_time_gt250k_dom",
+        "label": "Interest Expense on Time Deposits > 250K"
+      },
+      {
+        "name": "ytdint_exp_time_le250k_dom",
+        "label": "Interest Expense on Time Deposits <= 250K"
+      },
+      {
+        "name": "ytdint_exp_time_lt100k_dom",
+        "label": "Interest Expense on Time Deposits < 100K"
+      },
+      {
+        "name": "ytdint_exp_trans_dep_dom",
+        "label": "Interest Expense on Transaction Account Deposits"
+      },
+      {
+        "name": "ytdint_inc_ln_agr",
+        "label": "Int Income on Loans to finance ag production and oth lns to farmers"
+      },
+      {
+        "name": "ytdint_inc_ln_cc",
+        "label": "Interest and fee income on credit cards"
+      },
+      {
+        "name": "ytdint_inc_ln_ci",
+        "label": "Interest Income on C&I Loans"
+      },
+      {
+        "name": "ytdint_inc_ln_fgn",
+        "label": "Interest & Fee Income on Loans in Foreign Offices"
+      },
+      {
+        "name": "ytdint_inc_ln_indiv",
+        "label": "Interest Income on Individual Loans"
+      },
+      {
+        "name": "ytdint_inc_ln_othcons",
+        "label": "Interest income on other lns to individuals for personal expenditures"
+      },
+      {
+        "name": "ytdint_inc_ln_othre",
+        "label": "Interest & Fee Income on All Other Loans Secured by Real Estate"
+      },
+      {
+        "name": "ytdint_inc_ln_re",
+        "label": "Interest and fee income on loans secured by real estate"
+      },
+      {
+        "name": "ytdint_inc_ln_rre",
+        "label": "Interest & Fee Income on Loans Secured by 1-4 Family Residential Properties"
+      },
+      {
+        "name": "ytdint_inc_net",
+        "label": "Net Interest Income"
+      },
+      {
+        "name": "ytdint_inc_sec_mbs",
+        "label": "Interest Income on MBS"
+      },
+      {
+        "name": "ytdint_inc_sec_oth",
+        "label": "Interest Income on All Other Securities"
+      },
+      {
+        "name": "ytdint_inc_sec_ust",
+        "label": "Interest Income on U.S. Treasury and Agency Securities"
+      },
+      {
+        "name": "ytdtradrev_inc",
+        "label": "Trading Revenue"
+      }
+    ]
+  },
+  "dictionary": {
+    "sheets": [
+      "balance sheet",
+      "income statement",
+      "raw variables",
+      "metadata"
+    ],
+    "first_rows": {
+      "balance sheet": [
+        [
+          "Dataset Label ",
+          "Description ",
+          "Mnemonic",
+          "Field",
+          "Valid Period",
+          "Notes ",
+          null
+        ],
+        [
+          "cash",
+          "Cash and balances due from depository inst. ",
+          "RCFD",
+          "0010",
+          "dt >= 19591231 & dt < 19840331",
+          "*",
+          "* Imputed as missing in Q1 and Q3 for 1973 - 1975 to account for foreign holdings. Raw variables contain the original values."
+        ],
+        [
+          null,
+          null,
+          "RCFD",
+          "0081 + 0071",
+          "dt >= 19840331",
+          null,
+          "Granular loan variables (ln_re, ln_fi, ln_cc, ln_ci, ln_cons, ln_oth) are reported semiannually between 1973 - 1975. "
+        ],
+        [
+          "securities",
+          "Total Securities",
+          "RCON",
+          "0400 + 0600 + 0900 + 0950",
+          "dt >= 19591231 & dt < 19690630",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "RCFD",
+          "0400 + 0600 + 0900 + 0950",
+          "dt >= 19690630 & dt < 19940331",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "RCFD",
+          "0390",
+          "dt >= 19830930 & dt < 19940331",
+          "Some banks are missing the individual components in previous line, but report this aggregate line item. 0390 = 0400 + 0600 + 0900 + 0950",
+          null
+        ],
+        [
+          null,
+          null,
+          "RCFD",
+          "1754 + 1773",
+          "dt >= 19940331",
+          null,
+          null
+        ],
+        [
+          "ln_tot_gross",
+          "Total Loans, gross",
+          "RCFD",
+          "1400",
+          "dt >= 19591231 & dt < 19760331",
+          "*",
+          null
+        ]
+      ],
+      "income statement": [
+        [
+          "Dataset Label ",
+          "Description ",
+          "Mnemonic",
+          "Field",
+          "Valid Period",
+          "Notes ",
+          null
+        ],
+        [
+          "ytdint_inc_sec",
+          "Interest and Dividend Income on Securities",
+          "IADX",
+          "5002 + 5004",
+          "dt >= 19601231 & dt  < 19691231",
+          null,
+          "Derived item constructed from other variables"
+        ],
+        [
+          null,
+          null,
+          "RIAD",
+          "4027 + 4050 + 4060",
+          "dt >= 19691231 & dt < 19840331",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          "RIAD",
+          4218,
+          "dt >= 19840331 & dt < 20010331",
+          "Populated for smaller banks",
+          null
+        ],
+        [
+          null,
+          null,
+          "RIAD",
+          "4027 + 4066 + 4067 + 4068",
+          "dt >= 19840331 & dt < 19890331",
+          "Not populated for smaller banks",
+          null
+        ],
+        [
+          null,
+          null,
+          "RIAD",
+          "4027 + 3657 + 4506 + 4507 + 3658 + 3659",
+          "dt >= 19890331 & dt < 20010331",
+          "Not populated for smaller banks",
+          null
+        ],
+        [
+          null,
+          null,
+          "RIAD",
+          "B488 + B489 + 4060",
+          "dt >= 20010331",
+          null,
+          null
+        ],
+        [
+          "ytdint_inc_ln",
+          "Interest Income on Loans",
+          "IADX",
+          5006,
+          "dt >= 19601231 & dt  < 19691231",
+          null,
+          null
+        ]
+      ],
+      "raw variables": [
+        [
+          "Mnemonic",
+          "Field",
+          "Description ",
+          "Valid Period",
+          "Notes ",
+          null
+        ],
+        [
+          "IADX",
+          5000,
+          "Current Operating Revenue",
+          "dt >= 19601231 & dt <= 19681231",
+          null,
+          "RCFD = Foreign and Domestic series"
+        ],
+        [
+          "IADX",
+          5002,
+          "Interest And Dividends On U.S. Government Obligations",
+          "dt >= 19601231 & dt <= 19681231",
+          null,
+          "RCON = Domestic series"
+        ],
+        [
+          "IADX",
+          5004,
+          "Interest And Dividends On Other Securities",
+          "dt >= 19601231 & dt <= 19681231",
+          null,
+          "RCFN = Foreign series"
+        ],
+        [
+          "IADX",
+          5006,
+          "Interest And Discount On Loans",
+          "dt >= 19601231 & dt <= 19681231",
+          null,
+          null
+        ],
+        [
+          "IADX",
+          5010,
+          "Service Charges On Deposit Accounts",
+          "dt >= 19601231 & dt <= 19681231",
+          null,
+          null
+        ],
+        [
+          "IADX",
+          5012,
+          "Other Service Charges, Commissions, Fees, And Collection And Exchange Charges",
+          "dt >= 19601231 & dt <= 19681231",
+          null,
+          null
+        ],
+        [
+          "IADX",
+          5014,
+          "Trust Department Income",
+          "dt >= 19601231 & dt <= 19681231",
+          null,
+          null
+        ]
+      ],
+      "metadata": [
+        [
+          "These variables are selected metadata provided through the National Information Center (NIC). Additional tables can be found on the NIC website, along with a data dictionary. Most of these variables are listed in the public data dictionary, but some are derived items defined below.",
+          null,
+          null,
+          null
+        ],
+        [
+          "Links:",
+          "NIC Data Dictionary",
+          null,
+          null
+        ],
+        [
+          null,
+          "NIC Data Download",
+          null,
+          null
+        ],
+        [
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Dataset Label ",
+          "Variable label ",
+          "Description/Notes",
+          "Values"
+        ],
+        [
+          "id_rssd",
+          "RSSD ID",
+          null,
+          null
+        ],
+        [
+          "id_rssd_hd_off",
+          "Head Office RSSD ID",
+          null,
+          null
+        ],
+        [
+          "id_cusip",
+          "CUSIP ID",
+          "Here, the number consists of six characters (including letters and numbers) that uniquely identify a company or issuer and the type of security.",
+          null
+        ]
+      ]
+    }
+  }
+}

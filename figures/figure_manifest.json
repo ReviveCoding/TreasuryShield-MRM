@@ -1,0 +1,275 @@
+{
+  "created_at": "2026-09-27T12:35:07.555297+00:00",
+  "data_snapshot_id": "fbc0b7b5a2c46fbcc0b5",
+  "selected_run_id": "core_B_1q_final_locked_B8_lightgbm_quantile",
+  "stress_run_id": "core_B_1q_final_locked_B8_lightgbm_quantile",
+  "figures": [
+    {
+      "number": 1,
+      "title": "Data coverage timeline",
+      "path": "figures/figure_01.png",
+      "sha256": "07abd351ddad5a1f36e3b0f4926b8299d1c878cf2b6f5c5e303f9ccf22ad76bf",
+      "sources": [
+        {
+          "path": "artifacts/eda_prelock_quarterly.parquet",
+          "sha256": "d9d5872d2975b85dd6949ad57cc89ce745a26b5781a1e4eb80ac0470acb73b94"
+        }
+      ],
+      "note": "Prelock through 2023Q4; missingness is structural in some fields."
+    },
+    {
+      "number": 2,
+      "title": "Institution count timeline",
+      "path": "figures/figure_02.png",
+      "sha256": "aadfe194c52f9a3a94caa4ea1c86c77acc297ef772db5acd1d5b2d12ea263af9",
+      "sources": [
+        {
+          "path": "artifacts/eda_prelock_quarterly.parquet",
+          "sha256": "d9d5872d2975b85dd6949ad57cc89ce745a26b5781a1e4eb80ac0470acb73b94"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "number": 3,
+      "title": "Deposit-growth distributions",
+      "path": "figures/figure_03.png",
+      "sha256": "9531f498fcbddf6dfd0de6965fe0b53ca2c78fe6a46dd7fc5dec233b36d0da4d",
+      "sources": [
+        {
+          "path": "data/features/targets.parquet",
+          "sha256": "4560083002956a18595eaf12ec1b5d24ba250f4e0e0fe12744b436b8ffd919ba"
+        }
+      ],
+      "note": "Deterministic 180,000-row or smaller sample; extreme observations retained in analysis."
+    },
+    {
+      "number": 4,
+      "title": "Macro and deposit stress history",
+      "path": "figures/figure_04.png",
+      "sha256": "cbf4848a47c25a5a6a774942e82a69d67b5fe99c842a7bcbc06639ccf457d16e",
+      "sources": [
+        {
+          "path": "artifacts/eda_prelock_quarterly.parquet",
+          "sha256": "d9d5872d2975b85dd6949ad57cc89ce745a26b5781a1e4eb80ac0470acb73b94"
+        },
+        {
+          "path": "data/processed/macro_origins.parquet",
+          "sha256": "66000a797de5b35d893046e877b80768ab88b6145aa2c2361469940fa10f1e47"
+        }
+      ],
+      "note": "Bank growth distribution and published macro origin series."
+    },
+    {
+      "number": 5,
+      "title": "Forward-filtered HMM probabilities",
+      "path": "figures/figure_05.png",
+      "sha256": "bbddd5f859ca394be6ef30d07855b9bab678392b6335183833c0d90aace1a5ee",
+      "sources": [
+        {
+          "path": "artifacts/regime_probabilities_prelock.parquet",
+          "sha256": "746f3700acc43fefc0a53d30a2d18bad75cae239452e2333f357d8c977b2d670"
+        },
+        {
+          "path": "artifacts/regime_probabilities_prelock.json",
+          "sha256": "9a08b6721af548e1b4285f9ea546690a171651fc0629494d153074ffc84c963c"
+        }
+      ],
+      "note": "State numbers are descriptive and fitted only through 2021Q4."
+    },
+    {
+      "number": 6,
+      "title": "Quantile calibration",
+      "path": "figures/figure_06.png",
+      "sha256": "b5aca4a306031fe99ee27480eba648e8abb2b92018a7878d834573a9f7a69ba0",
+      "sources": [
+        {
+          "path": "artifacts/results.duckdb",
+          "sha256": "10cb965b03fafdc505279e7fc69f416b4948cfc5c556618d3f7e7caa7c62df75"
+        },
+        {
+          "path": "artifacts/predictions/core_B_1q_final_locked_B8_lightgbm_quantile.parquet",
+          "sha256": "19ead8d4e84dd79e2a57bb2661a9ab704de7f7ba7bac564f15397883ee95deeb"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "number": 7,
+      "title": "Tail exceedance by quarter",
+      "path": "figures/figure_07.png",
+      "sha256": "653db2bdcde8e89ff00f325e4f1ae9627cecc308617837d656db03aa9fb2a76a",
+      "sources": [
+        {
+          "path": "artifacts/predictions/core_B_1q_final_locked_B8_lightgbm_quantile.parquet",
+          "sha256": "19ead8d4e84dd79e2a57bb2661a9ab704de7f7ba7bac564f15397883ee95deeb"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "number": 8,
+      "title": "Crisis model comparison",
+      "path": "figures/figure_08.png",
+      "sha256": "8c1f77854cecf8644ba9aa0a70100b31146e9b2ac57270897957b9861945ff57",
+      "sources": [
+        {
+          "path": "artifacts/results.duckdb",
+          "sha256": "10cb965b03fafdc505279e7fc69f416b4948cfc5c556618d3f7e7caa7c62df75"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "number": 9,
+      "title": "Paired block-bootstrap intervals",
+      "path": "figures/figure_09.png",
+      "sha256": "071436f0f3c2f0e408125ccacc90d61a485da1421e593460569f66ec7a3bdcad",
+      "sources": [
+        {
+          "path": "artifacts/results.duckdb",
+          "sha256": "10cb965b03fafdc505279e7fc69f416b4948cfc5c556618d3f7e7caa7c62df75"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "number": 10,
+      "title": "Feature and context ablations",
+      "path": "figures/figure_10.png",
+      "sha256": "aefe3d4b2dfbb1f16cfef3473101997f9044b4fdac1e670c7a79e594a0e0dfd0",
+      "sources": [
+        {
+          "path": "artifacts/results.duckdb",
+          "sha256": "10cb965b03fafdc505279e7fc69f416b4948cfc5c556618d3f7e7caa7c62df75"
+        }
+      ],
+      "note": "Positive values indicate worse loss."
+    },
+    {
+      "number": 11,
+      "title": "Subgroup robustness",
+      "path": "figures/figure_11.png",
+      "sha256": "2e026e57bf816100453a176444ff0335daa518628e2e25467c64ce4819413bad",
+      "sources": [
+        {
+          "path": "artifacts/results.duckdb",
+          "sha256": "10cb965b03fafdc505279e7fc69f416b4948cfc5c556618d3f7e7caa7c62df75"
+        },
+        {
+          "path": "artifacts/independent_final_review.json",
+          "sha256": "958e741ef9776da71c9ad610720e3239627f2acfe9658c38f72fee5dedd8d17a"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "number": 12,
+      "title": "Challenger disagreement and tail misses",
+      "path": "figures/figure_12.png",
+      "sha256": "4db786e61567905fe67f1960511a9c6548112388d8fe66a37e986c9dcc8250cd",
+      "sources": [
+        {
+          "path": "artifacts/disagreement_prelock.json",
+          "sha256": "f7b4ec8f28cfae558b38454c5773d2dcc0f5b5cad028123f7055f9c2eee3a191"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "number": 13,
+      "title": "Scenario funding-gap fan",
+      "path": "figures/figure_13.png",
+      "sha256": "4809bc3d88ad90fb8b8e1e08b16d0776dff63d767f27a383074ac8873a605c8b",
+      "sources": [
+        {
+          "path": "artifacts/stress/core_B_1q_final_locked_B8_lightgbm_quantile_sample_draws.parquet",
+          "sha256": "5caa31e58ca186be3b7856d2f7adf5dd01187d4b4f278bd8affd36ec7fb30819"
+        }
+      ],
+      "note": "Bands are 10th\u201390th draw quantiles on the sampled bank profiles."
+    },
+    {
+      "number": 14,
+      "title": "Peak funding-need distribution",
+      "path": "figures/figure_14.png",
+      "sha256": "c969c5a5232a12c69e09c3a5c0dedb2a39451dfefd0a4340505227d3938db6ed",
+      "sources": [
+        {
+          "path": "artifacts/stress/core_B_1q_final_locked_B8_lightgbm_quantile_sample_draws.parquet",
+          "sha256": "5caa31e58ca186be3b7856d2f7adf5dd01187d4b4f278bd8affd36ec7fb30819"
+        }
+      ],
+      "note": "Box plots exclude visual outlier markers; values remain in stored draws."
+    },
+    {
+      "number": 15,
+      "title": "Reverse-stress frontier",
+      "path": "figures/figure_15.png",
+      "sha256": "5feb08431e2cf2329c58108a489a517b9e7463c755c34be9d1c6a428ca0e6825",
+      "sources": [
+        {
+          "path": "artifacts/stress/core_B_1q_final_locked_B8_lightgbm_quantile_reverse.parquet",
+          "sha256": "56a84e3e5cc07e5758882f3c148d9eada7e319450e45bc313b0817b82ab7d369"
+        }
+      ],
+      "note": "Unreachable combinations above 100% runoff are excluded from the plotted frontier."
+    },
+    {
+      "number": 16,
+      "title": "Recovery cost and residual shortfall",
+      "path": "figures/figure_16.png",
+      "sha256": "17388d97dbd5a0d8c50f78098f310040ef27a6d71d841a9c550f1b1a2aca8b48",
+      "sources": [
+        {
+          "path": "artifacts/stress/core_B_1q_final_locked_B8_lightgbm_quantile_recovery.parquet",
+          "sha256": "22276b4612e49e483429c23dbb4b5535375dadd24286e14c4fe24b6d0566566d"
+        }
+      ],
+      "note": "Costs and capacities are declared scenario assumptions."
+    },
+    {
+      "number": 17,
+      "title": "Historical monitoring states",
+      "path": "figures/figure_17.png",
+      "sha256": "a3aeb272cf45556f9d435f8773fa4bcb7d93a4035d5f168fb0f5b572830ff2f1",
+      "sources": [
+        {
+          "path": "artifacts/monitoring_prelock.json",
+          "sha256": "ba2b06059a2df749173e3becf69034d322e2c3ae7ba6707c08f1ac5fba70d69a"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "number": 18,
+      "title": "Feature-importance stability",
+      "path": "figures/figure_18.png",
+      "sha256": "22d646e8537e59b2729d8a9a864dee49cffce28c9395992b0fdbc60e30a55340",
+      "sources": [
+        {
+          "path": "artifacts/feature_importance_prelock.parquet",
+          "sha256": "30d8295e1d330db96b0024ba18316c368d0772995151b8a938414161f2e74bee"
+        },
+        {
+          "path": "artifacts/feature_importance_prelock.json",
+          "sha256": "3a6cba6de28a83dc98a021ce685c9f5bbccbd8fbb32dfd355f511333db94c711"
+        }
+      ],
+      "note": ""
+    },
+    {
+      "number": 19,
+      "title": "CPU and GPU benchmark",
+      "path": "figures/figure_19.png",
+      "sha256": "9d84b216a31736bcc6a3114bb3d56d443e721acdca29ad30f3c58564c2368092",
+      "sources": [
+        {
+          "path": "artifacts/hardware_benchmarks.json",
+          "sha256": "3816a781a777127200b8ab1d7c5aaf5cd11d59e117b38700d20a7c850c49a73e"
+        }
+      ],
+      "note": "Workloads are matched within each pair; the two pairs differ in model and size."
+    }
+  ]
+}

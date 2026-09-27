@@ -1,0 +1,6 @@
+work,link,question,methodological_implication,limitation
+Correia Luck and Verner Failing Banks,https://doi.org/10.1093/qje/qjaf044,bank fundamentals and failure history,Use official harmonized bank history and external FDIC outcomes,Failure prediction is outside primary intended use
+Gibbs and Candes Adaptive Conformal Inference Under Distribution Shift,https://arxiv.org/abs/2106.00170,adaptive calibration,Compare rolling online calibration and drift-sensitive updates,Do not claim finite-sample exchangeable coverage under crisis shift
+Koenker and Bassett Regression Quantiles,https://doi.org/10.2307/1913643,conditional tail forecasting,Use pinball loss and linear quantile challenger,Linear form may miss interactions
+Meinshausen Quantile Regression Forests,https://doi.org/10.1198/016214506000000204,nonlinear conditional quantiles,Use forest challenger,Tree quantiles may struggle with extrapolation
+Hamilton A New Approach to Economic Analysis of Nonstationary Time Series,https://doi.org/10.2307/1912559,regime switching,Compare filtered state information against no-regime and rule-based alternatives,States are statistical summaries and not economic causes

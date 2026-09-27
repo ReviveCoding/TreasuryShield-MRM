@@ -1,0 +1,201 @@
+<!doctype html><html lang='en'><meta charset='utf-8'><style>
+body{font-family:Arial,Helvetica,sans-serif;max-width:1100px;margin:40px auto;padding:0 25px;color:#203047;line-height:1.52}
+h1,h2,h3{color:#123a60}h1{border-bottom:3px solid #176c91;padding-bottom:9px}h2{margin-top:34px;border-bottom:1px solid #bccad2}
+table{border-collapse:collapse;width:100%;font-size:13px;margin:14px 0 20px}th,td{border:1px solid #ccd5dc;padding:7px 9px;text-align:left}th{background:#e7f0f5}
+tr:nth-child(even){background:#f8fafc}.callout{background:#eaf3f7;border-left:5px solid #176c91;padding:13px 18px;margin:18px 0}
+.risk{background:#fff3ee;border-left:5px solid #b45a42;padding:13px 18px;margin:18px 0}figure{margin:22px 0}img{max-width:100%;border:1px solid #d5dee4}
+figcaption{font-size:12px;color:#56677a}small{color:#56677a}a{color:#12628c}
+</style><title>Stress testing and recovery report</title><body><h1>Stress testing and recovery report</h1><p><small>Frozen public-data snapshot fbc0b7b5a2c46fbcc0b5 | Generated 2026-09-27 UTC</small></p><div class='risk'><b>Scope.</b> Every output in this report is a public-data research proxy. It is not LCR, NSFR, internal liquidity stress, or a contractual recovery capacity.</div><p>Stress distribution: <code>core_B_1q_final_locked_B8_lightgbm_quantile</code>; latest forecast origin 2025Q4. The engine evaluated 3592 bank profiles and a stratified 250-bank set for dependence, reverse stress, and recovery sensitivity.</p><h2>Scenario construction and outcomes</h2><p>Institution-specific runoff, an aggregate H.8 market shock/path, and their combination produce 7/30/90-day net outflow proxies. Cash and haircut-adjusted securities provide a limited resource proxy. Forecast quantiles are interpolated; unobserved contractual cash flows are never inferred.</p><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Scenario</th>
+      <th>Metric</th>
+      <th>Mean across banks</th>
+      <th>Banks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>combined</td>
+      <td>median_runway_proxy_days</td>
+      <td>90.715479</td>
+      <td>3592</td>
+    </tr>
+    <tr>
+      <td>combined</td>
+      <td>p95_peak_funding_need</td>
+      <td>8260.827726</td>
+      <td>3592</td>
+    </tr>
+    <tr>
+      <td>combined</td>
+      <td>shortfall_probability</td>
+      <td>0.063672</td>
+      <td>3592</td>
+    </tr>
+    <tr>
+      <td>institution</td>
+      <td>median_runway_proxy_days</td>
+      <td>90.820017</td>
+      <td>3592</td>
+    </tr>
+    <tr>
+      <td>institution</td>
+      <td>p95_peak_funding_need</td>
+      <td>2341.621025</td>
+      <td>3592</td>
+    </tr>
+    <tr>
+      <td>institution</td>
+      <td>shortfall_probability</td>
+      <td>0.029620</td>
+      <td>3592</td>
+    </tr>
+    <tr>
+      <td>market</td>
+      <td>median_runway_proxy_days</td>
+      <td>90.891704</td>
+      <td>3592</td>
+    </tr>
+    <tr>
+      <td>market</td>
+      <td>p95_peak_funding_need</td>
+      <td>2058.084958</td>
+      <td>3592</td>
+    </tr>
+    <tr>
+      <td>market</td>
+      <td>shortfall_probability</td>
+      <td>0.024898</td>
+      <td>3592</td>
+    </tr>
+  </tbody>
+</table><figure><img src='../figures/figure_13.png' alt='Scenario gap path and draw uncertainty'><figcaption>Figure 13. Scenario gap path and draw uncertainty. Source paths and checksums: <a href='../figures/figure_manifest.json'>figure manifest</a>.</figcaption></figure><figure><img src='../figures/figure_14.png' alt='Peak funding-need draw distributions'><figcaption>Figure 14. Peak funding-need draw distributions. Source paths and checksums: <a href='../figures/figure_manifest.json'>figure manifest</a>.</figcaption></figure><h2>Dependence and liquidity definition</h2><p>J0 independent, J1 Gaussian, J2 Student-t, and J3 empirical quarter-block residual draws are compared on identical sampled bank profiles. Differences are scenario-model sensitivity, not estimated causal effects.</p><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Dependence</th>
+      <th>Metric</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>J0_independent</td>
+      <td>mean_shortfall_probability</td>
+      <td>0.060136</td>
+    </tr>
+    <tr>
+      <td>J0_independent</td>
+      <td>mean_p95_peak_funding_need</td>
+      <td>6861.676663</td>
+    </tr>
+    <tr>
+      <td>J1_gaussian</td>
+      <td>mean_shortfall_probability</td>
+      <td>0.060176</td>
+    </tr>
+    <tr>
+      <td>J1_gaussian</td>
+      <td>mean_p95_peak_funding_need</td>
+      <td>5739.304775</td>
+    </tr>
+    <tr>
+      <td>J2_student_t</td>
+      <td>mean_shortfall_probability</td>
+      <td>0.059128</td>
+    </tr>
+    <tr>
+      <td>J2_student_t</td>
+      <td>mean_p95_peak_funding_need</td>
+      <td>5264.296618</td>
+    </tr>
+    <tr>
+      <td>J3_empirical_block</td>
+      <td>mean_shortfall_probability</td>
+      <td>0.059584</td>
+    </tr>
+    <tr>
+      <td>J3_empirical_block</td>
+      <td>mean_p95_peak_funding_need</td>
+      <td>5527.100417</td>
+    </tr>
+  </tbody>
+</table><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>scenario</th>
+      <th>statistic</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>broad_cash_plus_securities</td>
+      <td>mean_shortfall_probability</td>
+      <td>0.059200</td>
+    </tr>
+    <tr>
+      <td>broad_cash_plus_securities</td>
+      <td>mean_p95_peak_funding_need</td>
+      <td>3805.193296</td>
+    </tr>
+    <tr>
+      <td>narrow_cash_only</td>
+      <td>mean_shortfall_probability</td>
+      <td>0.562248</td>
+    </tr>
+    <tr>
+      <td>narrow_cash_only</td>
+      <td>mean_p95_peak_funding_need</td>
+      <td>89421.098893</td>
+    </tr>
+  </tbody>
+</table><h2>Capital interaction, reverse stress, and recovery</h2><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>scenario</th>
+      <th>mean</th>
+      <th>count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>capital_loss_0.00</td>
+      <td>12541.513007</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <td>capital_loss_0.02</td>
+      <td>12971.300712</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <td>capital_loss_0.05</td>
+      <td>13703.187703</td>
+      <td>250</td>
+    </tr>
+  </tbody>
+</table><p>Reverse-stress records: 3000 bank/assumption combinations. A breaking runoff above 100% is marked unreachable rather than presented as feasible.</p><figure><img src='../figures/figure_15.png' alt='Reachable reverse-stress frontier'><figcaption>Figure 15. Reachable reverse-stress frontier. Source paths and checksums: <a href='../figures/figure_manifest.json'>figure manifest</a>.</figcaption></figure><table class="dataframe evidence">
+  <thead>
+    <tr style="text-align: right;">
+      <th>strategy</th>
+      <th>funding_gap</th>
+      <th>action_cost</th>
+      <th>residual_shortfall</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>heuristic</td>
+      <td>7.123537</td>
+      <td>0.568029</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <td>optimized</td>
+      <td>7.123537</td>
+      <td>0.568029</td>
+      <td>0.0</td>
+    </tr>
+  </tbody>
+</table><figure><img src='../figures/figure_16.png' alt='Heuristic and optimized action costs'><figcaption>Figure 16. Heuristic and optimized action costs. Source paths and checksums: <a href='../figures/figure_manifest.json'>figure manifest</a>.</figcaption></figure><p>The recovery optimizer minimizes assumed action cost subject to gap, capacity, haircut, and timing constraints. Facility and collateral inputs are assumptions, not rights. Material data limits and action sensitivities are in the validation findings and <a href='../artifacts/limitations_register.json'>limitations register</a>.</p><h2>Official source references</h2><p><a href='https://www.newyorkfed.org/research/banking_research/balance-sheets-income-statements'>New York Fed harmonized Call Reports</a>; <a href='https://cdr.ffiec.gov/public/PWS/DownloadBulkData.aspx'>FFIEC CDR</a>; <a href='https://api.fdic.gov/banks/docs'>FDIC BankFind</a>; <a href='https://www.federalreserve.gov/releases/h8/about.htm'>Federal Reserve H.8</a>; <a href='https://fred.stlouisfed.org/docs/api/fred/realtime_period.html'>ALFRED vintages</a>; <a href='https://www.chicagofed.org/banking/financial-institution-reports/bhc-data'>Chicago Fed FR Y-9C</a>. Exact downloaded URLs, retrieval times, and checksums appear in the raw manifest and <a href='01_desktop_study.md'>desktop study</a>.</p></body></html>

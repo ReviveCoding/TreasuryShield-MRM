@@ -1,0 +1,9 @@
+target_id,canonical_name,definition,horizon_quarters,eligibility,task
+T1,deposit_log_growth_1q,log(deposits[t+1]/deposits[t]),1,positive deposits at both dates; exact quarter continuity; M&A window excluded,distributional
+T1,deposit_log_growth_2q,log(deposits[t+2]/deposits[t]),2,positive deposits at both dates; exact quarter continuity; M&A window excluded,distributional
+T1,deposit_log_growth_4q,log(deposits[t+4]/deposits[t]),4,positive deposits at both dates; exact quarter continuity; M&A window excluded,distributional
+T2,borrowing_change_asset_scaled,(borrowings[t+h]-borrowings[t])/assets[t],1/2/4,positive assets; same bank,regression
+T3,liquid_narrow_change,cash/assets change,1/2/4,positive assets; same bank,regression
+T3,liquid_broad_change,(cash+securities)/assets change,1/2/4,positive assets; same bank,regression
+T4,liquidity_stress_event,"training-period-only peer-relative union of tail deposit runoff, funding increase, and buffer deterioration",1/2/4,threshold frozen inside training fold,classification
+T5,fdic_failure_external,FDIC failure match by certificate and date,secondary,never infer failure from disappearance,external_validity

@@ -1,0 +1,71 @@
+{
+  "rows": 2557391,
+  "unique_rssd": 24721,
+  "min_stata_quarter": -1,
+  "max_stata_quarter": 264,
+  "min_date": "1959-12-31",
+  "max_date": "2026-03-31",
+  "min_quarter": "1959Q4",
+  "max_quarter": "2026Q1",
+  "assets_nonmissing": 2470811,
+  "deposits_nonmissing": 2470811,
+  "fdic_cert_nonmissing": 2557182,
+  "duplicate_rssd_date": 0,
+  "latest_quarters": {
+    "2023Q2": 4697,
+    "2023Q3": 4669,
+    "2023Q4": 4641,
+    "2024Q1": 4623,
+    "2024Q2": 4594,
+    "2024Q3": 4572,
+    "2024Q4": 4543,
+    "2025Q1": 4519,
+    "2025Q2": 4477,
+    "2025Q3": 4435,
+    "2025Q4": 4394,
+    "2026Q1": 4336
+  },
+  "entity_types": {
+    "NMB": 1459956,
+    "NAT": 734000,
+    "SMB": 246142,
+    "SSB": 77973,
+    "FSB": 11700,
+    "SAL": 10052,
+    "CPB": 9499,
+    "MTC": 6917,
+    "CSA": 358,
+    "NTC": 292,
+    "": 209,
+    "DEO": 93
+  },
+  "sample": [
+    {
+      "id_rssd": "28",
+      "date": "104",
+      "id_fdic_cert": "26606",
+      "reason_term_cd": "0",
+      "entity_type": "NMB",
+      "assets": "2779.0",
+      "deposits": "769.0"
+    },
+    {
+      "id_rssd": "28",
+      "date": "105",
+      "id_fdic_cert": "26606",
+      "reason_term_cd": "0",
+      "entity_type": "NMB",
+      "assets": "4322.0",
+      "deposits": "2325.0"
+    },
+    {
+      "id_rssd": "28",
+      "date": "106",
+      "id_fdic_cert": "26606",
+      "reason_term_cd": "0",
+      "entity_type": "NMB",
+      "assets": "5118.0",
+      "deposits": "3124.0"
+    }
+  ]
+}

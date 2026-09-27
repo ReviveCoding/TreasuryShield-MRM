@@ -1,0 +1,569 @@
+[
+  {
+    "period": "2001Q1",
+    "path": "data\\raw\\y9c\\bhcf0103.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0103.csv",
+    "bytes": 6425706,
+    "field_count": 1199
+  },
+  {
+    "period": "2001Q2",
+    "path": "data\\raw\\y9c\\bhcf0106.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0106.csv",
+    "bytes": 13302506,
+    "field_count": 1305
+  },
+  {
+    "period": "2001Q3",
+    "path": "data\\raw\\y9c\\bhcf0109.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0109.csv",
+    "bytes": 7151779,
+    "field_count": 1308
+  },
+  {
+    "period": "2001Q4",
+    "path": "data\\raw\\y9c\\bhcf0112.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0112.csv",
+    "bytes": 13534655,
+    "field_count": 1311
+  },
+  {
+    "period": "2002Q1",
+    "path": "data\\raw\\y9c\\bhcf0203.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0203.csv",
+    "bytes": 7301380,
+    "field_count": 1331
+  },
+  {
+    "period": "2002Q2",
+    "path": "data\\raw\\y9c\\bhcf0206.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0206.csv",
+    "bytes": 13776296,
+    "field_count": 1343
+  },
+  {
+    "period": "2002Q3",
+    "path": "data\\raw\\y9c\\bhcf0209.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0209.csv",
+    "bytes": 7697259,
+    "field_count": 1343
+  },
+  {
+    "period": "2002Q4",
+    "path": "data\\raw\\y9c\\bhcf0212.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0212.csv",
+    "bytes": 13778375,
+    "field_count": 1332
+  },
+  {
+    "period": "2003Q1",
+    "path": "data\\raw\\y9c\\bhcf0303.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0303.csv",
+    "bytes": 8085228,
+    "field_count": 1388
+  },
+  {
+    "period": "2003Q2",
+    "path": "data\\raw\\y9c\\bhcf0306.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0306.csv",
+    "bytes": 14365957,
+    "field_count": 1390
+  },
+  {
+    "period": "2003Q3",
+    "path": "data\\raw\\y9c\\bhcf0309.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0309.csv",
+    "bytes": 8565289,
+    "field_count": 1390
+  },
+  {
+    "period": "2003Q4",
+    "path": "data\\raw\\y9c\\bhcf0312.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0312.csv",
+    "bytes": 14638046,
+    "field_count": 1390
+  },
+  {
+    "period": "2004Q1",
+    "path": "data\\raw\\y9c\\bhcf0403.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0403.csv",
+    "bytes": 8676497,
+    "field_count": 1393
+  },
+  {
+    "period": "2004Q2",
+    "path": "data\\raw\\y9c\\bhcf0406.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0406.csv",
+    "bytes": 14621239,
+    "field_count": 1393
+  },
+  {
+    "period": "2004Q3",
+    "path": "data\\raw\\y9c\\bhcf0409.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0409.csv",
+    "bytes": 9075046,
+    "field_count": 1417
+  },
+  {
+    "period": "2004Q4",
+    "path": "data\\raw\\y9c\\bhcf0412.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0412.csv",
+    "bytes": 15019529,
+    "field_count": 1429
+  },
+  {
+    "period": "2005Q1",
+    "path": "data\\raw\\y9c\\bhcf0503.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0503.csv",
+    "bytes": 9212793,
+    "field_count": 1430
+  },
+  {
+    "period": "2005Q2",
+    "path": "data\\raw\\y9c\\bhcf0506.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0506.csv",
+    "bytes": 15095410,
+    "field_count": 1433
+  },
+  {
+    "period": "2005Q3",
+    "path": "data\\raw\\y9c\\bhcf0509.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0509.csv",
+    "bytes": 9329149,
+    "field_count": 1440
+  },
+  {
+    "period": "2005Q4",
+    "path": "data\\raw\\y9c\\bhcf0512.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0512.csv",
+    "bytes": 15310012,
+    "field_count": 1442
+  },
+  {
+    "period": "2006Q1",
+    "path": "data\\raw\\y9c\\bhcf0603.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0603.csv",
+    "bytes": 4394922,
+    "field_count": 1453
+  },
+  {
+    "period": "2006Q2",
+    "path": "data\\raw\\y9c\\bhcf0606.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0606.csv",
+    "bytes": 12995190,
+    "field_count": 1455
+  },
+  {
+    "period": "2006Q3",
+    "path": "data\\raw\\y9c\\bhcf0609.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0609.csv",
+    "bytes": 4601205,
+    "field_count": 1498
+  },
+  {
+    "period": "2006Q4",
+    "path": "data\\raw\\y9c\\bhcf0612.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0612.csv",
+    "bytes": 13504675,
+    "field_count": 1498
+  },
+  {
+    "period": "2007Q1",
+    "path": "data\\raw\\y9c\\bhcf0703.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0703.csv",
+    "bytes": 4699580,
+    "field_count": 1567
+  },
+  {
+    "period": "2007Q2",
+    "path": "data\\raw\\y9c\\bhcf0706.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0706.csv",
+    "bytes": 13821002,
+    "field_count": 1568
+  },
+  {
+    "period": "2007Q3",
+    "path": "data\\raw\\y9c\\bhcf0709.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0709.csv",
+    "bytes": 4721960,
+    "field_count": 1568
+  },
+  {
+    "period": "2007Q4",
+    "path": "data\\raw\\y9c\\bhcf0712.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0712.csv",
+    "bytes": 14034092,
+    "field_count": 1571
+  },
+  {
+    "period": "2008Q1",
+    "path": "data\\raw\\y9c\\bhcf0803.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0803.csv",
+    "bytes": 5067463,
+    "field_count": 1733
+  },
+  {
+    "period": "2008Q2",
+    "path": "data\\raw\\y9c\\bhcf0806.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0806.csv",
+    "bytes": 14876938,
+    "field_count": 1736
+  },
+  {
+    "period": "2008Q3",
+    "path": "data\\raw\\y9c\\bhcf0809.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0809.csv",
+    "bytes": 5133478,
+    "field_count": 1736
+  },
+  {
+    "period": "2008Q4",
+    "path": "data\\raw\\y9c\\bhcf0812.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0812.csv",
+    "bytes": 14957788,
+    "field_count": 1736
+  },
+  {
+    "period": "2009Q1",
+    "path": "data\\raw\\y9c\\bhcf0903.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0903.csv",
+    "bytes": 5461453,
+    "field_count": 1764
+  },
+  {
+    "period": "2009Q2",
+    "path": "data\\raw\\y9c\\bhcf0906.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0906.csv",
+    "bytes": 16716010,
+    "field_count": 2018
+  },
+  {
+    "period": "2009Q3",
+    "path": "data\\raw\\y9c\\bhcf0909.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0909.csv",
+    "bytes": 6059064,
+    "field_count": 2020
+  },
+  {
+    "period": "2009Q4",
+    "path": "data\\raw\\y9c\\bhcf0912.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf0912.csv",
+    "bytes": 16672570,
+    "field_count": 2021
+  },
+  {
+    "period": "2010Q1",
+    "path": "data\\raw\\y9c\\bhcf1003.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1003.csv",
+    "bytes": 6205186,
+    "field_count": 2035
+  },
+  {
+    "period": "2010Q2",
+    "path": "data\\raw\\y9c\\bhcf1006.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1006.csv",
+    "bytes": 16675208,
+    "field_count": 2035
+  },
+  {
+    "period": "2010Q3",
+    "path": "data\\raw\\y9c\\bhcf1009.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1009.csv",
+    "bytes": 6158480,
+    "field_count": 2033
+  },
+  {
+    "period": "2010Q4",
+    "path": "data\\raw\\y9c\\bhcf1012.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1012.csv",
+    "bytes": 16539431,
+    "field_count": 2037
+  },
+  {
+    "period": "2011Q1",
+    "path": "data\\raw\\y9c\\bhcf1103.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1103.csv",
+    "bytes": 6573944,
+    "field_count": 2263
+  },
+  {
+    "period": "2011Q2",
+    "path": "data\\raw\\y9c\\bhcf1106.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1106.csv",
+    "bytes": 17623546,
+    "field_count": 2264
+  },
+  {
+    "period": "2011Q3",
+    "path": "data\\raw\\y9c\\bhcf1109.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1109.csv",
+    "bytes": 6573712,
+    "field_count": 2264
+  },
+  {
+    "period": "2011Q4",
+    "path": "data\\raw\\y9c\\bhcf1112.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1112.csv",
+    "bytes": 17613818,
+    "field_count": 2268
+  },
+  {
+    "period": "2012Q1",
+    "path": "data\\raw\\y9c\\bhcf1203.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1203.csv",
+    "bytes": 7344479,
+    "field_count": 2272
+  },
+  {
+    "period": "2012Q2",
+    "path": "data\\raw\\y9c\\bhcf1206.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1206.csv",
+    "bytes": 19162748,
+    "field_count": 2283
+  },
+  {
+    "period": "2012Q3",
+    "path": "data\\raw\\y9c\\bhcf1209.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1209.csv",
+    "bytes": 7429071,
+    "field_count": 2284
+  },
+  {
+    "period": "2012Q4",
+    "path": "data\\raw\\y9c\\bhcf1212.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1212.csv",
+    "bytes": 18985415,
+    "field_count": 2284
+  },
+  {
+    "period": "2013Q1",
+    "path": "data\\raw\\y9c\\bhcf1303.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1303.csv",
+    "bytes": 7636198,
+    "field_count": 2330
+  },
+  {
+    "period": "2013Q2",
+    "path": "data\\raw\\y9c\\bhcf1306.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1306.csv",
+    "bytes": 19006962,
+    "field_count": 2329
+  },
+  {
+    "period": "2013Q3",
+    "path": "data\\raw\\y9c\\bhcf1309.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1309.csv",
+    "bytes": 7582518,
+    "field_count": 2329
+  },
+  {
+    "period": "2013Q4",
+    "path": "data\\raw\\y9c\\bhcf1312.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1312.csv",
+    "bytes": 18841930,
+    "field_count": 2327
+  },
+  {
+    "period": "2014Q1",
+    "path": "data\\raw\\y9c\\bhcf1403.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1403.csv",
+    "bytes": 7506842,
+    "field_count": 2382
+  },
+  {
+    "period": "2014Q2",
+    "path": "data\\raw\\y9c\\bhcf1406.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1406.csv",
+    "bytes": 18376807,
+    "field_count": 2382
+  },
+  {
+    "period": "2014Q3",
+    "path": "data\\raw\\y9c\\bhcf1409.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1409.csv",
+    "bytes": 7338082,
+    "field_count": 2382
+  },
+  {
+    "period": "2014Q4",
+    "path": "data\\raw\\y9c\\bhcf1412.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1412.csv",
+    "bytes": 18226947,
+    "field_count": 2382
+  },
+  {
+    "period": "2015Q1",
+    "path": "data\\raw\\y9c\\bhcf1503.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1503.csv",
+    "bytes": 4921148,
+    "field_count": 2524
+  },
+  {
+    "period": "2015Q2",
+    "path": "data\\raw\\y9c\\bhcf1506.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1506.csv",
+    "bytes": 17484240,
+    "field_count": 2524
+  },
+  {
+    "period": "2015Q3",
+    "path": "data\\raw\\y9c\\bhcf1509.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1509.csv",
+    "bytes": 4797524,
+    "field_count": 2482
+  },
+  {
+    "period": "2015Q4",
+    "path": "data\\raw\\y9c\\bhcf1512.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1512.csv",
+    "bytes": 17086556,
+    "field_count": 2482
+  },
+  {
+    "period": "2016Q1",
+    "path": "data\\raw\\y9c\\bhcf1603.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1603.csv",
+    "bytes": 4763074,
+    "field_count": 2486
+  },
+  {
+    "period": "2016Q2",
+    "path": "data\\raw\\y9c\\bhcf1606.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1606.csv",
+    "bytes": 16778576,
+    "field_count": 2486
+  },
+  {
+    "period": "2016Q3",
+    "path": "data\\raw\\y9c\\bhcf1609.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1609.csv",
+    "bytes": 4730873,
+    "field_count": 2459
+  },
+  {
+    "period": "2016Q4",
+    "path": "data\\raw\\y9c\\bhcf1612.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1612.csv",
+    "bytes": 16522906,
+    "field_count": 2459
+  },
+  {
+    "period": "2017Q1",
+    "path": "data\\raw\\y9c\\bhcf1703.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1703.csv",
+    "bytes": 4841541,
+    "field_count": 2486
+  },
+  {
+    "period": "2017Q2",
+    "path": "data\\raw\\y9c\\bhcf1706.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1706.csv",
+    "bytes": 16297172,
+    "field_count": 2486
+  },
+  {
+    "period": "2017Q3",
+    "path": "data\\raw\\y9c\\bhcf1709.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1709.csv",
+    "bytes": 4767376,
+    "field_count": 2486
+  },
+  {
+    "period": "2017Q4",
+    "path": "data\\raw\\y9c\\bhcf1712.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1712.csv",
+    "bytes": 16210995,
+    "field_count": 2486
+  },
+  {
+    "period": "2018Q1",
+    "path": "data\\raw\\y9c\\bhcf1803.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1803.csv",
+    "bytes": 4721048,
+    "field_count": 2476
+  },
+  {
+    "period": "2018Q2",
+    "path": "data\\raw\\y9c\\bhcf1806.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1806.csv",
+    "bytes": 14631470,
+    "field_count": 2260
+  },
+  {
+    "period": "2018Q3",
+    "path": "data\\raw\\y9c\\bhcf1809.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1809.csv",
+    "bytes": 2653476,
+    "field_count": 2259
+  },
+  {
+    "period": "2018Q4",
+    "path": "data\\raw\\y9c\\bhcf1812.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1812.csv",
+    "bytes": 13678860,
+    "field_count": 2259
+  },
+  {
+    "period": "2019Q1",
+    "path": "data\\raw\\y9c\\bhcf1903.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1903.csv",
+    "bytes": 2607247,
+    "field_count": 2304
+  },
+  {
+    "period": "2019Q2",
+    "path": "data\\raw\\y9c\\bhcf1906.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1906.csv",
+    "bytes": 13518520,
+    "field_count": 2304
+  },
+  {
+    "period": "2019Q3",
+    "path": "data\\raw\\y9c\\bhcf1909.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1909.csv",
+    "bytes": 2595509,
+    "field_count": 2304
+  },
+  {
+    "period": "2019Q4",
+    "path": "data\\raw\\y9c\\bhcf1912.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf1912.csv",
+    "bytes": 13372871,
+    "field_count": 2328
+  },
+  {
+    "period": "2020Q1",
+    "path": "data\\raw\\y9c\\bhcf2003.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf2003.csv",
+    "bytes": 2358593,
+    "field_count": 2348
+  },
+  {
+    "period": "2020Q2",
+    "path": "data\\raw\\y9c\\bhcf2006.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf2006.csv",
+    "bytes": 13077493,
+    "field_count": 2352
+  },
+  {
+    "period": "2020Q3",
+    "path": "data\\raw\\y9c\\bhcf2009.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf2009.csv",
+    "bytes": 2348347,
+    "field_count": 2352
+  },
+  {
+    "period": "2020Q4",
+    "path": "data\\raw\\y9c\\bhcf2012.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf2012.csv",
+    "bytes": 13157818,
+    "field_count": 2364
+  },
+  {
+    "period": "2021Q1",
+    "path": "data\\raw\\y9c\\bhcf2103.csv",
+    "source_url": "https://www.chicagofed.org/~/media/others/banking/financial-institution-reports/bhc-data/bhcf2103.csv",
+    "bytes": 2355614,
+    "field_count": 2367
+  }
+]

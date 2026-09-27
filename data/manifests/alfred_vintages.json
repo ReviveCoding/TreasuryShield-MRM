@@ -1,0 +1,2101 @@
+{
+  "retrieved_at": "2026-09-27T08:38:20.602485+00:00",
+  "rows": [
+    {
+      "quarter": "2001Q1",
+      "forecast_origin": "2001-05-15",
+      "series": "UNRATE",
+      "observations": 640,
+      "file": "data/raw/alfred/UNRATE_2001-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2001-05-15"
+    },
+    {
+      "quarter": "2001Q1",
+      "forecast_origin": "2001-05-15",
+      "series": "CPIAUCSL",
+      "observations": 651,
+      "file": "data/raw/alfred/CPIAUCSL_2001-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2001-05-15"
+    },
+    {
+      "quarter": "2001Q2",
+      "forecast_origin": "2001-08-14",
+      "series": "UNRATE",
+      "observations": 643,
+      "file": "data/raw/alfred/UNRATE_2001-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2001-08-14"
+    },
+    {
+      "quarter": "2001Q2",
+      "forecast_origin": "2001-08-14",
+      "series": "CPIAUCSL",
+      "observations": 654,
+      "file": "data/raw/alfred/CPIAUCSL_2001-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2001-08-14"
+    },
+    {
+      "quarter": "2001Q3",
+      "forecast_origin": "2001-11-14",
+      "series": "UNRATE",
+      "observations": 646,
+      "file": "data/raw/alfred/UNRATE_2001-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2001-11-14"
+    },
+    {
+      "quarter": "2001Q3",
+      "forecast_origin": "2001-11-14",
+      "series": "CPIAUCSL",
+      "observations": 657,
+      "file": "data/raw/alfred/CPIAUCSL_2001-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2001-11-14"
+    },
+    {
+      "quarter": "2001Q4",
+      "forecast_origin": "2002-02-14",
+      "series": "UNRATE",
+      "observations": 649,
+      "file": "data/raw/alfred/UNRATE_2002-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2002-02-14"
+    },
+    {
+      "quarter": "2001Q4",
+      "forecast_origin": "2002-02-14",
+      "series": "CPIAUCSL",
+      "observations": 660,
+      "file": "data/raw/alfred/CPIAUCSL_2002-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2002-02-14"
+    },
+    {
+      "quarter": "2002Q1",
+      "forecast_origin": "2002-05-15",
+      "series": "UNRATE",
+      "observations": 652,
+      "file": "data/raw/alfred/UNRATE_2002-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2002-05-15"
+    },
+    {
+      "quarter": "2002Q1",
+      "forecast_origin": "2002-05-15",
+      "series": "CPIAUCSL",
+      "observations": 664,
+      "file": "data/raw/alfred/CPIAUCSL_2002-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2002-05-15"
+    },
+    {
+      "quarter": "2002Q2",
+      "forecast_origin": "2002-08-14",
+      "series": "UNRATE",
+      "observations": 655,
+      "file": "data/raw/alfred/UNRATE_2002-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2002-08-14"
+    },
+    {
+      "quarter": "2002Q2",
+      "forecast_origin": "2002-08-14",
+      "series": "CPIAUCSL",
+      "observations": 666,
+      "file": "data/raw/alfred/CPIAUCSL_2002-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2002-08-14"
+    },
+    {
+      "quarter": "2002Q3",
+      "forecast_origin": "2002-11-14",
+      "series": "UNRATE",
+      "observations": 658,
+      "file": "data/raw/alfred/UNRATE_2002-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2002-11-14"
+    },
+    {
+      "quarter": "2002Q3",
+      "forecast_origin": "2002-11-14",
+      "series": "CPIAUCSL",
+      "observations": 669,
+      "file": "data/raw/alfred/CPIAUCSL_2002-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2002-11-14"
+    },
+    {
+      "quarter": "2002Q4",
+      "forecast_origin": "2003-02-14",
+      "series": "UNRATE",
+      "observations": 661,
+      "file": "data/raw/alfred/UNRATE_2003-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2003-02-14"
+    },
+    {
+      "quarter": "2002Q4",
+      "forecast_origin": "2003-02-14",
+      "series": "CPIAUCSL",
+      "observations": 672,
+      "file": "data/raw/alfred/CPIAUCSL_2003-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2003-02-14"
+    },
+    {
+      "quarter": "2003Q1",
+      "forecast_origin": "2003-05-15",
+      "series": "UNRATE",
+      "observations": 664,
+      "file": "data/raw/alfred/UNRATE_2003-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2003-05-15"
+    },
+    {
+      "quarter": "2003Q1",
+      "forecast_origin": "2003-05-15",
+      "series": "CPIAUCSL",
+      "observations": 675,
+      "file": "data/raw/alfred/CPIAUCSL_2003-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2003-05-15"
+    },
+    {
+      "quarter": "2003Q2",
+      "forecast_origin": "2003-08-14",
+      "series": "UNRATE",
+      "observations": 667,
+      "file": "data/raw/alfred/UNRATE_2003-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2003-08-14"
+    },
+    {
+      "quarter": "2003Q2",
+      "forecast_origin": "2003-08-14",
+      "series": "CPIAUCSL",
+      "observations": 678,
+      "file": "data/raw/alfred/CPIAUCSL_2003-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2003-08-14"
+    },
+    {
+      "quarter": "2003Q3",
+      "forecast_origin": "2003-11-14",
+      "series": "UNRATE",
+      "observations": 670,
+      "file": "data/raw/alfred/UNRATE_2003-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2003-11-14"
+    },
+    {
+      "quarter": "2003Q3",
+      "forecast_origin": "2003-11-14",
+      "series": "CPIAUCSL",
+      "observations": 681,
+      "file": "data/raw/alfred/CPIAUCSL_2003-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2003-11-14"
+    },
+    {
+      "quarter": "2003Q4",
+      "forecast_origin": "2004-02-14",
+      "series": "UNRATE",
+      "observations": 673,
+      "file": "data/raw/alfred/UNRATE_2004-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2004-02-14"
+    },
+    {
+      "quarter": "2003Q4",
+      "forecast_origin": "2004-02-14",
+      "series": "CPIAUCSL",
+      "observations": 684,
+      "file": "data/raw/alfred/CPIAUCSL_2004-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2004-02-14"
+    },
+    {
+      "quarter": "2004Q1",
+      "forecast_origin": "2004-05-15",
+      "series": "UNRATE",
+      "observations": 676,
+      "file": "data/raw/alfred/UNRATE_2004-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2004-05-15"
+    },
+    {
+      "quarter": "2004Q1",
+      "forecast_origin": "2004-05-15",
+      "series": "CPIAUCSL",
+      "observations": 688,
+      "file": "data/raw/alfred/CPIAUCSL_2004-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2004-05-15"
+    },
+    {
+      "quarter": "2004Q2",
+      "forecast_origin": "2004-08-14",
+      "series": "UNRATE",
+      "observations": 679,
+      "file": "data/raw/alfred/UNRATE_2004-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2004-08-14"
+    },
+    {
+      "quarter": "2004Q2",
+      "forecast_origin": "2004-08-14",
+      "series": "CPIAUCSL",
+      "observations": 690,
+      "file": "data/raw/alfred/CPIAUCSL_2004-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2004-08-14"
+    },
+    {
+      "quarter": "2004Q3",
+      "forecast_origin": "2004-11-14",
+      "series": "UNRATE",
+      "observations": 682,
+      "file": "data/raw/alfred/UNRATE_2004-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2004-11-14"
+    },
+    {
+      "quarter": "2004Q3",
+      "forecast_origin": "2004-11-14",
+      "series": "CPIAUCSL",
+      "observations": 693,
+      "file": "data/raw/alfred/CPIAUCSL_2004-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2004-11-14"
+    },
+    {
+      "quarter": "2004Q4",
+      "forecast_origin": "2005-02-14",
+      "series": "UNRATE",
+      "observations": 685,
+      "file": "data/raw/alfred/UNRATE_2005-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2005-02-14"
+    },
+    {
+      "quarter": "2004Q4",
+      "forecast_origin": "2005-02-14",
+      "series": "CPIAUCSL",
+      "observations": 696,
+      "file": "data/raw/alfred/CPIAUCSL_2005-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2005-02-14"
+    },
+    {
+      "quarter": "2005Q1",
+      "forecast_origin": "2005-05-15",
+      "series": "UNRATE",
+      "observations": 688,
+      "file": "data/raw/alfred/UNRATE_2005-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2005-05-15"
+    },
+    {
+      "quarter": "2005Q1",
+      "forecast_origin": "2005-05-15",
+      "series": "CPIAUCSL",
+      "observations": 699,
+      "file": "data/raw/alfred/CPIAUCSL_2005-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2005-05-15"
+    },
+    {
+      "quarter": "2005Q2",
+      "forecast_origin": "2005-08-14",
+      "series": "UNRATE",
+      "observations": 691,
+      "file": "data/raw/alfred/UNRATE_2005-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2005-08-14"
+    },
+    {
+      "quarter": "2005Q2",
+      "forecast_origin": "2005-08-14",
+      "series": "CPIAUCSL",
+      "observations": 702,
+      "file": "data/raw/alfred/CPIAUCSL_2005-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2005-08-14"
+    },
+    {
+      "quarter": "2005Q3",
+      "forecast_origin": "2005-11-14",
+      "series": "UNRATE",
+      "observations": 694,
+      "file": "data/raw/alfred/UNRATE_2005-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2005-11-14"
+    },
+    {
+      "quarter": "2005Q3",
+      "forecast_origin": "2005-11-14",
+      "series": "CPIAUCSL",
+      "observations": 705,
+      "file": "data/raw/alfred/CPIAUCSL_2005-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2005-11-14"
+    },
+    {
+      "quarter": "2005Q4",
+      "forecast_origin": "2006-02-14",
+      "series": "UNRATE",
+      "observations": 697,
+      "file": "data/raw/alfred/UNRATE_2006-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2006-02-14"
+    },
+    {
+      "quarter": "2005Q4",
+      "forecast_origin": "2006-02-14",
+      "series": "CPIAUCSL",
+      "observations": 708,
+      "file": "data/raw/alfred/CPIAUCSL_2006-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2006-02-14"
+    },
+    {
+      "quarter": "2006Q1",
+      "forecast_origin": "2006-05-15",
+      "series": "UNRATE",
+      "observations": 700,
+      "file": "data/raw/alfred/UNRATE_2006-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2006-05-15"
+    },
+    {
+      "quarter": "2006Q1",
+      "forecast_origin": "2006-05-15",
+      "series": "CPIAUCSL",
+      "observations": 711,
+      "file": "data/raw/alfred/CPIAUCSL_2006-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2006-05-15"
+    },
+    {
+      "quarter": "2006Q2",
+      "forecast_origin": "2006-08-14",
+      "series": "UNRATE",
+      "observations": 703,
+      "file": "data/raw/alfred/UNRATE_2006-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2006-08-14"
+    },
+    {
+      "quarter": "2006Q2",
+      "forecast_origin": "2006-08-14",
+      "series": "CPIAUCSL",
+      "observations": 714,
+      "file": "data/raw/alfred/CPIAUCSL_2006-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2006-08-14"
+    },
+    {
+      "quarter": "2006Q3",
+      "forecast_origin": "2006-11-14",
+      "series": "UNRATE",
+      "observations": 706,
+      "file": "data/raw/alfred/UNRATE_2006-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2006-11-14"
+    },
+    {
+      "quarter": "2006Q3",
+      "forecast_origin": "2006-11-14",
+      "series": "CPIAUCSL",
+      "observations": 717,
+      "file": "data/raw/alfred/CPIAUCSL_2006-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2006-11-14"
+    },
+    {
+      "quarter": "2006Q4",
+      "forecast_origin": "2007-02-14",
+      "series": "UNRATE",
+      "observations": 709,
+      "file": "data/raw/alfred/UNRATE_2007-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2007-02-14"
+    },
+    {
+      "quarter": "2006Q4",
+      "forecast_origin": "2007-02-14",
+      "series": "CPIAUCSL",
+      "observations": 720,
+      "file": "data/raw/alfred/CPIAUCSL_2007-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2007-02-14"
+    },
+    {
+      "quarter": "2007Q1",
+      "forecast_origin": "2007-05-15",
+      "series": "UNRATE",
+      "observations": 712,
+      "file": "data/raw/alfred/UNRATE_2007-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2007-05-15"
+    },
+    {
+      "quarter": "2007Q1",
+      "forecast_origin": "2007-05-15",
+      "series": "CPIAUCSL",
+      "observations": 724,
+      "file": "data/raw/alfred/CPIAUCSL_2007-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2007-05-15"
+    },
+    {
+      "quarter": "2007Q2",
+      "forecast_origin": "2007-08-14",
+      "series": "UNRATE",
+      "observations": 715,
+      "file": "data/raw/alfred/UNRATE_2007-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2007-08-14"
+    },
+    {
+      "quarter": "2007Q2",
+      "forecast_origin": "2007-08-14",
+      "series": "CPIAUCSL",
+      "observations": 726,
+      "file": "data/raw/alfred/CPIAUCSL_2007-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2007-08-14"
+    },
+    {
+      "quarter": "2007Q3",
+      "forecast_origin": "2007-11-14",
+      "series": "UNRATE",
+      "observations": 718,
+      "file": "data/raw/alfred/UNRATE_2007-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2007-11-14"
+    },
+    {
+      "quarter": "2007Q3",
+      "forecast_origin": "2007-11-14",
+      "series": "CPIAUCSL",
+      "observations": 729,
+      "file": "data/raw/alfred/CPIAUCSL_2007-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2007-11-14"
+    },
+    {
+      "quarter": "2007Q4",
+      "forecast_origin": "2008-02-14",
+      "series": "UNRATE",
+      "observations": 721,
+      "file": "data/raw/alfred/UNRATE_2008-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2008-02-14"
+    },
+    {
+      "quarter": "2007Q4",
+      "forecast_origin": "2008-02-14",
+      "series": "CPIAUCSL",
+      "observations": 732,
+      "file": "data/raw/alfred/CPIAUCSL_2008-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2008-02-14"
+    },
+    {
+      "quarter": "2008Q1",
+      "forecast_origin": "2008-05-15",
+      "series": "UNRATE",
+      "observations": 724,
+      "file": "data/raw/alfred/UNRATE_2008-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2008-05-15"
+    },
+    {
+      "quarter": "2008Q1",
+      "forecast_origin": "2008-05-15",
+      "series": "CPIAUCSL",
+      "observations": 736,
+      "file": "data/raw/alfred/CPIAUCSL_2008-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2008-05-15"
+    },
+    {
+      "quarter": "2008Q2",
+      "forecast_origin": "2008-08-14",
+      "series": "UNRATE",
+      "observations": 727,
+      "file": "data/raw/alfred/UNRATE_2008-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2008-08-14"
+    },
+    {
+      "quarter": "2008Q2",
+      "forecast_origin": "2008-08-14",
+      "series": "CPIAUCSL",
+      "observations": 739,
+      "file": "data/raw/alfred/CPIAUCSL_2008-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2008-08-14"
+    },
+    {
+      "quarter": "2008Q3",
+      "forecast_origin": "2008-11-14",
+      "series": "UNRATE",
+      "observations": 730,
+      "file": "data/raw/alfred/UNRATE_2008-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2008-11-14"
+    },
+    {
+      "quarter": "2008Q3",
+      "forecast_origin": "2008-11-14",
+      "series": "CPIAUCSL",
+      "observations": 741,
+      "file": "data/raw/alfred/CPIAUCSL_2008-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2008-11-14"
+    },
+    {
+      "quarter": "2008Q4",
+      "forecast_origin": "2009-02-14",
+      "series": "UNRATE",
+      "observations": 733,
+      "file": "data/raw/alfred/UNRATE_2009-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2009-02-14"
+    },
+    {
+      "quarter": "2008Q4",
+      "forecast_origin": "2009-02-14",
+      "series": "CPIAUCSL",
+      "observations": 744,
+      "file": "data/raw/alfred/CPIAUCSL_2009-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2009-02-14"
+    },
+    {
+      "quarter": "2009Q1",
+      "forecast_origin": "2009-05-15",
+      "series": "UNRATE",
+      "observations": 736,
+      "file": "data/raw/alfred/UNRATE_2009-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2009-05-15"
+    },
+    {
+      "quarter": "2009Q1",
+      "forecast_origin": "2009-05-15",
+      "series": "CPIAUCSL",
+      "observations": 748,
+      "file": "data/raw/alfred/CPIAUCSL_2009-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2009-05-15"
+    },
+    {
+      "quarter": "2009Q2",
+      "forecast_origin": "2009-08-14",
+      "series": "UNRATE",
+      "observations": 739,
+      "file": "data/raw/alfred/UNRATE_2009-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2009-08-14"
+    },
+    {
+      "quarter": "2009Q2",
+      "forecast_origin": "2009-08-14",
+      "series": "CPIAUCSL",
+      "observations": 751,
+      "file": "data/raw/alfred/CPIAUCSL_2009-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2009-08-14"
+    },
+    {
+      "quarter": "2009Q3",
+      "forecast_origin": "2009-11-14",
+      "series": "UNRATE",
+      "observations": 742,
+      "file": "data/raw/alfred/UNRATE_2009-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2009-11-14"
+    },
+    {
+      "quarter": "2009Q3",
+      "forecast_origin": "2009-11-14",
+      "series": "CPIAUCSL",
+      "observations": 753,
+      "file": "data/raw/alfred/CPIAUCSL_2009-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2009-11-14"
+    },
+    {
+      "quarter": "2009Q4",
+      "forecast_origin": "2010-02-14",
+      "series": "UNRATE",
+      "observations": 745,
+      "file": "data/raw/alfred/UNRATE_2010-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2010-02-14"
+    },
+    {
+      "quarter": "2009Q4",
+      "forecast_origin": "2010-02-14",
+      "series": "CPIAUCSL",
+      "observations": 756,
+      "file": "data/raw/alfred/CPIAUCSL_2010-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2010-02-14"
+    },
+    {
+      "quarter": "2010Q1",
+      "forecast_origin": "2010-05-15",
+      "series": "UNRATE",
+      "observations": 748,
+      "file": "data/raw/alfred/UNRATE_2010-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2010-05-15"
+    },
+    {
+      "quarter": "2010Q1",
+      "forecast_origin": "2010-05-15",
+      "series": "CPIAUCSL",
+      "observations": 759,
+      "file": "data/raw/alfred/CPIAUCSL_2010-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2010-05-15"
+    },
+    {
+      "quarter": "2010Q2",
+      "forecast_origin": "2010-08-14",
+      "series": "UNRATE",
+      "observations": 751,
+      "file": "data/raw/alfred/UNRATE_2010-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2010-08-14"
+    },
+    {
+      "quarter": "2010Q2",
+      "forecast_origin": "2010-08-14",
+      "series": "CPIAUCSL",
+      "observations": 763,
+      "file": "data/raw/alfred/CPIAUCSL_2010-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2010-08-14"
+    },
+    {
+      "quarter": "2010Q3",
+      "forecast_origin": "2010-11-14",
+      "series": "UNRATE",
+      "observations": 754,
+      "file": "data/raw/alfred/UNRATE_2010-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2010-11-14"
+    },
+    {
+      "quarter": "2010Q3",
+      "forecast_origin": "2010-11-14",
+      "series": "CPIAUCSL",
+      "observations": 765,
+      "file": "data/raw/alfred/CPIAUCSL_2010-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2010-11-14"
+    },
+    {
+      "quarter": "2010Q4",
+      "forecast_origin": "2011-02-14",
+      "series": "UNRATE",
+      "observations": 757,
+      "file": "data/raw/alfred/UNRATE_2011-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2011-02-14"
+    },
+    {
+      "quarter": "2010Q4",
+      "forecast_origin": "2011-02-14",
+      "series": "CPIAUCSL",
+      "observations": 768,
+      "file": "data/raw/alfred/CPIAUCSL_2011-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2011-02-14"
+    },
+    {
+      "quarter": "2011Q1",
+      "forecast_origin": "2011-05-15",
+      "series": "UNRATE",
+      "observations": 760,
+      "file": "data/raw/alfred/UNRATE_2011-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2011-05-15"
+    },
+    {
+      "quarter": "2011Q1",
+      "forecast_origin": "2011-05-15",
+      "series": "CPIAUCSL",
+      "observations": 772,
+      "file": "data/raw/alfred/CPIAUCSL_2011-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2011-05-15"
+    },
+    {
+      "quarter": "2011Q2",
+      "forecast_origin": "2011-08-14",
+      "series": "UNRATE",
+      "observations": 763,
+      "file": "data/raw/alfred/UNRATE_2011-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2011-08-14"
+    },
+    {
+      "quarter": "2011Q2",
+      "forecast_origin": "2011-08-14",
+      "series": "CPIAUCSL",
+      "observations": 774,
+      "file": "data/raw/alfred/CPIAUCSL_2011-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2011-08-14"
+    },
+    {
+      "quarter": "2011Q3",
+      "forecast_origin": "2011-11-14",
+      "series": "UNRATE",
+      "observations": 766,
+      "file": "data/raw/alfred/UNRATE_2011-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2011-11-14"
+    },
+    {
+      "quarter": "2011Q3",
+      "forecast_origin": "2011-11-14",
+      "series": "CPIAUCSL",
+      "observations": 777,
+      "file": "data/raw/alfred/CPIAUCSL_2011-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2011-11-14"
+    },
+    {
+      "quarter": "2011Q4",
+      "forecast_origin": "2012-02-14",
+      "series": "UNRATE",
+      "observations": 769,
+      "file": "data/raw/alfred/UNRATE_2012-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2012-02-14"
+    },
+    {
+      "quarter": "2011Q4",
+      "forecast_origin": "2012-02-14",
+      "series": "CPIAUCSL",
+      "observations": 780,
+      "file": "data/raw/alfred/CPIAUCSL_2012-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2012-02-14"
+    },
+    {
+      "quarter": "2012Q1",
+      "forecast_origin": "2012-05-15",
+      "series": "UNRATE",
+      "observations": 772,
+      "file": "data/raw/alfred/UNRATE_2012-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2012-05-15"
+    },
+    {
+      "quarter": "2012Q1",
+      "forecast_origin": "2012-05-15",
+      "series": "CFNAI",
+      "observations": 541,
+      "file": "data/raw/alfred/CFNAI_2012-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2012-05-15"
+    },
+    {
+      "quarter": "2012Q1",
+      "forecast_origin": "2012-05-15",
+      "series": "CPIAUCSL",
+      "observations": 784,
+      "file": "data/raw/alfred/CPIAUCSL_2012-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2012-05-15"
+    },
+    {
+      "quarter": "2012Q2",
+      "forecast_origin": "2012-08-14",
+      "series": "UNRATE",
+      "observations": 775,
+      "file": "data/raw/alfred/UNRATE_2012-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2012-08-14"
+    },
+    {
+      "quarter": "2012Q2",
+      "forecast_origin": "2012-08-14",
+      "series": "CFNAI",
+      "observations": 544,
+      "file": "data/raw/alfred/CFNAI_2012-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2012-08-14"
+    },
+    {
+      "quarter": "2012Q2",
+      "forecast_origin": "2012-08-14",
+      "series": "CPIAUCSL",
+      "observations": 786,
+      "file": "data/raw/alfred/CPIAUCSL_2012-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2012-08-14"
+    },
+    {
+      "quarter": "2012Q3",
+      "forecast_origin": "2012-11-14",
+      "series": "UNRATE",
+      "observations": 778,
+      "file": "data/raw/alfred/UNRATE_2012-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2012-11-14"
+    },
+    {
+      "quarter": "2012Q3",
+      "forecast_origin": "2012-11-14",
+      "series": "CFNAI",
+      "observations": 547,
+      "file": "data/raw/alfred/CFNAI_2012-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2012-11-14"
+    },
+    {
+      "quarter": "2012Q3",
+      "forecast_origin": "2012-11-14",
+      "series": "CPIAUCSL",
+      "observations": 789,
+      "file": "data/raw/alfred/CPIAUCSL_2012-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2012-11-14"
+    },
+    {
+      "quarter": "2012Q4",
+      "forecast_origin": "2013-02-14",
+      "series": "UNRATE",
+      "observations": 781,
+      "file": "data/raw/alfred/UNRATE_2013-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2013-02-14"
+    },
+    {
+      "quarter": "2012Q4",
+      "forecast_origin": "2013-02-14",
+      "series": "CFNAI",
+      "observations": 550,
+      "file": "data/raw/alfred/CFNAI_2013-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2013-02-14"
+    },
+    {
+      "quarter": "2012Q4",
+      "forecast_origin": "2013-02-14",
+      "series": "CPIAUCSL",
+      "observations": 792,
+      "file": "data/raw/alfred/CPIAUCSL_2013-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2013-02-14"
+    },
+    {
+      "quarter": "2013Q1",
+      "forecast_origin": "2013-05-15",
+      "series": "UNRATE",
+      "observations": 784,
+      "file": "data/raw/alfred/UNRATE_2013-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2013-05-15"
+    },
+    {
+      "quarter": "2013Q1",
+      "forecast_origin": "2013-05-15",
+      "series": "CFNAI",
+      "observations": 553,
+      "file": "data/raw/alfred/CFNAI_2013-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2013-05-15"
+    },
+    {
+      "quarter": "2013Q1",
+      "forecast_origin": "2013-05-15",
+      "series": "CPIAUCSL",
+      "observations": 795,
+      "file": "data/raw/alfred/CPIAUCSL_2013-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2013-05-15"
+    },
+    {
+      "quarter": "2013Q2",
+      "forecast_origin": "2013-08-14",
+      "series": "UNRATE",
+      "observations": 787,
+      "file": "data/raw/alfred/UNRATE_2013-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2013-08-14"
+    },
+    {
+      "quarter": "2013Q2",
+      "forecast_origin": "2013-08-14",
+      "series": "CFNAI",
+      "observations": 556,
+      "file": "data/raw/alfred/CFNAI_2013-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2013-08-14"
+    },
+    {
+      "quarter": "2013Q2",
+      "forecast_origin": "2013-08-14",
+      "series": "CPIAUCSL",
+      "observations": 798,
+      "file": "data/raw/alfred/CPIAUCSL_2013-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2013-08-14"
+    },
+    {
+      "quarter": "2013Q3",
+      "forecast_origin": "2013-11-14",
+      "series": "UNRATE",
+      "observations": 790,
+      "file": "data/raw/alfred/UNRATE_2013-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2013-11-14"
+    },
+    {
+      "quarter": "2013Q3",
+      "forecast_origin": "2013-11-14",
+      "series": "CFNAI",
+      "observations": 559,
+      "file": "data/raw/alfred/CFNAI_2013-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2013-11-14"
+    },
+    {
+      "quarter": "2013Q3",
+      "forecast_origin": "2013-11-14",
+      "series": "CPIAUCSL",
+      "observations": 801,
+      "file": "data/raw/alfred/CPIAUCSL_2013-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2013-11-14"
+    },
+    {
+      "quarter": "2013Q4",
+      "forecast_origin": "2014-02-14",
+      "series": "UNRATE",
+      "observations": 793,
+      "file": "data/raw/alfred/UNRATE_2014-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2014-02-14"
+    },
+    {
+      "quarter": "2013Q4",
+      "forecast_origin": "2014-02-14",
+      "series": "CFNAI",
+      "observations": 562,
+      "file": "data/raw/alfred/CFNAI_2014-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2014-02-14"
+    },
+    {
+      "quarter": "2013Q4",
+      "forecast_origin": "2014-02-14",
+      "series": "CPIAUCSL",
+      "observations": 804,
+      "file": "data/raw/alfred/CPIAUCSL_2014-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2014-02-14"
+    },
+    {
+      "quarter": "2014Q1",
+      "forecast_origin": "2014-05-15",
+      "series": "UNRATE",
+      "observations": 796,
+      "file": "data/raw/alfred/UNRATE_2014-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2014-05-15"
+    },
+    {
+      "quarter": "2014Q1",
+      "forecast_origin": "2014-05-15",
+      "series": "CFNAI",
+      "observations": 565,
+      "file": "data/raw/alfred/CFNAI_2014-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2014-05-15"
+    },
+    {
+      "quarter": "2014Q1",
+      "forecast_origin": "2014-05-15",
+      "series": "CPIAUCSL",
+      "observations": 808,
+      "file": "data/raw/alfred/CPIAUCSL_2014-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2014-05-15"
+    },
+    {
+      "quarter": "2014Q2",
+      "forecast_origin": "2014-08-14",
+      "series": "UNRATE",
+      "observations": 799,
+      "file": "data/raw/alfred/UNRATE_2014-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2014-08-14"
+    },
+    {
+      "quarter": "2014Q2",
+      "forecast_origin": "2014-08-14",
+      "series": "CFNAI",
+      "observations": 568,
+      "file": "data/raw/alfred/CFNAI_2014-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2014-08-14"
+    },
+    {
+      "quarter": "2014Q2",
+      "forecast_origin": "2014-08-14",
+      "series": "CPIAUCSL",
+      "observations": 810,
+      "file": "data/raw/alfred/CPIAUCSL_2014-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2014-08-14"
+    },
+    {
+      "quarter": "2014Q3",
+      "forecast_origin": "2014-11-14",
+      "series": "UNRATE",
+      "observations": 802,
+      "file": "data/raw/alfred/UNRATE_2014-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2014-11-14"
+    },
+    {
+      "quarter": "2014Q3",
+      "forecast_origin": "2014-11-14",
+      "series": "CFNAI",
+      "observations": 571,
+      "file": "data/raw/alfred/CFNAI_2014-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2014-11-14"
+    },
+    {
+      "quarter": "2014Q3",
+      "forecast_origin": "2014-11-14",
+      "series": "CPIAUCSL",
+      "observations": 813,
+      "file": "data/raw/alfred/CPIAUCSL_2014-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2014-11-14"
+    },
+    {
+      "quarter": "2014Q4",
+      "forecast_origin": "2015-02-14",
+      "series": "UNRATE",
+      "observations": 805,
+      "file": "data/raw/alfred/UNRATE_2015-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2015-02-14"
+    },
+    {
+      "quarter": "2014Q4",
+      "forecast_origin": "2015-02-14",
+      "series": "CFNAI",
+      "observations": 574,
+      "file": "data/raw/alfred/CFNAI_2015-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2015-02-14"
+    },
+    {
+      "quarter": "2014Q4",
+      "forecast_origin": "2015-02-14",
+      "series": "CPIAUCSL",
+      "observations": 816,
+      "file": "data/raw/alfred/CPIAUCSL_2015-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2015-02-14"
+    },
+    {
+      "quarter": "2015Q1",
+      "forecast_origin": "2015-05-15",
+      "series": "UNRATE",
+      "observations": 808,
+      "file": "data/raw/alfred/UNRATE_2015-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2015-05-15"
+    },
+    {
+      "quarter": "2015Q1",
+      "forecast_origin": "2015-05-15",
+      "series": "CFNAI",
+      "observations": 577,
+      "file": "data/raw/alfred/CFNAI_2015-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2015-05-15"
+    },
+    {
+      "quarter": "2015Q1",
+      "forecast_origin": "2015-05-15",
+      "series": "CPIAUCSL",
+      "observations": 819,
+      "file": "data/raw/alfred/CPIAUCSL_2015-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2015-05-15"
+    },
+    {
+      "quarter": "2015Q2",
+      "forecast_origin": "2015-08-14",
+      "series": "UNRATE",
+      "observations": 811,
+      "file": "data/raw/alfred/UNRATE_2015-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2015-08-14"
+    },
+    {
+      "quarter": "2015Q2",
+      "forecast_origin": "2015-08-14",
+      "series": "CFNAI",
+      "observations": 580,
+      "file": "data/raw/alfred/CFNAI_2015-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2015-08-14"
+    },
+    {
+      "quarter": "2015Q2",
+      "forecast_origin": "2015-08-14",
+      "series": "CPIAUCSL",
+      "observations": 822,
+      "file": "data/raw/alfred/CPIAUCSL_2015-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2015-08-14"
+    },
+    {
+      "quarter": "2015Q3",
+      "forecast_origin": "2015-11-14",
+      "series": "UNRATE",
+      "observations": 814,
+      "file": "data/raw/alfred/UNRATE_2015-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2015-11-14"
+    },
+    {
+      "quarter": "2015Q3",
+      "forecast_origin": "2015-11-14",
+      "series": "CFNAI",
+      "observations": 583,
+      "file": "data/raw/alfred/CFNAI_2015-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2015-11-14"
+    },
+    {
+      "quarter": "2015Q3",
+      "forecast_origin": "2015-11-14",
+      "series": "CPIAUCSL",
+      "observations": 825,
+      "file": "data/raw/alfred/CPIAUCSL_2015-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2015-11-14"
+    },
+    {
+      "quarter": "2015Q4",
+      "forecast_origin": "2016-02-14",
+      "series": "UNRATE",
+      "observations": 817,
+      "file": "data/raw/alfred/UNRATE_2016-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2016-02-14"
+    },
+    {
+      "quarter": "2015Q4",
+      "forecast_origin": "2016-02-14",
+      "series": "CFNAI",
+      "observations": 586,
+      "file": "data/raw/alfred/CFNAI_2016-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2016-02-14"
+    },
+    {
+      "quarter": "2015Q4",
+      "forecast_origin": "2016-02-14",
+      "series": "CPIAUCSL",
+      "observations": 828,
+      "file": "data/raw/alfred/CPIAUCSL_2016-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2016-02-14"
+    },
+    {
+      "quarter": "2016Q1",
+      "forecast_origin": "2016-05-15",
+      "series": "UNRATE",
+      "observations": 820,
+      "file": "data/raw/alfred/UNRATE_2016-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2016-05-15"
+    },
+    {
+      "quarter": "2016Q1",
+      "forecast_origin": "2016-05-15",
+      "series": "CFNAI",
+      "observations": 589,
+      "file": "data/raw/alfred/CFNAI_2016-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2016-05-15"
+    },
+    {
+      "quarter": "2016Q1",
+      "forecast_origin": "2016-05-15",
+      "series": "CPIAUCSL",
+      "observations": 831,
+      "file": "data/raw/alfred/CPIAUCSL_2016-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2016-05-15"
+    },
+    {
+      "quarter": "2016Q2",
+      "forecast_origin": "2016-08-14",
+      "series": "UNRATE",
+      "observations": 823,
+      "file": "data/raw/alfred/UNRATE_2016-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2016-08-14"
+    },
+    {
+      "quarter": "2016Q2",
+      "forecast_origin": "2016-08-14",
+      "series": "CFNAI",
+      "observations": 592,
+      "file": "data/raw/alfred/CFNAI_2016-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2016-08-14"
+    },
+    {
+      "quarter": "2016Q2",
+      "forecast_origin": "2016-08-14",
+      "series": "CPIAUCSL",
+      "observations": 834,
+      "file": "data/raw/alfred/CPIAUCSL_2016-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2016-08-14"
+    },
+    {
+      "quarter": "2016Q3",
+      "forecast_origin": "2016-11-14",
+      "series": "UNRATE",
+      "observations": 826,
+      "file": "data/raw/alfred/UNRATE_2016-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2016-11-14"
+    },
+    {
+      "quarter": "2016Q3",
+      "forecast_origin": "2016-11-14",
+      "series": "CFNAI",
+      "observations": 595,
+      "file": "data/raw/alfred/CFNAI_2016-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2016-11-14"
+    },
+    {
+      "quarter": "2016Q3",
+      "forecast_origin": "2016-11-14",
+      "series": "CPIAUCSL",
+      "observations": 837,
+      "file": "data/raw/alfred/CPIAUCSL_2016-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2016-11-14"
+    },
+    {
+      "quarter": "2016Q4",
+      "forecast_origin": "2017-02-14",
+      "series": "UNRATE",
+      "observations": 829,
+      "file": "data/raw/alfred/UNRATE_2017-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2017-02-14"
+    },
+    {
+      "quarter": "2016Q4",
+      "forecast_origin": "2017-02-14",
+      "series": "CFNAI",
+      "observations": 598,
+      "file": "data/raw/alfred/CFNAI_2017-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2017-02-14"
+    },
+    {
+      "quarter": "2016Q4",
+      "forecast_origin": "2017-02-14",
+      "series": "CPIAUCSL",
+      "observations": 840,
+      "file": "data/raw/alfred/CPIAUCSL_2017-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2017-02-14"
+    },
+    {
+      "quarter": "2017Q1",
+      "forecast_origin": "2017-05-15",
+      "series": "UNRATE",
+      "observations": 832,
+      "file": "data/raw/alfred/UNRATE_2017-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2017-05-15"
+    },
+    {
+      "quarter": "2017Q1",
+      "forecast_origin": "2017-05-15",
+      "series": "CFNAI",
+      "observations": 601,
+      "file": "data/raw/alfred/CFNAI_2017-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2017-05-15"
+    },
+    {
+      "quarter": "2017Q1",
+      "forecast_origin": "2017-05-15",
+      "series": "CPIAUCSL",
+      "observations": 844,
+      "file": "data/raw/alfred/CPIAUCSL_2017-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2017-05-15"
+    },
+    {
+      "quarter": "2017Q2",
+      "forecast_origin": "2017-08-14",
+      "series": "UNRATE",
+      "observations": 835,
+      "file": "data/raw/alfred/UNRATE_2017-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2017-08-14"
+    },
+    {
+      "quarter": "2017Q2",
+      "forecast_origin": "2017-08-14",
+      "series": "CFNAI",
+      "observations": 604,
+      "file": "data/raw/alfred/CFNAI_2017-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2017-08-14"
+    },
+    {
+      "quarter": "2017Q2",
+      "forecast_origin": "2017-08-14",
+      "series": "CPIAUCSL",
+      "observations": 847,
+      "file": "data/raw/alfred/CPIAUCSL_2017-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2017-08-14"
+    },
+    {
+      "quarter": "2017Q3",
+      "forecast_origin": "2017-11-14",
+      "series": "UNRATE",
+      "observations": 838,
+      "file": "data/raw/alfred/UNRATE_2017-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2017-11-14"
+    },
+    {
+      "quarter": "2017Q3",
+      "forecast_origin": "2017-11-14",
+      "series": "CFNAI",
+      "observations": 607,
+      "file": "data/raw/alfred/CFNAI_2017-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2017-11-14"
+    },
+    {
+      "quarter": "2017Q3",
+      "forecast_origin": "2017-11-14",
+      "series": "CPIAUCSL",
+      "observations": 849,
+      "file": "data/raw/alfred/CPIAUCSL_2017-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2017-11-14"
+    },
+    {
+      "quarter": "2017Q4",
+      "forecast_origin": "2018-02-14",
+      "series": "UNRATE",
+      "observations": 841,
+      "file": "data/raw/alfred/UNRATE_2018-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2018-02-14"
+    },
+    {
+      "quarter": "2017Q4",
+      "forecast_origin": "2018-02-14",
+      "series": "CFNAI",
+      "observations": 610,
+      "file": "data/raw/alfred/CFNAI_2018-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2018-02-14"
+    },
+    {
+      "quarter": "2017Q4",
+      "forecast_origin": "2018-02-14",
+      "series": "CPIAUCSL",
+      "observations": 853,
+      "file": "data/raw/alfred/CPIAUCSL_2018-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2018-02-14"
+    },
+    {
+      "quarter": "2018Q1",
+      "forecast_origin": "2018-05-15",
+      "series": "UNRATE",
+      "observations": 844,
+      "file": "data/raw/alfred/UNRATE_2018-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2018-05-15"
+    },
+    {
+      "quarter": "2018Q1",
+      "forecast_origin": "2018-05-15",
+      "series": "CFNAI",
+      "observations": 613,
+      "file": "data/raw/alfred/CFNAI_2018-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2018-05-15"
+    },
+    {
+      "quarter": "2018Q1",
+      "forecast_origin": "2018-05-15",
+      "series": "CPIAUCSL",
+      "observations": 856,
+      "file": "data/raw/alfred/CPIAUCSL_2018-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2018-05-15"
+    },
+    {
+      "quarter": "2018Q2",
+      "forecast_origin": "2018-08-14",
+      "series": "UNRATE",
+      "observations": 847,
+      "file": "data/raw/alfred/UNRATE_2018-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2018-08-14"
+    },
+    {
+      "quarter": "2018Q2",
+      "forecast_origin": "2018-08-14",
+      "series": "CFNAI",
+      "observations": 616,
+      "file": "data/raw/alfred/CFNAI_2018-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2018-08-14"
+    },
+    {
+      "quarter": "2018Q2",
+      "forecast_origin": "2018-08-14",
+      "series": "CPIAUCSL",
+      "observations": 859,
+      "file": "data/raw/alfred/CPIAUCSL_2018-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2018-08-14"
+    },
+    {
+      "quarter": "2018Q3",
+      "forecast_origin": "2018-11-14",
+      "series": "UNRATE",
+      "observations": 850,
+      "file": "data/raw/alfred/UNRATE_2018-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2018-11-14"
+    },
+    {
+      "quarter": "2018Q3",
+      "forecast_origin": "2018-11-14",
+      "series": "CFNAI",
+      "observations": 619,
+      "file": "data/raw/alfred/CFNAI_2018-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2018-11-14"
+    },
+    {
+      "quarter": "2018Q3",
+      "forecast_origin": "2018-11-14",
+      "series": "CPIAUCSL",
+      "observations": 862,
+      "file": "data/raw/alfred/CPIAUCSL_2018-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2018-11-14"
+    },
+    {
+      "quarter": "2018Q4",
+      "forecast_origin": "2019-02-14",
+      "series": "UNRATE",
+      "observations": 853,
+      "file": "data/raw/alfred/UNRATE_2019-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2019-02-14"
+    },
+    {
+      "quarter": "2018Q4",
+      "forecast_origin": "2019-02-14",
+      "series": "CFNAI",
+      "observations": 622,
+      "file": "data/raw/alfred/CFNAI_2019-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2019-02-14"
+    },
+    {
+      "quarter": "2018Q4",
+      "forecast_origin": "2019-02-14",
+      "series": "CPIAUCSL",
+      "observations": 865,
+      "file": "data/raw/alfred/CPIAUCSL_2019-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2019-02-14"
+    },
+    {
+      "quarter": "2019Q1",
+      "forecast_origin": "2019-05-15",
+      "series": "UNRATE",
+      "observations": 856,
+      "file": "data/raw/alfred/UNRATE_2019-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2019-05-15"
+    },
+    {
+      "quarter": "2019Q1",
+      "forecast_origin": "2019-05-15",
+      "series": "CFNAI",
+      "observations": 625,
+      "file": "data/raw/alfred/CFNAI_2019-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2019-05-15"
+    },
+    {
+      "quarter": "2019Q1",
+      "forecast_origin": "2019-05-15",
+      "series": "CPIAUCSL",
+      "observations": 868,
+      "file": "data/raw/alfred/CPIAUCSL_2019-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2019-05-15"
+    },
+    {
+      "quarter": "2019Q2",
+      "forecast_origin": "2019-08-14",
+      "series": "UNRATE",
+      "observations": 859,
+      "file": "data/raw/alfred/UNRATE_2019-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2019-08-14"
+    },
+    {
+      "quarter": "2019Q2",
+      "forecast_origin": "2019-08-14",
+      "series": "CFNAI",
+      "observations": 628,
+      "file": "data/raw/alfred/CFNAI_2019-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2019-08-14"
+    },
+    {
+      "quarter": "2019Q2",
+      "forecast_origin": "2019-08-14",
+      "series": "CPIAUCSL",
+      "observations": 871,
+      "file": "data/raw/alfred/CPIAUCSL_2019-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2019-08-14"
+    },
+    {
+      "quarter": "2019Q3",
+      "forecast_origin": "2019-11-14",
+      "series": "UNRATE",
+      "observations": 862,
+      "file": "data/raw/alfred/UNRATE_2019-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2019-11-14"
+    },
+    {
+      "quarter": "2019Q3",
+      "forecast_origin": "2019-11-14",
+      "series": "CFNAI",
+      "observations": 631,
+      "file": "data/raw/alfred/CFNAI_2019-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2019-11-14"
+    },
+    {
+      "quarter": "2019Q3",
+      "forecast_origin": "2019-11-14",
+      "series": "CPIAUCSL",
+      "observations": 874,
+      "file": "data/raw/alfred/CPIAUCSL_2019-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2019-11-14"
+    },
+    {
+      "quarter": "2019Q4",
+      "forecast_origin": "2020-02-14",
+      "series": "UNRATE",
+      "observations": 865,
+      "file": "data/raw/alfred/UNRATE_2020-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2020-02-14"
+    },
+    {
+      "quarter": "2019Q4",
+      "forecast_origin": "2020-02-14",
+      "series": "CFNAI",
+      "observations": 634,
+      "file": "data/raw/alfred/CFNAI_2020-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2020-02-14"
+    },
+    {
+      "quarter": "2019Q4",
+      "forecast_origin": "2020-02-14",
+      "series": "CPIAUCSL",
+      "observations": 877,
+      "file": "data/raw/alfred/CPIAUCSL_2020-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2020-02-14"
+    },
+    {
+      "quarter": "2020Q1",
+      "forecast_origin": "2020-05-15",
+      "series": "UNRATE",
+      "observations": 868,
+      "file": "data/raw/alfred/UNRATE_2020-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2020-05-15"
+    },
+    {
+      "quarter": "2020Q1",
+      "forecast_origin": "2020-05-15",
+      "series": "CFNAI",
+      "observations": 637,
+      "file": "data/raw/alfred/CFNAI_2020-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2020-05-15"
+    },
+    {
+      "quarter": "2020Q1",
+      "forecast_origin": "2020-05-15",
+      "series": "CPIAUCSL",
+      "observations": 880,
+      "file": "data/raw/alfred/CPIAUCSL_2020-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2020-05-15"
+    },
+    {
+      "quarter": "2020Q2",
+      "forecast_origin": "2020-08-14",
+      "series": "UNRATE",
+      "observations": 871,
+      "file": "data/raw/alfred/UNRATE_2020-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2020-08-14"
+    },
+    {
+      "quarter": "2020Q2",
+      "forecast_origin": "2020-08-14",
+      "series": "CFNAI",
+      "observations": 640,
+      "file": "data/raw/alfred/CFNAI_2020-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2020-08-14"
+    },
+    {
+      "quarter": "2020Q2",
+      "forecast_origin": "2020-08-14",
+      "series": "CPIAUCSL",
+      "observations": 883,
+      "file": "data/raw/alfred/CPIAUCSL_2020-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2020-08-14"
+    },
+    {
+      "quarter": "2020Q3",
+      "forecast_origin": "2020-11-14",
+      "series": "UNRATE",
+      "observations": 874,
+      "file": "data/raw/alfred/UNRATE_2020-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2020-11-14"
+    },
+    {
+      "quarter": "2020Q3",
+      "forecast_origin": "2020-11-14",
+      "series": "CFNAI",
+      "observations": 643,
+      "file": "data/raw/alfred/CFNAI_2020-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2020-11-14"
+    },
+    {
+      "quarter": "2020Q3",
+      "forecast_origin": "2020-11-14",
+      "series": "CPIAUCSL",
+      "observations": 886,
+      "file": "data/raw/alfred/CPIAUCSL_2020-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2020-11-14"
+    },
+    {
+      "quarter": "2020Q4",
+      "forecast_origin": "2021-02-14",
+      "series": "UNRATE",
+      "observations": 877,
+      "file": "data/raw/alfred/UNRATE_2021-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2021-02-14"
+    },
+    {
+      "quarter": "2020Q4",
+      "forecast_origin": "2021-02-14",
+      "series": "CFNAI",
+      "observations": 646,
+      "file": "data/raw/alfred/CFNAI_2021-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2021-02-14"
+    },
+    {
+      "quarter": "2020Q4",
+      "forecast_origin": "2021-02-14",
+      "series": "CPIAUCSL",
+      "observations": 889,
+      "file": "data/raw/alfred/CPIAUCSL_2021-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2021-02-14"
+    },
+    {
+      "quarter": "2021Q1",
+      "forecast_origin": "2021-05-15",
+      "series": "UNRATE",
+      "observations": 880,
+      "file": "data/raw/alfred/UNRATE_2021-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2021-05-15"
+    },
+    {
+      "quarter": "2021Q1",
+      "forecast_origin": "2021-05-15",
+      "series": "CFNAI",
+      "observations": 649,
+      "file": "data/raw/alfred/CFNAI_2021-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2021-05-15"
+    },
+    {
+      "quarter": "2021Q1",
+      "forecast_origin": "2021-05-15",
+      "series": "CPIAUCSL",
+      "observations": 892,
+      "file": "data/raw/alfred/CPIAUCSL_2021-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2021-05-15"
+    },
+    {
+      "quarter": "2021Q2",
+      "forecast_origin": "2021-08-14",
+      "series": "UNRATE",
+      "observations": 883,
+      "file": "data/raw/alfred/UNRATE_2021-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2021-08-14"
+    },
+    {
+      "quarter": "2021Q2",
+      "forecast_origin": "2021-08-14",
+      "series": "CFNAI",
+      "observations": 652,
+      "file": "data/raw/alfred/CFNAI_2021-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2021-08-14"
+    },
+    {
+      "quarter": "2021Q2",
+      "forecast_origin": "2021-08-14",
+      "series": "CPIAUCSL",
+      "observations": 895,
+      "file": "data/raw/alfred/CPIAUCSL_2021-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2021-08-14"
+    },
+    {
+      "quarter": "2021Q3",
+      "forecast_origin": "2021-11-14",
+      "series": "UNRATE",
+      "observations": 886,
+      "file": "data/raw/alfred/UNRATE_2021-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2021-11-14"
+    },
+    {
+      "quarter": "2021Q3",
+      "forecast_origin": "2021-11-14",
+      "series": "CFNAI",
+      "observations": 655,
+      "file": "data/raw/alfred/CFNAI_2021-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2021-11-14"
+    },
+    {
+      "quarter": "2021Q3",
+      "forecast_origin": "2021-11-14",
+      "series": "CPIAUCSL",
+      "observations": 898,
+      "file": "data/raw/alfred/CPIAUCSL_2021-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2021-11-14"
+    },
+    {
+      "quarter": "2021Q4",
+      "forecast_origin": "2022-02-14",
+      "series": "UNRATE",
+      "observations": 889,
+      "file": "data/raw/alfred/UNRATE_2022-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2022-02-14"
+    },
+    {
+      "quarter": "2021Q4",
+      "forecast_origin": "2022-02-14",
+      "series": "CFNAI",
+      "observations": 658,
+      "file": "data/raw/alfred/CFNAI_2022-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2022-02-14"
+    },
+    {
+      "quarter": "2021Q4",
+      "forecast_origin": "2022-02-14",
+      "series": "CPIAUCSL",
+      "observations": 901,
+      "file": "data/raw/alfred/CPIAUCSL_2022-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2022-02-14"
+    },
+    {
+      "quarter": "2022Q1",
+      "forecast_origin": "2022-05-15",
+      "series": "UNRATE",
+      "observations": 892,
+      "file": "data/raw/alfred/UNRATE_2022-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2022-05-15"
+    },
+    {
+      "quarter": "2022Q1",
+      "forecast_origin": "2022-05-15",
+      "series": "CFNAI",
+      "observations": 661,
+      "file": "data/raw/alfred/CFNAI_2022-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2022-05-15"
+    },
+    {
+      "quarter": "2022Q1",
+      "forecast_origin": "2022-05-15",
+      "series": "CPIAUCSL",
+      "observations": 904,
+      "file": "data/raw/alfred/CPIAUCSL_2022-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2022-05-15"
+    },
+    {
+      "quarter": "2022Q2",
+      "forecast_origin": "2022-08-14",
+      "series": "UNRATE",
+      "observations": 895,
+      "file": "data/raw/alfred/UNRATE_2022-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2022-08-14"
+    },
+    {
+      "quarter": "2022Q2",
+      "forecast_origin": "2022-08-14",
+      "series": "CFNAI",
+      "observations": 664,
+      "file": "data/raw/alfred/CFNAI_2022-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2022-08-14"
+    },
+    {
+      "quarter": "2022Q2",
+      "forecast_origin": "2022-08-14",
+      "series": "CPIAUCSL",
+      "observations": 907,
+      "file": "data/raw/alfred/CPIAUCSL_2022-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2022-08-14"
+    },
+    {
+      "quarter": "2022Q3",
+      "forecast_origin": "2022-11-14",
+      "series": "UNRATE",
+      "observations": 898,
+      "file": "data/raw/alfred/UNRATE_2022-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2022-11-14"
+    },
+    {
+      "quarter": "2022Q3",
+      "forecast_origin": "2022-11-14",
+      "series": "CFNAI",
+      "observations": 667,
+      "file": "data/raw/alfred/CFNAI_2022-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2022-11-14"
+    },
+    {
+      "quarter": "2022Q3",
+      "forecast_origin": "2022-11-14",
+      "series": "CPIAUCSL",
+      "observations": 910,
+      "file": "data/raw/alfred/CPIAUCSL_2022-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2022-11-14"
+    },
+    {
+      "quarter": "2022Q4",
+      "forecast_origin": "2023-02-14",
+      "series": "UNRATE",
+      "observations": 901,
+      "file": "data/raw/alfred/UNRATE_2023-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2023-02-14"
+    },
+    {
+      "quarter": "2022Q4",
+      "forecast_origin": "2023-02-14",
+      "series": "CFNAI",
+      "observations": 670,
+      "file": "data/raw/alfred/CFNAI_2023-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2023-02-14"
+    },
+    {
+      "quarter": "2022Q4",
+      "forecast_origin": "2023-02-14",
+      "series": "CPIAUCSL",
+      "observations": 913,
+      "file": "data/raw/alfred/CPIAUCSL_2023-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2023-02-14"
+    },
+    {
+      "quarter": "2023Q1",
+      "forecast_origin": "2023-05-15",
+      "series": "UNRATE",
+      "observations": 904,
+      "file": "data/raw/alfred/UNRATE_2023-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2023-05-15"
+    },
+    {
+      "quarter": "2023Q1",
+      "forecast_origin": "2023-05-15",
+      "series": "CFNAI",
+      "observations": 673,
+      "file": "data/raw/alfred/CFNAI_2023-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2023-05-15"
+    },
+    {
+      "quarter": "2023Q1",
+      "forecast_origin": "2023-05-15",
+      "series": "CPIAUCSL",
+      "observations": 916,
+      "file": "data/raw/alfred/CPIAUCSL_2023-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2023-05-15"
+    },
+    {
+      "quarter": "2023Q2",
+      "forecast_origin": "2023-08-14",
+      "series": "UNRATE",
+      "observations": 907,
+      "file": "data/raw/alfred/UNRATE_2023-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2023-08-14"
+    },
+    {
+      "quarter": "2023Q2",
+      "forecast_origin": "2023-08-14",
+      "series": "CFNAI",
+      "observations": 676,
+      "file": "data/raw/alfred/CFNAI_2023-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2023-08-14"
+    },
+    {
+      "quarter": "2023Q2",
+      "forecast_origin": "2023-08-14",
+      "series": "CPIAUCSL",
+      "observations": 919,
+      "file": "data/raw/alfred/CPIAUCSL_2023-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2023-08-14"
+    },
+    {
+      "quarter": "2023Q3",
+      "forecast_origin": "2023-11-14",
+      "series": "UNRATE",
+      "observations": 910,
+      "file": "data/raw/alfred/UNRATE_2023-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2023-11-14"
+    },
+    {
+      "quarter": "2023Q3",
+      "forecast_origin": "2023-11-14",
+      "series": "CFNAI",
+      "observations": 679,
+      "file": "data/raw/alfred/CFNAI_2023-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2023-11-14"
+    },
+    {
+      "quarter": "2023Q3",
+      "forecast_origin": "2023-11-14",
+      "series": "CPIAUCSL",
+      "observations": 922,
+      "file": "data/raw/alfred/CPIAUCSL_2023-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2023-11-14"
+    },
+    {
+      "quarter": "2023Q4",
+      "forecast_origin": "2024-02-14",
+      "series": "UNRATE",
+      "observations": 913,
+      "file": "data/raw/alfred/UNRATE_2024-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2024-02-14"
+    },
+    {
+      "quarter": "2023Q4",
+      "forecast_origin": "2024-02-14",
+      "series": "CFNAI",
+      "observations": 682,
+      "file": "data/raw/alfred/CFNAI_2024-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2024-02-14"
+    },
+    {
+      "quarter": "2023Q4",
+      "forecast_origin": "2024-02-14",
+      "series": "CPIAUCSL",
+      "observations": 925,
+      "file": "data/raw/alfred/CPIAUCSL_2024-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2024-02-14"
+    },
+    {
+      "quarter": "2024Q1",
+      "forecast_origin": "2024-05-15",
+      "series": "UNRATE",
+      "observations": 916,
+      "file": "data/raw/alfred/UNRATE_2024-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2024-05-15"
+    },
+    {
+      "quarter": "2024Q1",
+      "forecast_origin": "2024-05-15",
+      "series": "CFNAI",
+      "observations": 685,
+      "file": "data/raw/alfred/CFNAI_2024-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2024-05-15"
+    },
+    {
+      "quarter": "2024Q1",
+      "forecast_origin": "2024-05-15",
+      "series": "CPIAUCSL",
+      "observations": 928,
+      "file": "data/raw/alfred/CPIAUCSL_2024-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2024-05-15"
+    },
+    {
+      "quarter": "2024Q2",
+      "forecast_origin": "2024-08-14",
+      "series": "UNRATE",
+      "observations": 919,
+      "file": "data/raw/alfred/UNRATE_2024-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2024-08-14"
+    },
+    {
+      "quarter": "2024Q2",
+      "forecast_origin": "2024-08-14",
+      "series": "CFNAI",
+      "observations": 688,
+      "file": "data/raw/alfred/CFNAI_2024-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2024-08-14"
+    },
+    {
+      "quarter": "2024Q2",
+      "forecast_origin": "2024-08-14",
+      "series": "CPIAUCSL",
+      "observations": 931,
+      "file": "data/raw/alfred/CPIAUCSL_2024-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2024-08-14"
+    },
+    {
+      "quarter": "2024Q3",
+      "forecast_origin": "2024-11-14",
+      "series": "UNRATE",
+      "observations": 922,
+      "file": "data/raw/alfred/UNRATE_2024-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2024-11-14"
+    },
+    {
+      "quarter": "2024Q3",
+      "forecast_origin": "2024-11-14",
+      "series": "CFNAI",
+      "observations": 691,
+      "file": "data/raw/alfred/CFNAI_2024-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2024-11-14"
+    },
+    {
+      "quarter": "2024Q3",
+      "forecast_origin": "2024-11-14",
+      "series": "CPIAUCSL",
+      "observations": 934,
+      "file": "data/raw/alfred/CPIAUCSL_2024-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2024-11-14"
+    },
+    {
+      "quarter": "2024Q4",
+      "forecast_origin": "2025-02-14",
+      "series": "UNRATE",
+      "observations": 925,
+      "file": "data/raw/alfred/UNRATE_2025-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2025-02-14"
+    },
+    {
+      "quarter": "2024Q4",
+      "forecast_origin": "2025-02-14",
+      "series": "CFNAI",
+      "observations": 694,
+      "file": "data/raw/alfred/CFNAI_2025-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2025-02-14"
+    },
+    {
+      "quarter": "2024Q4",
+      "forecast_origin": "2025-02-14",
+      "series": "CPIAUCSL",
+      "observations": 937,
+      "file": "data/raw/alfred/CPIAUCSL_2025-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2025-02-14"
+    },
+    {
+      "quarter": "2025Q1",
+      "forecast_origin": "2025-05-15",
+      "series": "UNRATE",
+      "observations": 928,
+      "file": "data/raw/alfred/UNRATE_2025-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2025-05-15"
+    },
+    {
+      "quarter": "2025Q1",
+      "forecast_origin": "2025-05-15",
+      "series": "CFNAI",
+      "observations": 697,
+      "file": "data/raw/alfred/CFNAI_2025-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2025-05-15"
+    },
+    {
+      "quarter": "2025Q1",
+      "forecast_origin": "2025-05-15",
+      "series": "CPIAUCSL",
+      "observations": 940,
+      "file": "data/raw/alfred/CPIAUCSL_2025-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2025-05-15"
+    },
+    {
+      "quarter": "2025Q2",
+      "forecast_origin": "2025-08-14",
+      "series": "UNRATE",
+      "observations": 931,
+      "file": "data/raw/alfred/UNRATE_2025-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2025-08-14"
+    },
+    {
+      "quarter": "2025Q2",
+      "forecast_origin": "2025-08-14",
+      "series": "CFNAI",
+      "observations": 700,
+      "file": "data/raw/alfred/CFNAI_2025-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2025-08-14"
+    },
+    {
+      "quarter": "2025Q2",
+      "forecast_origin": "2025-08-14",
+      "series": "CPIAUCSL",
+      "observations": 943,
+      "file": "data/raw/alfred/CPIAUCSL_2025-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2025-08-14"
+    },
+    {
+      "quarter": "2025Q3",
+      "forecast_origin": "2025-11-14",
+      "series": "UNRATE",
+      "observations": 932,
+      "file": "data/raw/alfred/UNRATE_2025-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2025-11-14"
+    },
+    {
+      "quarter": "2025Q3",
+      "forecast_origin": "2025-11-14",
+      "series": "CFNAI",
+      "observations": 702,
+      "file": "data/raw/alfred/CFNAI_2025-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2025-11-14"
+    },
+    {
+      "quarter": "2025Q3",
+      "forecast_origin": "2025-11-14",
+      "series": "CPIAUCSL",
+      "observations": 945,
+      "file": "data/raw/alfred/CPIAUCSL_2025-11-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2025-11-14"
+    },
+    {
+      "quarter": "2025Q4",
+      "forecast_origin": "2026-02-14",
+      "series": "UNRATE",
+      "observations": 937,
+      "file": "data/raw/alfred/UNRATE_2026-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2026-02-14"
+    },
+    {
+      "quarter": "2025Q4",
+      "forecast_origin": "2026-02-14",
+      "series": "CFNAI",
+      "observations": 705,
+      "file": "data/raw/alfred/CFNAI_2026-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2026-02-14"
+    },
+    {
+      "quarter": "2025Q4",
+      "forecast_origin": "2026-02-14",
+      "series": "CPIAUCSL",
+      "observations": 949,
+      "file": "data/raw/alfred/CPIAUCSL_2026-02-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2026-02-14"
+    },
+    {
+      "quarter": "2026Q1",
+      "forecast_origin": "2026-05-15",
+      "series": "UNRATE",
+      "observations": 940,
+      "file": "data/raw/alfred/UNRATE_2026-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2026-05-15"
+    },
+    {
+      "quarter": "2026Q1",
+      "forecast_origin": "2026-05-15",
+      "series": "CFNAI",
+      "observations": 709,
+      "file": "data/raw/alfred/CFNAI_2026-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2026-05-15"
+    },
+    {
+      "quarter": "2026Q1",
+      "forecast_origin": "2026-05-15",
+      "series": "CPIAUCSL",
+      "observations": 952,
+      "file": "data/raw/alfred/CPIAUCSL_2026-05-15.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2026-05-15"
+    },
+    {
+      "quarter": "2026Q2",
+      "forecast_origin": "2026-08-14",
+      "series": "UNRATE",
+      "observations": 943,
+      "file": "data/raw/alfred/UNRATE_2026-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=UNRATE&vintage_date=2026-08-14"
+    },
+    {
+      "quarter": "2026Q2",
+      "forecast_origin": "2026-08-14",
+      "series": "CFNAI",
+      "observations": 712,
+      "file": "data/raw/alfred/CFNAI_2026-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CFNAI&vintage_date=2026-08-14"
+    },
+    {
+      "quarter": "2026Q2",
+      "forecast_origin": "2026-08-14",
+      "series": "CPIAUCSL",
+      "observations": 955,
+      "file": "data/raw/alfred/CPIAUCSL_2026-08-14.csv",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=CPIAUCSL&vintage_date=2026-08-14"
+    }
+  ]
+}

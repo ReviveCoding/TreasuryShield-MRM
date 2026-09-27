@@ -1,0 +1,294 @@
+<!doctype html><meta charset='utf-8'><title>LightGBM Reproduction and Explainability</title><style>body{font-family:Segoe UI,Arial;max-width:1200px;margin:35px auto;color:#17202a}table{border-collapse:collapse;width:100%;font-size:12px}th,td{padding:6px;border-bottom:1px solid #ddd;text-align:left}h1,h2{color:#123b5d}.tag{background:#e8f1f8;padding:3px 7px;border-radius:4px}</style><h1>LightGBM Reproduction and Explainability</h1><p><span class='tag'>Frozen v1 confirmatory evidence</span> remains unchanged. <span class='tag'>v1.1 diagnostic evidence</span> is historical. All new results below are <span class='tag'>v1.2 post-hoc hardening evidence</span> under fixed prelock policies; none is a new model-selection holdout.</p><pre>{
+  &quot;original_fitted_model_artifacts_found&quot;: false,
+  &quot;reconstruction_basis&quot;: &quot;frozen snapshot, feature list, temporal partition, seed 17, and seven 160-tree LightGBM quantile models&quot;,
+  &quot;strict_tolerance&quot;: 1e-10,
+  &quot;prediction_parity_passed&quot;: true,
+  &quot;maximum_absolute_difference&quot;: 0.0,
+  &quot;mean_absolute_difference&quot;: 0.0,
+  &quot;near_exact_match_rate&quot;: 1.0,
+  &quot;per_quantile&quot;: [
+    {
+      &quot;quantile&quot;: &quot;Q01&quot;,
+      &quot;max_absolute_difference&quot;: 0.0,
+      &quot;mean_absolute_difference&quot;: 0.0,
+      &quot;correlation&quot;: 1.0,
+      &quot;exact_match_rate&quot;: 1.0,
+      &quot;near_exact_match_rate&quot;: 1.0
+    },
+    {
+      &quot;quantile&quot;: &quot;Q05&quot;,
+      &quot;max_absolute_difference&quot;: 0.0,
+      &quot;mean_absolute_difference&quot;: 0.0,
+      &quot;correlation&quot;: 1.0,
+      &quot;exact_match_rate&quot;: 1.0,
+      &quot;near_exact_match_rate&quot;: 1.0
+    },
+    {
+      &quot;quantile&quot;: &quot;Q10&quot;,
+      &quot;max_absolute_difference&quot;: 0.0,
+      &quot;mean_absolute_difference&quot;: 0.0,
+      &quot;correlation&quot;: 1.0,
+      &quot;exact_match_rate&quot;: 1.0,
+      &quot;near_exact_match_rate&quot;: 1.0
+    },
+    {
+      &quot;quantile&quot;: &quot;Q25&quot;,
+      &quot;max_absolute_difference&quot;: 0.0,
+      &quot;mean_absolute_difference&quot;: 0.0,
+      &quot;correlation&quot;: 1.0,
+      &quot;exact_match_rate&quot;: 1.0,
+      &quot;near_exact_match_rate&quot;: 1.0
+    },
+    {
+      &quot;quantile&quot;: &quot;Q50&quot;,
+      &quot;max_absolute_difference&quot;: 0.0,
+      &quot;mean_absolute_difference&quot;: 0.0,
+      &quot;correlation&quot;: 1.0,
+      &quot;exact_match_rate&quot;: 1.0,
+      &quot;near_exact_match_rate&quot;: 1.0
+    },
+    {
+      &quot;quantile&quot;: &quot;Q75&quot;,
+      &quot;max_absolute_difference&quot;: 0.0,
+      &quot;mean_absolute_difference&quot;: 0.0,
+      &quot;correlation&quot;: 1.0,
+      &quot;exact_match_rate&quot;: 1.0,
+      &quot;near_exact_match_rate&quot;: 1.0
+    },
+    {
+      &quot;quantile&quot;: &quot;Q90&quot;,
+      &quot;max_absolute_difference&quot;: 0.0,
+      &quot;mean_absolute_difference&quot;: 0.0,
+      &quot;correlation&quot;: 1.0,
+      &quot;exact_match_rate&quot;: 1.0,
+      &quot;near_exact_match_rate&quot;: 1.0
+    }
+  ],
+  &quot;train_rows&quot;: 493708,
+  &quot;calibration_rows&quot;: 31874,
+  &quot;test_rows&quot;: 30087,
+  &quot;explanation_status&quot;: &quot;exact_reproduced_model&quot;,
+  &quot;runtime_seconds&quot;: 86.00284680000914
+}</pre><p>TreeSHAP and native importance are called exact only when strict prediction parity passes. Attributions are predictive and non-causal.</p><h2>Importance</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>quantile</th>
+      <th>feature</th>
+      <th>gain</th>
+      <th>split</th>
+      <th>native_model_path</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Q05</td>
+      <td>deposit_growth_rolling_vol_4q</td>
+      <td>5087.06</td>
+      <td>223</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>deposit_growth_qoq_lagged</td>
+      <td>1674.78</td>
+      <td>307</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>loan_deposit_ratio</td>
+      <td>1538.54</td>
+      <td>230</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>deposit_growth_yoy_lagged</td>
+      <td>1374.48</td>
+      <td>260</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>uninsured_proxy_domestic_share</td>
+      <td>1210.59</td>
+      <td>292</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>deposit_growth_acceleration</td>
+      <td>1103.15</td>
+      <td>140</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>cash_ratio_change_qoq_lagged</td>
+      <td>1009.02</td>
+      <td>158</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>profit_asset_ratio</td>
+      <td>792.676</td>
+      <td>166</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>capital_asset_ratio</td>
+      <td>686.316</td>
+      <td>208</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>npl_loan_ratio</td>
+      <td>601.828</td>
+      <td>139</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>loan_loss_reserve_ratio</td>
+      <td>487.229</td>
+      <td>107</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>cash_asset_ratio</td>
+      <td>479.766</td>
+      <td>171</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>log_deposits</td>
+      <td>479.524</td>
+      <td>176</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>brokered_domestic_ratio</td>
+      <td>408.246</td>
+      <td>164</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>quarter</td>
+      <td>408.132</td>
+      <td>134</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>macro_DGS2_revised</td>
+      <td>357.488</td>
+      <td>82</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>uninsured_time_deposit_ratio</td>
+      <td>337.101</td>
+      <td>121</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>log_assets</td>
+      <td>329.905</td>
+      <td>110</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>commercial_real_estate_loan_share</td>
+      <td>323.497</td>
+      <td>126</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>deposit_cost_annualized</td>
+      <td>315.006</td>
+      <td>174</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>borrowings_change_asset_lagged</td>
+      <td>295.595</td>
+      <td>99</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>macro_CPIAUCSL_revised</td>
+      <td>267.507</td>
+      <td>111</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>macro_DGS10_revised</td>
+      <td>265.861</td>
+      <td>81</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>liquid_broad_asset_ratio</td>
+      <td>265.184</td>
+      <td>128</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>asset_growth_qoq_lagged</td>
+      <td>243.189</td>
+      <td>112</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>residential_loan_share</td>
+      <td>205.179</td>
+      <td>84</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>macro_DFF_revised</td>
+      <td>183.831</td>
+      <td>88</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>macro_VIXCLS_revised</td>
+      <td>170.487</td>
+      <td>85</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>deposit_beta_4q</td>
+      <td>111.971</td>
+      <td>100</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+    <tr>
+      <td>Q05</td>
+      <td>ci_loan_share</td>
+      <td>105.715</td>
+      <td>85</td>
+      <td>artifacts/v1_2_hardening/models/b8_reproduced_q05.txt</td>
+    </tr>
+  </tbody>
+</table><p><small>Generated 2026-09-27T21:05:48.552543+00:00 from artifacts/v1_2_hardening/results_v1_2.duckdb and frozen source artifacts.</small></p>

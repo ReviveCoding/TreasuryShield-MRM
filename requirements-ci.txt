@@ -1,0 +1,7 @@
+# Portable public-CI dependencies only. Full research dependencies are in pyproject.toml.
+numpy>=2.0
+pandas>=2.2
+scipy>=1.15
+scikit-learn>=1.6
+pyreadstat>=1.2
+pytest>=8.0
