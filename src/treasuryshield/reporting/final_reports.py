@@ -467,7 +467,7 @@ def run(root: Path) -> None:
 
     safe_pairs = comparison_view.copy()
     safe_md = (
-        "# Resume-safe metrics\n\n"
+        "# Frozen Model Evaluation Metrics\n\n"
         f"Frozen model: `{selected}`; selected before scoring 2024+ forecast origins. "
         f"Snapshot `{snapshot}`; independent reconciliation `artifacts/independent_final_review.json`.\n\n"
         f"Final equal-bank Q05 pinball: **{q05_final:.6f}**; empirical Q05 coverage: "
@@ -480,8 +480,8 @@ def run(root: Path) -> None:
         "contractual cash flows. No single crisis, seed, or weighted aggregate is offered as a standalone "
         "production claim.\n"
     )
-    (reports / "resume_safe_metrics.md").write_text(safe_md, encoding="utf-8")
-    print("Generated six final HTML reports plus reproducibility and resume-safe manifests", flush=True)
+    (reports / "frozen_model_metrics.md").write_text(safe_md, encoding="utf-8")
+    print("Generated six final HTML reports plus reproducibility and model-evaluation reports", flush=True)
 
 
 if __name__ == "__main__":
@@ -490,7 +490,7 @@ if __name__ == "__main__":
         "04_model_development_report.html", "05_stress_testing_report.html",
         "06_independent_validation_report.html", "07_monitoring_and_governance_report.html",
         "08_executive_summary.html", "09_technical_appendix.html",
-        "10_reproducibility_manifest.md", "resume_safe_metrics.md")]
+        "10_reproducibility_manifest.md", "frozen_model_metrics.md")]
     RunState(project_root).run(
         "final_reports", "REPORTING",
         {"results_sha256": sha256_file(project_root / "artifacts" / "results.duckdb"),
