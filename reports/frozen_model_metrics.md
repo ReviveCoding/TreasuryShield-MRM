@@ -1,4 +1,4 @@
-# Resume-safe metrics
+# Frozen Model Evaluation Metrics
 
 Frozen model: `core_B_1q_final_locked_B8_lightgbm_quantile`; selected before scoring 2024+ forecast origins. Snapshot `fbc0b7b5a2c46fbcc0b5`; independent reconciliation `artifacts/independent_final_review.json`.
 

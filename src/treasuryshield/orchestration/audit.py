@@ -22,7 +22,7 @@ REQUIRED_REPORTS = [
     "04_model_development_report.html", "05_stress_testing_report.html",
     "06_independent_validation_report.html", "07_monitoring_and_governance_report.html",
     "08_executive_summary.html", "09_technical_appendix.html",
-    "10_reproducibility_manifest.md", "resume_safe_metrics.md",
+    "10_reproducibility_manifest.md", "frozen_model_metrics.md",
 ]
 REQUIRED_TABLES = [
     "data_quality", "data_coverage", "experiments", "predictions", "metrics",
