@@ -5,9 +5,8 @@ import importlib.metadata
 import json
 import platform
 import subprocess
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-
 
 ROOT = Path(__file__).resolve().parents[3]
 OUT = ROOT / "artifacts" / "v1_1_analysis"
@@ -46,9 +45,18 @@ def frozen_paths() -> list[Path]:
         ROOT / "artifacts" / "model_selection.sha256",
         ROOT / "artifacts" / "completion_audit.json",
         ROOT / "artifacts" / "results.duckdb",
-        ROOT / "artifacts" / "predictions" / "core_B_1q_final_locked_B8_lightgbm_quantile.parquet",
-        ROOT / "artifacts" / "predictions" / "core_B_1q_final_locked_B8_lightgbm_quantile.json",
-        ROOT / "artifacts" / "predictions" / "core_B_1q_final_locked_B8_lightgbm_quantile_metrics.json",
+        ROOT
+        / "artifacts"
+        / "predictions"
+        / "core_B_1q_final_locked_B8_lightgbm_quantile.parquet",
+        ROOT
+        / "artifacts"
+        / "predictions"
+        / "core_B_1q_final_locked_B8_lightgbm_quantile.json",
+        ROOT
+        / "artifacts"
+        / "predictions"
+        / "core_B_1q_final_locked_B8_lightgbm_quantile_metrics.json",
         ROOT / "reports" / "preregistration.md",
         ROOT / "reports" / "preregistration.sha256",
     ]
@@ -101,7 +109,7 @@ def main() -> None:
         )
     manifest = {
         "schema_version": "1.1",
-        "created_at_utc": datetime.now(timezone.utc).isoformat(),
+        "created_at_utc": datetime.now(UTC).isoformat(),
         "purpose": "Byte-level freeze of v1 evidence before post-model diagnostics",
         "v1_completion_verified": bool(audit.get("verified_complete")),
         "selected_v1_model": selection["selected_model_id"],
@@ -125,12 +133,17 @@ def main() -> None:
     }
     output = OUT / "v1_freeze_manifest.json"
     output.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({
-        "manifest": str(output.relative_to(ROOT)),
-        "frozen_files": len(paths),
-        "selected_run": selection["final_run_id"],
-        "snapshot": selection["data_snapshot_id"],
-    }, indent=2))
+    print(
+        json.dumps(
+            {
+                "manifest": str(output.relative_to(ROOT)),
+                "frozen_files": len(paths),
+                "selected_run": selection["final_run_id"],
+                "snapshot": selection["data_snapshot_id"],
+            },
+            indent=2,
+        )
+    )
 
 
 if __name__ == "__main__":

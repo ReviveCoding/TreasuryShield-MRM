@@ -5,7 +5,7 @@ from __future__ import annotations
 import json
 import platform
 import time
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 import torch
@@ -16,7 +16,7 @@ def main() -> None:
     output = root / "artifacts" / "gpu_smoke.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     info: dict[str, object] = {
-        "captured_at": datetime.now(timezone.utc).isoformat(),
+        "captured_at": datetime.now(UTC).isoformat(),
         "python": platform.python_version(),
         "torch": torch.__version__,
         "torch_cuda_runtime": torch.version.cuda,
@@ -24,7 +24,9 @@ def main() -> None:
     }
     if not torch.cuda.is_available():
         output.write_text(json.dumps(info, indent=2), encoding="utf-8")
-        raise RuntimeError("PyTorch CUDA is unavailable; GPU-designated models cannot proceed")
+        raise RuntimeError(
+            "PyTorch CUDA is unavailable; GPU-designated models cannot proceed"
+        )
     info["device_name"] = torch.cuda.get_device_name(0)
     torch.manual_seed(20260927)
     n = 2048

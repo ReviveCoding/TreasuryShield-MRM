@@ -3,9 +3,8 @@ from __future__ import annotations
 import hashlib
 import json
 import subprocess
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
-
 
 ROOT = Path(__file__).resolve().parents[3]
 OUT = ROOT / "artifacts" / "v1_2_hardening"
@@ -90,7 +89,7 @@ def main() -> None:
     source_v11 = list((ROOT / "src" / "treasuryshield" / "v11").rglob("*.py"))
     manifest = {
         "schema_version": "1.2",
-        "created_at_utc": datetime.now(timezone.utc).isoformat(),
+        "created_at_utc": datetime.now(UTC).isoformat(),
         "purpose": "Byte-level freeze of material v1 and v1.1 evidence before v1.2 hardening",
         "v1_complete": True,
         "v1_1_complete": True,

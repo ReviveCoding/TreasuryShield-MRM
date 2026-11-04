@@ -5,15 +5,16 @@ from __future__ import annotations
 import hashlib
 import json
 import traceback
-from datetime import datetime, timezone
+from collections.abc import Callable, Iterable
+from datetime import UTC, datetime
 from pathlib import Path
-from typing import Callable, Iterable, TypeVar
+from typing import TypeVar
 
 T = TypeVar("T")
 
 
 def utcnow() -> str:
-    return datetime.now(timezone.utc).isoformat()
+    return datetime.now(UTC).isoformat()
 
 
 def sha256_file(path: Path) -> str:
@@ -51,7 +52,9 @@ class RunState:
     def save(self) -> None:
         self.data["updated_at"] = utcnow()
         tmp = self.path.with_suffix(".json.tmp")
-        tmp.write_text(json.dumps(self.data, indent=2, sort_keys=True), encoding="utf-8")
+        tmp.write_text(
+            json.dumps(self.data, indent=2, sort_keys=True), encoding="utf-8"
+        )
         tmp.replace(self.path)
 
     def set_status(self, status: str) -> None:
@@ -71,7 +74,10 @@ class RunState:
 
     def cached(self, name: str, config_hash: str, outputs: list[str]) -> bool:
         stage = self.data.get("stages", {}).get(name, {})
-        if stage.get("status") != "completed" or stage.get("config_hash") != config_hash:
+        if (
+            stage.get("status") != "completed"
+            or stage.get("config_hash") != config_hash
+        ):
             return False
         if set(stage.get("actual_outputs", [])) != set(outputs):
             return False
@@ -119,6 +125,8 @@ class RunState:
             self.save()
             return result
         except Exception:
-            record.update(status="failed", ended_at=utcnow(), error=traceback.format_exc())
+            record.update(
+                status="failed", ended_at=utcnow(), error=traceback.format_exc()
+            )
             self.set_status("FAILED_RECOVERABLE")
             raise
