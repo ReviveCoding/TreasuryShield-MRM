@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import json
 import time
-from datetime import datetime, timezone
+from datetime import UTC, datetime, timezone
 from pathlib import Path
 
 import numpy as np
@@ -15,9 +15,11 @@ def main() -> None:
     root = Path(__file__).resolve().parents[3]
     rng = np.random.default_rng(20260927)
     x = rng.normal(size=(40000, 20)).astype(np.float32)
-    y = (0.4 * x[:, 0] - 0.25 * x[:, 1] ** 2 + rng.standard_t(5, size=len(x))).astype(np.float32)
+    y = (0.4 * x[:, 0] - 0.25 * x[:, 1] ** 2 + rng.standard_t(5, size=len(x))).astype(
+        np.float32
+    )
     result: dict[str, object] = {
-        "captured_at": datetime.now(timezone.utc).isoformat(),
+        "captured_at": datetime.now(UTC).isoformat(),
         "xgboost": xgb.__version__,
         "objective": "reg:quantileerror",
         "quantile_alpha": 0.05,
@@ -26,9 +28,15 @@ def main() -> None:
     }
     for device in ("cpu", "cuda"):
         model = xgb.XGBRegressor(
-            objective="reg:quantileerror", quantile_alpha=0.05,
-            tree_method="hist", device=device, n_estimators=60,
-            max_depth=4, learning_rate=0.08, n_jobs=4, random_state=20260927,
+            objective="reg:quantileerror",
+            quantile_alpha=0.05,
+            tree_method="hist",
+            device=device,
+            n_estimators=60,
+            max_depth=4,
+            learning_rate=0.08,
+            n_jobs=4,
+            random_state=20260927,
         )
         start = time.perf_counter()
         model.fit(x, y)

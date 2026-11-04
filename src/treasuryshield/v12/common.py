@@ -7,7 +7,6 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-
 ROOT = Path(__file__).resolve().parents[3]
 ART = ROOT / "artifacts" / "v1_2_hardening"
 FIG = ROOT / "figures" / "v1_2"
@@ -44,6 +43,7 @@ def write_json(path: Path, value: object) -> None:
         if isinstance(item, float) and not np.isfinite(item):
             return "Infinity" if item > 0 else "-Infinity" if item < 0 else None
         return item
+
     path.write_text(
         json.dumps(clean(value), indent=2, default=str, allow_nan=False) + "\n",
         encoding="utf-8",
@@ -73,4 +73,3 @@ def weighted_mean(values: np.ndarray, weight: np.ndarray) -> float:
     if not good.any() or weight[good].sum() <= 0:
         return float("nan")
     return float(np.average(values[good], weights=weight[good]))
-

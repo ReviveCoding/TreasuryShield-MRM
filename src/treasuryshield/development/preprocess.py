@@ -14,12 +14,12 @@ class NumericPreprocessor:
     linear: bool = False
     clip_neural: bool = False
 
-    def fit(self, frame: pd.DataFrame) -> "NumericPreprocessor":
+    def fit(self, frame: pd.DataFrame) -> NumericPreprocessor:
         x = frame[self.names].to_numpy(dtype=np.float64, copy=True)
         x[~np.isfinite(x)] = np.nan
         with np.errstate(all="ignore"):
             self.medians_ = np.nanmedian(x, axis=0)
-            self.lower_ = np.nanpercentile(x, .5, axis=0)
+            self.lower_ = np.nanpercentile(x, 0.5, axis=0)
             self.upper_ = np.nanpercentile(x, 99.5, axis=0)
         self.medians_ = np.nan_to_num(self.medians_, nan=0, posinf=0, neginf=0)
         self.lower_ = np.nan_to_num(self.lower_, nan=0, posinf=0, neginf=0)
