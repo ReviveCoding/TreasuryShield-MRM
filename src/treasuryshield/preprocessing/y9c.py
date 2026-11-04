@@ -5,7 +5,7 @@ from __future__ import annotations
 import csv
 import json
 import re
-from datetime import UTC, datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 import numpy as np

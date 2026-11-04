@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import html
 import json
-from datetime import UTC, datetime, timezone
+from datetime import UTC, datetime
 
 import duckdb
 import matplotlib

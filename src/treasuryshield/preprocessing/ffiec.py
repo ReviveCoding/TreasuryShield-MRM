@@ -12,7 +12,7 @@ import json
 import re
 import zipfile
 from collections import Counter, defaultdict
-from datetime import UTC, datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 import numpy as np

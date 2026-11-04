@@ -6,7 +6,7 @@ Only origins through 2023Q4 are used to decide features and model design.
 from __future__ import annotations
 
 import json
-from datetime import UTC, datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 import numpy as np

@@ -7,7 +7,7 @@ import csv
 import io
 import json
 import time
-from datetime import UTC, datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 import requests

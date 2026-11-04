@@ -5,7 +5,7 @@ from __future__ import annotations
 import html
 import json
 import platform
-from datetime import UTC, datetime, timezone
+from datetime import UTC, datetime
 from importlib import metadata
 from pathlib import Path
 

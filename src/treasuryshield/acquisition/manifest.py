@@ -8,7 +8,7 @@ import os
 import re
 import stat
 import zipfile
-from datetime import UTC, datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 from treasuryshield.orchestration.state import RunState, sha256_file, stable_hash

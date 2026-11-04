@@ -9,7 +9,7 @@ import argparse
 import json
 import time
 import zipfile
-from datetime import UTC, datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 import requests
